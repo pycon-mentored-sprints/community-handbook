@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-remote-theme"
+  gem "just-the-docs"
 end
 
 group :test do

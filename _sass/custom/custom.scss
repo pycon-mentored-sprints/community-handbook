@@ -16,3 +16,14 @@
 h1, h2,h3,h4,h5,h6{
     color: #e66a8d;
 }
+
+.site-header{
+    max-height: 200px;
+    border-bottom: 2px solid #e5c0c8;
+}
+
+@media (min-width: 50rem) { 
+    .site-header { 
+        height: 200px; 
+        max-height: 200px; 
+        border-bottom: 1px solid #e5c0c8; } }
