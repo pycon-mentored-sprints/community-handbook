@@ -124,3 +124,5 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+destination: ./_site/
