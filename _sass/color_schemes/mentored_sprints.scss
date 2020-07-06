@@ -1,0 +1,18 @@
+// Typo
+
+$body-font-family: "Inconsolata", Menlo, monospace;
+
+// colors
+
+$primary-color: #cbd5f0;
+$grey: #fafafb;
+$dark-grey: #5A5A5B;
+$secondary-color: #e5c0c8;
+$accent-color: #1D44AD;
+
+$sidebar-color: $primary-color;
+$feedback-color: darken($sidebar-color, 3%) !default;
+
+
+$link-color: $accent-color;
+$base-button-color: $secondary-color !default;

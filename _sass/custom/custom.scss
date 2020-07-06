@@ -1,0 +1,18 @@
+.nav-list{
+    .nav-list-item{
+        .nav-list-link{
+            &:hover,
+            &.active {
+                background: #b9c3de;
+            }
+        }
+    }
+}
+
+.site-footer{
+    color: #5A5A5B;
+}
+
+h1, h2,h3,h4,h5,h6{
+    color: #df4c73;
+}
