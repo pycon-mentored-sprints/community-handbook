@@ -6,7 +6,17 @@
                 background: #b9c3de;
             }
         }
+        .nav-list-expander{
+            &:hover,
+            &.active {
+                background: #b9c3de;
+            }
+        }
     }
+}
+
+.site-title:hover {
+    background-image: linear-gradient(-90deg, #b9c3de 0%, #cbd5f0 100%);
 }
 
 .site-footer{
