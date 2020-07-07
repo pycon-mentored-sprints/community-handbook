@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Mentored Sprints - Community handbook
 description: Field notes to run mentored sprints
-baseurl: "/handbook" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "pycon-mentored-sprints/community-handbook"
 
