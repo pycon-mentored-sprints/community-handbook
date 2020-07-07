@@ -2,7 +2,7 @@
 layout: default
 title: Enforcement manual
 parent: Code of Conduct
-nav_order: 2
+nav_order: 5
 ---
 
 ## 4 Enforcement Manual

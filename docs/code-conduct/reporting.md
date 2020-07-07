@@ -2,7 +2,7 @@
 layout: default
 title: Reporting guidelines
 parent: Code of Conduct
-nav_order: 2
+nav_order: 4
 ---
 
 # 3 Incident Reporting Guidelines
