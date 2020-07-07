@@ -29,7 +29,7 @@ We hope you find the content in this handbook useful. Everything here is availab
 This handbook is collaboratively written and open from the start. To make this project truly accessible and useful for everyone, we invite you to contribute your skills and bring your perspectives into this project. To join this community, please read our contribution guidelines and ways to get in touch.
 We look forward to expanding and building the Mentored Sprints Community Handbook together.
 
-We value the participation of every member of our community. We want to ensure that every contributor has an enjoyable and fulfilling experience. Accordingly, everyone who participates in the Mentored Sprints Community Handbook project is expected to show respect and courtesy to other community members at all times. All contributions must abide by our code of conduct.
+We value the participation of every member of our community. We want to ensure that every contributor has an enjoyable and fulfilling experience. Accordingly, everyone who participates in the Mentored Sprints Community Handbook project is expected to show respect and courtesy to other community members at all times. All contributions must abide by our [Code of Conduct]().
 
 <figure>
   <img src="https://the-turing-way.netlify.app/_images/community.jpg" alt="Turing community"/>
