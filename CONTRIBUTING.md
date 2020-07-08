@@ -151,11 +151,11 @@ The following steps are a guide to help you contribute in a way that will be eas
 
   If you have opened the pull request early and know that its contents are not ready for review or to be merged, add "[WIP]" at the start of the pull request title, which stands for "Work in Progress". When you are happy with it and are happy for it to be merged into the main repository, change the "[WIP]" in the title of the pull request to "[Ready for review]". Also, make sure to add the labels `PR: Draft` or `PR: MRG ready` accordingly.
 
-  **Success!!** :tada: Well done! :smiley::tada::sparkles:
+  **Success!!** :tada: Well done! :smiley: :tada: :sparkles:
 
 ## Thank you!
 
-You are awesome. :purple_heart::sparkles::star:
+You are awesome. :purple_heart: :sparkles: :star:
 
 And if you've found typos in this (or any other) page, you could consider submitting your very first pull request to fix them.
 
