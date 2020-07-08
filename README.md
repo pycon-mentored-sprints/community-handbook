@@ -9,4 +9,4 @@ The Mentored Sprints Community Handbook is a collaborative handbook for organise
 
 🚧 This repository is always a work in progress and everyone is encouraged to help us build something that is useful to the many. 🚧
 
-Everyone is asked to follow our code of conduct and to checkout our contributing guidelines for more information on how to get started.
+Everyone is asked to follow our [Code of Conduct](https://mentored-sprints.netlify.app/docs/code-conduct/code-conduct/) and to checkout our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.

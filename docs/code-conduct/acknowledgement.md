@@ -2,7 +2,7 @@
 layout: default
 title: Acknowledgement
 parent: Code of Conduct
-nav_order: 2
+nav_order: 6
 ---
 
 # 5 Acknowledgement
