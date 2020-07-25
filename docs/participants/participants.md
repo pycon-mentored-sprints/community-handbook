@@ -11,9 +11,9 @@ It is very exciting to participate in a sprint. Here is a guide to help you prep
 
 ## What is a mentored sprint?
 
-A sprint in general term is an event or meeting that people gather in order to get certain goals in a project done. The sprint that you are going to join will be focusing on contributing to open-source projects. There a lot's of different types of contribution that you may be making. From bugs fixing to checking typos in the documentation or user testings.
+A sprint in general term is an event or meeting that people gather to get certain goals in a project done. The sprint that you are going to join will be focusing on contributing to open-source projects. There a lot's of different types of contribution that you may be making. From bugs fixing to checking typos in the documentation or user testings.
 
-A mentored sprint is a sprint that there will be mentors, usually, they are maintainers of the projects that you are going to work on or senior contributors in those projects. They will provide guidance to new contributors, including how to set up the developing environment or tools needed and telling them where to find suitable issues to work on.
+A mentored sprint is a sprint that there will be mentors. Usually, they are maintainers of the projects that you are going to work on or senior contributors in those projects. They will provide guidance to new contributors, including how to set up the developing environment or tools needed and telling them where to find suitable issues to work on.
 
 ## What will I be expecting?
 
@@ -33,7 +33,7 @@ Since the sprint will be carried out online. Before you can join, make sure you 
 
 ### 3. Prepare git and GitHub
 
-The most common tool for collaborating in an open-source project is git - a free multi-version concurrency control tool. Some OS comes with git, however, if you need to, you can download it by following the guide at git-scm.com: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+The most common tool for collaborating in an open-source project is git - a free multi-version concurrency control tool. Some OS comes with git, however, if you need to, you can download it by following the guide at git-scm.com: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
 
 Most open-source projects will use GitHub to host their source code. Registering an account on GitHub is free: http://github.com/
 
@@ -41,4 +41,4 @@ Occasionally, the project that you wants to work on may have setups other than g
 
 ### 4. Pick a project
 
-This one is optional, as some sprints may have the projects briefing at the beginning of the sprint rather than before. You can always make up your mind later. However, if you want to, you can check out the projects that are participating in the sprints. See if you like any of the projects, do they have interesting issues on their repo that you would like to work on.
+This one is optional, as some sprints may have the projects briefing at the beginning of the sprint rather than before. You can always make up your mind later. However, if you want to, you can check out the projects that are participating in the sprints. See if you like any of the projects, do they have exciting issues on their repo that you would like to work on.

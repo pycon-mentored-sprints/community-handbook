@@ -12,11 +12,11 @@ Welcome to the Mentored Sprints Community Handbook!
 Our goal is to share our learnings from running coding sprints both, in-person and online with the broader community.
 We have done a lot of the leg-work and also some mistakes down the way. As a result, we decided to document some of the best practices and gotchas we have run into, so you do not have to.
 
-We have envisioned this as a comunity-led and community-oriented project. So, in true community spirit, we would love to see other folks and sprints organisers contributing to this project and sharing their experiences. Every person and every contribution is welcome.
+We have envisioned this as a community-led and community-oriented project. So, in true community spirit, we would love to see other folks and sprints organisers contributing to this project and sharing their experiences. Every person and every contribution is welcome.
 
 ## Our community
 
-The **Mentored sprints** project is not only a series of coding sprint to contribute to open source. But **a community dedicated to mentor, support, and empower** all of those folks that have faced and continue to face barriers to contributing to open source.
+The **Mentored sprints** project is not only a series of coding sprints to contribute to open source. But **a community dedicated to mentor, support, and empower** all of those folks that have faced and continue to face barriers to contributing to open source.
 
 In brief **Mentored Sprints** are:
 
