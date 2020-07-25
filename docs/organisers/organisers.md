@@ -31,11 +31,11 @@ Some of these early considerations are:
 
 1. **Wording matters:** we have intentionally removed the word **coding** and just referred to the events as **sprints**, **contribution sprints** or **mentored** **sprints**. Open Source Software thrives on and needs much more than code contributions. When running a sprint, it is essential to focus on contribution types that can often be overseen: documentation and technical writing, community management, design, dogfooding, education, and many more.
 
-2. **What is the purpose of the sprint?: **Is your primary focus contributing to a given project or projects? Do you want to onboard new community members and mentor beginners?
+2. **What is the purpose of the sprint?:** Is your primary focus contributing to a given project or projects? Do you want to onboard new community members and mentor beginners? Are you focusing on a specific project with experienced contributors and maintainers?
 
-3. **Who needs to be involved?:** Depending on the location and format of your sprint you will end up with some folks involved (i.e. organisers, mentors, project maintainers, attendees, Code of Conduct enforcement team, conference organisers, sponsors).
+3. **Who needs to be involved?:** Depending on the location and format of your sprint you will need to identify your key stakeholders and approach them early on (i.e. organisers, mentors, project maintainers, attendees, Code of Conduct enforcement team, conference organisers, sponsors).
 
-4. **Format and place:** When running in person, you'll need to think of the venue as well as the facilities. When online, you will have to consider timezones as you will be lacking a centralised physical location.
+4. **Format and place:** When running in person, you'll need to think of the venue as well as the facilities. When online, you will have to consider timezones as you will be lacking a centralised physical location. Online sprints require a more extensive effort arount tooling and infrastructure than those happening in-person.
 
 5. **Communicate, communicate, communicate:** you will need to communicate regularly with your fellow organisers, mentors, attendees and other staff/volunteers. Make sure to decide on a communication channel and communication strategy early on and stick to it. There is nothing more frustrating than having organisation conversations scattered across a Slack channel, a Discord server, a GitHub repo, emails, Twitter messages and text messages.
 
