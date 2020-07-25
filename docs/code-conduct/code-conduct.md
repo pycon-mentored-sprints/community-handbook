@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code of Conduct
+title: Mentored Sprints Code of Conduct
 nav_order: 2
 has_children: true
 permalink: code-conduct/
