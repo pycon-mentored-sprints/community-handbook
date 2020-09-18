@@ -31,7 +31,7 @@ Some of these early considerations are:
 
 1. **Wording matters:** we have intentionally removed the word **coding** and just referred to the events as **sprints**, **contribution sprints** or **mentored** **sprints**. Open Source Software thrives on and needs much more than code contributions. When running a sprint, it is essential to focus on contribution types that can often be overseen: documentation and technical writing, community management, design, dogfooding, education, and many more.
 
-2. **What is the purpose of the sprint?: **Is your primary focus contributing to a given project or projects? Do you want to onboard new community members and mentor beginners?
+2. **What is the purpose of the sprint?:** Is your primary focus contributing to a given project or projects? Do you want to onboard new community members and mentor beginners?
 
 3. **Who needs to be involved?:** Depending on the location and format of your sprint you will end up with some folks involved (i.e. organisers, mentors, project maintainers, attendees, Code of Conduct enforcement team, conference organisers, sponsors).
 
