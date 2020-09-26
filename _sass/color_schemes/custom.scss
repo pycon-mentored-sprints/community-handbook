@@ -1,16 +1,17 @@
 // Typo
 
-$body-font-family: "Inconsolata", Menlo, monospace;
+// $body-font-family: "Inconsolata", Menlo, monospace;
+$body-font-family: "Quicksand", sans-serif;
 
 // colors
 
 $primary-color: #cbd5f0;
 $grey: #fafafb;
-$dark-grey: #5A5A5B;
-$secondary-color: #e5c0c8;
-$accent-color: #1D44AD;
+$dark-grey: #1b212f;
+$secondary-color: #eda0c4;
+$accent-color: #5b63ce;
 
-$sidebar-color: $primary-color;
+$sidebar-color: lighten(#768de4, 20%);
 $feedback-color: darken($sidebar-color, 3%) !default;
 
 

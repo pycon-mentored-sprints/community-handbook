@@ -1,15 +1,24 @@
+body{
+    font-size: 1.2em;
+    color: #1b212f;
+    background-color: #F8F9FF;
+    font-family: "new-hero", sans-serif;
+}
 .nav-list{
     .nav-list-item{
         .nav-list-link{
+            font-size: 1.2em;
             &:hover,
             &.active {
-                background: #b9c3de;
+                background: lighten(#768de4, 5%);
+                color: darken(#5b63ce, 25%);
+
             }
         }
         .nav-list-expander{
             &:hover,
             &.active {
-                background: #b9c3de;
+                background: lighten(#768de4, 5%);
             }
         }
     }
@@ -20,11 +29,12 @@
 }
 
 .site-footer{
-    color: #5A5A5B;
+    color: #1b212f;
 }
 
 h1, h2,h3,h4,h5,h6{
-    color: #e66a8d;
+    color: darken(#eda0c4, 5%);
+    font-weight: 500;
 }
 
 
@@ -36,16 +46,42 @@ h1, h2,h3,h4,h5,h6{
 
 @media (min-width: 50rem) { 
     .main-header { 
-        border-bottom: 2px solid #e5c0c8; } }
+        border-bottom: 2px solid #eda0c4;
+        background-color: #F8F9FF; } }
+
+@media (min-width: 50rem) { 
+    .search { 
+        background-color: #F8F9FF; } }
 
 
 a:not([class]){
-        background-image: linear-gradient(#cbd5f0 0%, #cbd5f0 100%);
-        background-size: 2px 2px;}
+    background-image: none;
+    border-bottom: 2px solid #5b63ce;
+    transition: all 0.3s ease-out;
+    transform-origin: right;
+}
+
+a:not([class]):hover {
+    background-image: none;
+    border-bottom: 2px solid lighten(#ff8cbc, 5%);
+}
 
 hr{
-    background-color: #e5c0c8;
+    background-color:lighten(#eda0c4, 10%),;
 }
 
 .main-content ul > li::before {
-    color: #e5c0c8;}
+    color: #ff8cbc;}
+
+::selection{
+    background: lighten(#eda0c4, 15%);
+    color:  #1b212f;
+}
+
+.main-header{
+    background-color: #F8F9FF;
+}
+
+.search{
+    background-color: #F8F9FF;
+}
