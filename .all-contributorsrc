@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Cheukting",
+      "name": "Cheuk Ting Ho",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28761465?v=4",
+      "profile": "http://cheuk.dev",
+      "contributions": [
+        "doc",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "community-handbook",
+  "projectOwner": "pycon-mentored-sprints",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
