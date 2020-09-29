@@ -1,30 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+body{
+    color: #1b212f;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .nav-list{
     .nav-list-item{
         .nav-list-link{
+            font-size: 1em;
+            line-height: 2.4em;
+
+            &.active {
+            font-weight: 600;
+            color: darken(#5b63ce, 20%)!important;
+            }
+
+            &:not(.active){
+                opacity: 0.6;
+            }
+            &:not(.active):hover{
+                opacity: 1.0;
+            }
+
+            &::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 0.15em;
+                background: black;
+                left: 0;
+                bottom: 0;
+                background-image: linear-gradient(to right, #5b63ce, #eda0c4)
+            }
+            
             &:hover,
             &.active {
-                background: #b9c3de;
+                // background: lighten(#768de4, 10%);
+                background: $sidebar-color;
+                color: darken(#5b63ce, 20%);
             }
         }
         .nav-list-expander{
             &:hover,
             &.active {
-                background: #b9c3de;
+                background: lighten(#768de4, 5%);
             }
         }
     }
 }
 
+a.nav-list-link{
+    color: darken(#5b63ce, 20%)!important;
+}
+
 .site-title:hover {
-    background-image: linear-gradient(-90deg, #b9c3de 0%, #cbd5f0 100%);
+    background-image: none;
 }
 
 .site-footer{
-    color: #5A5A5B;
+    color: #1b212f;
 }
 
 h1, h2,h3,h4,h5,h6{
-    color: #e66a8d;
+    color: darken(#eda0c4, 10%);
+    font-weight: 500;
 }
 
 
@@ -36,16 +76,46 @@ h1, h2,h3,h4,h5,h6{
 
 @media (min-width: 50rem) { 
     .main-header { 
-        border-bottom: 2px solid #e5c0c8; } }
+        border-bottom: 2px solid #eda0c4;
+        background-color: #F8F9FF; } }
+
+@media (min-width: 50rem) { 
+    .search { 
+        background-color: #F8F9FF; } }
 
 
 a:not([class]){
-        background-image: linear-gradient(#cbd5f0 0%, #cbd5f0 100%);
-        background-size: 2px 2px;}
+    background-image: none;
+    border-bottom: 2px solid #5b63ce;
+    transition: all 0.25s ease-out;
+    transform-origin: right;
+}
+
+a:not([class]):hover {
+    background-image: none;
+    border-bottom: 2px solid lighten(#ff8cbc, 5%);
+}
 
 hr{
-    background-color: #e5c0c8;
+    background-color:lighten(#eda0c4, 10%);
 }
 
 .main-content ul > li::before {
-    color: #e5c0c8;}
+    color: #ff8cbc;}
+
+::selection{
+    background: lighten(#eda0c4, 15%);
+    color:  #1b212f;
+}
+
+// tables
+
+
+table{
+    border: $border $border-color;
+    border-radius: 2px;
+}
+
+.table-wrapper{
+    box-shadow: none;
+}
