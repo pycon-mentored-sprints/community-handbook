@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Organisers
-nav_order: 7
+title: Organisers - running a sprint
+nav_order: 4
 has_children: true
 ---
 
@@ -23,7 +23,7 @@ It is not uncommon to see folks working in pairs, teams or individually. It is a
 
 Many projects use sprints to bring together their maintainers and discuss the project's roadmap and work on urgent and/or complex issues or features.
 
-### Setting a sprint for success
+### Setting a sprint for success - The Mentored Sprints way
 
 Great, you have decided to run a sprint. Whether you have decided to run this online or in-person, there are some things you have to consider before even getting to the nitty-gritty preparation steps. Things like setting the goal and identifying the personas that might be attending and participating in your event can make a huge difference between a half baked and a successful and productive sprint.
 

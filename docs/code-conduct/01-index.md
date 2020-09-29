@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mentored Sprints Code of Conduct
-nav_order: 2
+nav_order: 3
 has_children: true
 permalink: code-conduct/
 ---
@@ -23,7 +23,7 @@ The Code of Conduct document has been written in 4 parts:
 - [Reporting guidelines]({{ 'code-conduct/reporting/' | relative_url}})
 - [Code of Conduct enforcement]({{ 'code-conduct/enforcement/' | relative_url}}).
 
-Finally, we have a section that acknowledges all the sources that this Code of Conduct has been built upon (see [Acknowledgement]({{{{ 'code-conduct/acknowledgement/' | relative_url}}}})).
+Finally, we have a section that acknowledges all the sources that this Code of Conduct has been built upon (see [Acknowledgement]({{'code-conduct/acknowledgement/' | relative_url}})).
 
 ---
 
@@ -34,4 +34,3 @@ The Mentored Sprints project is a community-oriented and -led project. We value 
 To make clear what is expected, everyone participating in activities associated with The Mentored Sprints project is required to conform to this Code of Conduct. This Code of Conduct applies to all spaces managed by Mentored Sprints project including, but not limited to, in-person and online events, and communications online via our mailing list, GitHub, Twitter and Discord.
 
 Reports may be reviewed by other members of the core development team, unless there is a conflict of interest. All reports will be kept **confidential**.
-
