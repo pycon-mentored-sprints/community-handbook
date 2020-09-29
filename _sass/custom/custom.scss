@@ -10,13 +10,13 @@ body{
         .nav-list-link{
             &.active {
             font-weight: 600;
-            color: darken(#5b63ce, 30%)!important;
+            color: darken(#5b63ce, 20%)!important;
         }
             font-size: 1.2em;
             &:hover,
             &.active {
                 background: lighten(#768de4, 10%);
-                color: darken(#5b63ce, 30%);
+                color: darken(#5b63ce, 20%);
             }
         }
         .nav-list-expander{
@@ -61,7 +61,7 @@ h1, h2,h3,h4,h5,h6{
 a:not([class]){
     background-image: none;
     border-bottom: 2px solid #5b63ce;
-    transition: all 0.3s ease-out;
+    transition: all 0.25s ease-out;
     transform-origin: right;
 }
 

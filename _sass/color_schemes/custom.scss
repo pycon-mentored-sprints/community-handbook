@@ -9,8 +9,9 @@ $grey: #fafafb;
 $dark-grey: #1b212f;
 $secondary-color: #eda0c4;
 $accent-color: #5b63ce;
+$meta-color: #768de4;
 
-$sidebar-color: lighten(#768de4, 20%);
+$sidebar-color: lighten($meta-color, 20%);
 $feedback-color: darken($sidebar-color, 3%) !default;
 
 $link-color: $accent-color;
