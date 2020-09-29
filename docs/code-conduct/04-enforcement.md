@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Enforcement manual
-parent: Code of Conduct
+parent: Mentored Sprints Code of Conduct
 nav_order: 5
+permalink: code-conduct/enforcement/
 ---
 
 ## 4 Enforcement Manual

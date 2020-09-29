@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Code of Conduct in Detail
-parent: Code of Conduct
+parent: Mentored Sprints Code of Conduct
 nav_order: 3
+permalink: code-conduct/detail/
 ---
 
 # 2 Code of Conduct: Detailed view
@@ -63,9 +64,8 @@ Examples of unacceptable behaviour by Mentored Sprints community members at any 
 
 ### 2.3 Consequences of Unacceptable Behaviour
 
-Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to all Turing Way community events and platforms, either online or in-person. If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the enforcement manual for details).
+Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to all Mentored Sprints community events and platforms, either online or in-person. If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund when applicable, and without the oportunity to rejoin at a later time), or impose any other appropriate sanctions (see the enforcement manual for details).
 
 ### 2.4 Feedback
 
 This Code of Conduct is not intended as a static set of rules by which everyone must abide. Instead, you are invited to make suggestions for updates or clarifications by making a pull request to this document on GitHub or opening an issue on the project's repository.
-s
