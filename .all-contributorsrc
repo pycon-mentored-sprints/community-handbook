@@ -14,6 +14,15 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "vfdev-5",
+      "name": "vfdev",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2459423?v=4",
+      "profile": "https://github.com/vfdev-5",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
