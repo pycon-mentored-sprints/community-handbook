@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
 body{
-    font-size: 1.2em;
     color: #1b212f;
-    background-color: #F8F9FF;
-    font-family: "new-hero", sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
+
 .nav-list{
     .nav-list-item{
         .nav-list-link{
+            &.active {
+            font-weight: 600;
+            color: darken(#5b63ce, 30%)!important;
+        }
             font-size: 1.2em;
             &:hover,
             &.active {
-                background: lighten(#768de4, 5%);
-                color: darken(#5b63ce, 25%);
-
+                background: lighten(#768de4, 10%);
+                color: darken(#5b63ce, 30%);
             }
         }
         .nav-list-expander{
@@ -25,7 +29,7 @@ body{
 }
 
 .site-title:hover {
-    background-image: linear-gradient(-90deg, #b9c3de 0%, #cbd5f0 100%);
+    background-image: none;
 }
 
 .site-footer{
@@ -33,7 +37,7 @@ body{
 }
 
 h1, h2,h3,h4,h5,h6{
-    color: darken(#eda0c4, 5%);
+    color: darken(#eda0c4, 10%);
     font-weight: 500;
 }
 
@@ -67,7 +71,7 @@ a:not([class]):hover {
 }
 
 hr{
-    background-color:lighten(#eda0c4, 10%),;
+    background-color:lighten(#eda0c4, 10%);
 }
 
 .main-content ul > li::before {
@@ -78,10 +82,14 @@ hr{
     color:  #1b212f;
 }
 
-.main-header{
-    background-color: #F8F9FF;
+// tables
+
+
+table{
+    border: $border $border-color;
+    border-radius: 2px;
 }
 
-.search{
-    background-color: #F8F9FF;
+.table-wrapper{
+    box-shadow: none;
 }

@@ -1,7 +1,6 @@
 // Typo
-
-// $body-font-family: "Inconsolata", Menlo, monospace;
-$body-font-family: "Quicksand", sans-serif;
+$mono-font-family: "Inconsolata", Menlo, monospace;
+$body-font-family: "Quicksand", Helvetica, sans-serif;
 
 // colors
 
@@ -14,6 +13,12 @@ $accent-color: #5b63ce;
 $sidebar-color: lighten(#768de4, 20%);
 $feedback-color: darken($sidebar-color, 3%) !default;
 
-
 $link-color: $accent-color;
 $base-button-color: $secondary-color !default;
+
+$body-background-color: #F8F9FF;
+$search-background-color: #F8F9FF;
+$table-background-color: #F8F9FF;
+
+$border-color: $sidebar-color;
+$border: 2px solid;
