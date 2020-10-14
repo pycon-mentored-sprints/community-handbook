@@ -1,3 +1,10 @@
 [build]
     publish = "_site"
     command = "jekyll build"
+
+
+[[redirects]]
+    from = "/*"
+    to = "/handbook"
+    status = 200
+    force = true
