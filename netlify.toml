@@ -1,0 +1,9 @@
+[build]
+    publish = "_site"
+    command = "jekyll build"
+
+[[redirects]]
+    from = "/*"
+    to = "https://mentored-sprints.netlify.app/handbook/:splat"
+    status =  301
+    force = true
