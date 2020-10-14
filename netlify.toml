@@ -3,7 +3,7 @@
     command = "jekyll build"
 
 [[redirects]]
-    from = "/*"
+    from = "/handbook/*"
     to = "https://mentored-sprints.dev/handbook/:splat"
     status =  200
     force = true
