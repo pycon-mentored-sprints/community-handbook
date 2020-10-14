@@ -5,5 +5,5 @@
 [[redirects]]
     from = "/*"
     to = "https://mentored-sprints.dev/handbook/:splat"
-    status =  301
+    status =  200
     force = true
