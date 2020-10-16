@@ -7,7 +7,7 @@
     from = "/*"
     to = "handbook/:splat"
     status = 200
-    force = 301
+    force = true
 
 [[redirects]]
     from = "handbook/*"
