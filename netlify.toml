@@ -1,3 +1,18 @@
 [build]
     publish = "_site"
     command = "jekyll build"
+
+
+[[redirects]]
+    from = "/*"
+    to = "handbook/:splat"
+    status = 200
+    force = 301
+
+[[redirects]]
+    from = "handbook/*"
+    to = "https://mentored-sprints.dev/handbook/:splat"
+    status = 301
+    force = true
+
+    
