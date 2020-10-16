@@ -3,4 +3,8 @@
     command = "jekyll build"
 
 
-    
+[[redirects]]
+    from = "https://mentored-sprints.netlify.app"
+    to = "https://mentored-sprints.netlify.app/handbook"
+    status = 301
+    force =  true
