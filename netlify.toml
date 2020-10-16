@@ -6,13 +6,9 @@
 [[redirects]]
     from = "/*"
     to = "handbook/:splat"
-    status = 200
-    force = true
-
-[[redirects]]
-    from = "handbook/*"
-    to = "https://mentored-sprints.dev/handbook/:splat"
     status = 301
     force = true
+
+
 
     
