@@ -3,12 +3,4 @@
     command = "jekyll build"
 
 
-[[redirects]]
-    from = "/*"
-    to = "handbook/:splat"
-    status = 301
-    force = true
-
-
-
     
