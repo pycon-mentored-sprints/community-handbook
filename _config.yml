@@ -38,7 +38,7 @@ exclude:
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "./assets/logos/round-logo.svg"
+logo: "./assets/logos/svg/community_handbook_alt.svg"
 remote_theme: pmarsceill/just-the-docs
 
 theme: "just-the-docs"
@@ -92,7 +92,7 @@ nav_sort: case_insensitive # default, equivalent to nil
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2020 - The Mentored Sprints team."
+footer_content: "Copyright &copy; 2020-2021 - The Mentored Sprints team."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
