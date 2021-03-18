@@ -9,6 +9,10 @@ theme:
   features:
     - navigation.tracking
     - navigation.top
+  font:
+    text: Sora
+    code: B612 Mono
+  favicon: assets/favicon/favicon.ico
 
 extra_css:
   - stylesheets/css/custom.css

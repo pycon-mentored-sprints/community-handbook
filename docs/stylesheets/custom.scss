@@ -23,8 +23,12 @@ $active-link: $primary-colour;
 $foreground-colour: #d6d6d8;
 $background-colour: $dark-bg;
 
-// Global
+// Fonts
+$base-font-size: 0.8rem;
+$nav-font-size: 0.7rem;
+$heading-weight: bold;
 
+// Global
 :root {
     // Typeset color shades
     --md-typeset-color: $foreground-colour;
@@ -34,15 +38,16 @@ $background-colour: $dark-bg;
 body {
     background-color: $background-colour;
     color: $foreground-colour;
-    font-family: LatoWeb, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 // This defines the main MS colours
 [data-md-color-primary="mentored-sprints"] {
     .md-typeset {
+        font-size: $base-font-size;
         a {
             color: $link-colour;
             border-bottom: 2px solid currentColor;
+            font-size: $base-font-size;
             &:hover,
             &:focus {
                 color: $secondary-light;
@@ -55,6 +60,7 @@ body {
         h4,
         h5 {
             color: $accent-teal;
+            font-weight: $heading-weight;
         }
     }
     .md-nav__link {
@@ -74,6 +80,9 @@ body {
     // nav-header - smaller screens
     .md-header {
         background-color: $nav-colour;
+    }
+    .md-nav {
+        font-size: $nav-font-size;
     }
 }
 
@@ -103,7 +112,6 @@ body {
 }
 
 .context-menu {
-    font-family: LatoWeb, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: inline-block;
     font-size: 75%;
     line-height: 1.3;
