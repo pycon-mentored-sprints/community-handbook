@@ -1,0 +1,25 @@
+site_name: Mentored Sprints Community Handbook
+
+theme:
+  palette:
+    scheme: slate
+    primary: mentored-sprints
+  name: material
+  logo: assets/community_handbook_white_trans.svg
+  features:
+    - navigation.tracking
+    - navigation.top
+
+extra_css:
+  - stylesheets/css/custom.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mentoredsprints
+      name: Mentored Sprints Twitter account
+    - icon: fontawesome/brands/github
+      link: https://github.com/pycon-mentored-sprints
+      name: Mentored Sprints GitHub
+
+copyright: Copyright &copy; 2020-2021 Mentored Sprints
