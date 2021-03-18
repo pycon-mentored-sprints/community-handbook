@@ -27,3 +27,9 @@ extra:
       name: Mentored Sprints GitHub
 
 copyright: Copyright &copy; 2020-2021 Mentored Sprints
+
+
+markdown_extensions:
+  - meta
+
+# TODO: add custom meta tags - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/
