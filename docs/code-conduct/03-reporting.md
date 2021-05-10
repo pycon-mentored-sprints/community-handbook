@@ -14,7 +14,7 @@ If you feel able to, please contact Tania Allard by email at [tania@pyladies.com
 
 ### 3.2 Alternate contact points
 
-If you do not feel comfortable contacting Tania Allard, please report an incident to ****.
+If you do not feel comfortable contacting Tania Allard, please report an incident to [coc@mentored-sprints.dev](mailto:coc@mentored-sprints.dev).
 
 ### 3.3 What to do if someone is in physical danger
 
