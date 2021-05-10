@@ -47,5 +47,9 @@ copyright: Copyright &copy; 2020-2021 Mentored Sprints
 markdown_extensions:
   - meta
   - admonition
+  - pymdownx.highlight: 
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
 
 # TODO: add custom meta tags - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/

@@ -1,7 +1,5 @@
 ---
-layout: default
 title: About the handbook
-nav_order: 2
 ---
 
 # About this handbook

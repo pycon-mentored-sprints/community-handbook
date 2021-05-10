@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Enforcement manual
 parent: Mentored Sprints Code of Conduct
 nav_order: 5
