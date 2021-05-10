@@ -1,56 +1,27 @@
-//  Mentored Sprints customs stylesheet
+//  Mentored Sprints customs stylesheet for mkdocs
+@import "./variables.scss";
 
-// Theme Colours
-$primary-colour: #ce89ce;
-$primary-dark: #af49af;
-$primary-light: #daa6da;
-$secondary-colour: #4c54c9;
-$secondary-light: #5b63ce;
-$secondary-lightest: #878ddb;
-$accent-teal: #39b2bf;
-$accent-yellow: #f5c05b;
-$accent-red: #f25764;
-$off-black: #1b212f;
-$dark-bg: #161a26;
-$darkest-bg: #050709;
-$off-white: #f8f9ff;
-$slate: #6b7eaa;
+// light MS theme
+[data-md-color-scheme="ms-light"] {
+    // Default color shades
+    --md-default-fg-color: hsla(222, 43%, 18%, 0.87);
+    --md-default-fg-color--light: hsla(222, 43%, 18%, 0.54);
+    --md-default-fg-color--lighter: hsla(222, 43%, 18%, 0.32);
+    --md-default-fg-color--lightest: hsla(222, 43%, 18%, 0.07);
+    // --md-default-bg-color: hsla(231, 3%, 100%, 1);
+    --md-default-bg-color: #f8f9ff;
+    --md-default-bg-color--light: #dfe0e6;
+    --md-default-bg-color--lighter: #c6c7cc;
+    --md-default-bg-color--lightest: #aeaeb3;
 
-// Components colours
-$nav-colour: $secondary-colour;
-$link-colour: $secondary-lightest;
-$active-link: $primary-colour;
-$foreground-colour: #d6d6d8;
-$background-colour: $dark-bg;
-
-// Fonts
-$base-font-size: 0.8rem;
-$nav-font-size: 0.7rem;
-$heading-weight: bold;
-
-// Global
-:root {
-    // Typeset color shades
-    --md-typeset-color: $foreground-colour;
-    --md-typeset-a-color: $link-colour;
-}
-
-body {
-    background-color: $background-colour;
-    color: $foreground-colour;
-}
-
-// This defines the main MS colours
-[data-md-color-primary="mentored-sprints"] {
+    // Typeset
     .md-typeset {
-        font-size: $base-font-size;
         a {
-            color: $link-colour;
+            color: var(--secondary-colour);
             border-bottom: 2px solid currentColor;
-            font-size: $base-font-size;
             &:hover,
             &:focus {
-                color: $secondary-light;
+                color: var(--secondary-light);
             }
         }
 
@@ -59,73 +30,121 @@ body {
         h3,
         h4,
         h5 {
-            color: $accent-teal;
-            font-weight: $heading-weight;
+            color: var(--primary-dark);
+            font-weight: bold;
         }
     }
+
+    .md-nav__link--active {
+        color: var(--primary-colour);
+        font-weight: bold;
+    }
+
     .md-nav__link {
-        &:active {
-            color: $active-link;
-        }
+        border-bottom: none;
         &:hover,
         &:focus {
-            color: $secondary-light;
-            text-decoration: underline;
+            color: var(--secondary-lightest);
+        }
+    }
+
+    .md-nav-item.md-nav__item--nested {
+        .md-nav__link {
+            &:hover,
+            &:focus {
+                color: var(--secondary-lightest);
+            }
+        }
+    }
+}
+
+// dark MS theme
+[data-md-color-scheme="ms-dark"] {
+    // Default color shades
+    --md-default-bg-color: #161a26;
+    --md-default-bg-color--light: #2d313c;
+    --md-default-bg-color--lighter: #454851;
+    --md-default-bg-color--lightest: #454851;
+    --md-default-fg-color: #f8f9ff;
+    --md-default-fg-color--light: #dfe0e6;
+    --md-default-fg-color--lighter: #c6c7cc;
+    --md-default-fg-color--lightest: #aeaeb3;
+
+    // Typeset
+    .md-typeset {
+        a {
+            color: var(--secondary-lightest);
+            border-bottom: 2px solid currentColor;
+            &:hover,
+            &:focus {
+                color: var(--secondary-light);
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: var(--primary-colour);
+            font-weight: bold;
         }
     }
     .md-nav__link--active {
-        color: $active-link;
+        color: var(--primary-light);
         font-weight: bold;
     }
-    // nav-header - smaller screens
-    .md-header {
-        background-color: $nav-colour;
+
+    .md-nav__link {
+        border-bottom: none;
+        &:hover,
+        &:focus {
+            color: var(--secondary-lightest);
+        }
     }
-    .md-nav {
-        font-size: $nav-font-size;
+
+    .md-nav-item.md-nav__item--nested {
+        .md-nav__link {
+            &:hover,
+            &:focus {
+                color: var(--secondary-lightest);
+            }
+        }
     }
 }
 
-// Adjust fonts
-.md-typeset {
-    h1 {
-        font-size: 2.827rem;
-        line-height: 3.4rem;
-        margin-top: 3.4rem;
-    }
-    h2 {
-        font-size: 1.999rem;
-        line-height: 3.4rem;
-        margin-top: 3.4rem;
-    }
-    h3 {
-        font-size: 1.414rem;
-        line-height: 1.7rem;
-        margin-top: 1.7rem;
-    }
+// ------------------------------------------
+// Footer
+.md-footer,
+.md-footer-meta {
+    background-color: var(--darkest-bg);
+}
 
-    hr {
-        border: 0;
-        border-bottom: 3px solid $slate;
-        margin-top: 35px;
+.md-footer__direction {
+    color: var(--secondary-lightest);
+}
+
+.md-footer__button {
+    color: var(--secondary-lightest);
+}
+
+// Footer metadata
+.md-footer-meta {
+    // Lighten color for non-hovered text links
+    html &.md-typeset a {
+        color: var(--secondary-lightest);
+        text-decoration: none;
+        border-bottom: none;
+
+        // Text link on focus/hover
+        &:focus,
+        &:hover {
+            color: var(--secondary-light);
+        }
     }
 }
 
-.context-menu {
-    display: inline-block;
-    font-size: 75%;
-    line-height: 1.3;
-    padding: 0.2em 0.5em;
-    margin-left: 0.2em;
-    margin-right: 0.2em;
-    border-radius: 3px;
-    background-color: $darkest-bg;
-    border: 1px solid $slate;
-    font-weight: bold;
-    color: $foreground-colour;
-    box-shadow: none;
-}
-
+// ------------------------------------------
 // buttons
 button {
     border-style: solid;
@@ -154,65 +173,11 @@ button.button--ui {
     padding: 0.7em 1.15em;
 }
 
-// TOC links
-.md-nav__link {
-    color: $link-colour;
-}
-.md-nav-item.md-nav__item--nested {
-    .md-nav__link {
-        color: $foreground-colour;
-    }
-}
-.md-nav__title {
-    padding: 2rem 1.2rem;
-}
-
-.md-nav__title--site {
-    display: none;
-}
-.md-nav--primary {
-    .md-nav__title[for="__drawer"] {
-        display: none !important;
-    }
-}
-
-.md-header {
-    height: 85px;
-}
-.md-header-nav {
-    padding: 1rem 0.4rem;
-}
-
-.md-header-nav__button.md-logo {
-    img {
-        width: 180px;
-        height: 100%;
-        margin-top: -10px;
-    }
-}
-
-.md-header-nav__button {
-    padding-top: 0;
-}
-
+// ------------------------------------------
+// Nav bar
 // Remove topic from nav
 .md-header__topic {
     display: none;
-}
-
-// Sidebar
-.md-sidebar[data-md-state="lock"] {
-    top: auto;
-}
-
-.md-nav__title {
-    color: $foreground-colour;
-    font-size: 1.2rem;
-}
-
-// main
-.md-main__inner {
-    padding-bottom: 7rem;
 }
 
 // logo on nav
@@ -221,217 +186,32 @@ button.button--ui {
     height: auto;
     margin: auto;
 }
-
 .md-header-nav__button {
     padding-top: 0;
 }
-.md-header-nav__topic {
-    display: none;
+
+.md-header__button.md-logo,
+.md-footer__link.md-footer__link--next {
+    border-bottom: none;
 }
 
-.md-sidebar[data-md-state="lock"] {
-    top: auto;
-}
-.md-main__inner {
-    padding-bottom: 7rem;
+// TOC
+
+.md-nav__title {
+    padding: 1.2rem;
 }
 
-// Tables
-
-table {
-    margin-top: 1.7rem;
-    border-spacing: 0px;
-    border-collapse: collapse;
-    border-color: $slate;
+.md-nav {
+    font-size: 0.75rem;
+    line-height: 1.3;
 }
 
-.table--bordered {
-    border: 1px solid $slate;
-    td {
-        border: 1px solid $slate;
-    }
-    th {
-        border: 1px solid $slate;
-    }
-    thead {
-        > tr {
-            &:last-child {
-                > th {
-                    border-bottom-width: 3px;
-                }
-            }
-        }
-    }
-}
+// set MS primary
 
-.table {
-    width: 100%;
-    max-height: 100%;
-    thead {
-        > tr {
-            &:first-child {
-                > th {
-                    border-top: 0;
-                }
-            }
-        }
-    }
-    th {
-        vertical-align: bottom;
-        padding: 1em;
-    }
-    td {
-        padding: 1em;
-    }
-}
-
-.documentation-layout__content {
-    article {
-        table {
-            width: 100%;
-            max-height: 100%;
-            thead {
-                > tr {
-                    &:first-child {
-                        > th {
-                            border-top: 0;
-                        }
-                    }
-                }
-            }
-            th {
-                vertical-align: bottom;
-                padding: 1em;
-            }
-            td {
-                padding: 1em;
-            }
-        }
-        .alert {
-            margin-top: 1.7rem;
-            margin-top: 1.7rem;
-        }
-        .callout {
-            margin-top: 1.7rem;
-            margin-top: 1.7rem;
-        }
-        .embed-container {
-            margin-top: 1.7rem;
-            margin-top: 1.7rem;
-        }
-    }
-}
-
-.table--shortcuts {
-    th {
-        &:first-child {
-            width: 50%;
-        }
-    }
-    td {
-        &:first-child {
-            width: 50%;
-        }
-    }
-}
-
-.flex-grid {
-    display: flex;
-    display: -ms-flexbox;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.flex-item {
-    flex: 1 100%;
-    -ms-flex: 1 10%;
-    padding: 10px;
-    margin: auto;
-}
-
-// Mix
-
-@media only screen and (max-width: 939px) {
-    .flex-grid {
-        flex-wrap: wrap;
-    }
-}
-@media only screen and (min-width: 640px) {
-    h1 {
-        font-size: 4.242rem;
-        line-height: 5.2rem;
-    }
-    h2 {
-        font-size: 2.828rem;
-    }
-}
-@media only screen and (max-width: 76.1875em) {
-    html {
-        .md-nav--primary {
-            .md-nav__title--site {
-                .md-nav__button {
-                    display: block;
-                    position: absolute;
-                    top: 0.4rem;
-                    left: 0.4rem;
-                    width: 18.4rem;
-                    height: 6.4rem;
-                    font-size: 4.8rem;
-                }
-            }
-            .md-nav__title {
-                ~ {
-                    .md-nav__list {
-                        background-color: $background-colour;
-                    }
-                }
-                background-color: $background-colour;
-                color: $foreground-colour;
-                &::before {
-                    color: $foreground-colour;
-                }
-            }
-        }
-        [data-md-color-primary="mentored-sprints"] {
-            .md-nav--primary {
-                .md-nav__title--site {
-                    background-color: $darkest-bg;
-                }
-            }
-        }
-    }
-    .md-nav {
-        background-color: $background-colour;
-    }
-}
-
-// Footer
-.md-footer {
-    background-color: $darkest-bg;
-}
-
-.md-footer-meta {
-    background-color: $darkest-bg;
-}
-.md-footer__direction {
-    color: $slate;
-}
-
-.md-footer__button {
-    color: $slate;
-}
-
-// Footer metadata
-.md-footer-meta {
-    // Lighten color for non-hovered text links
-    html &.md-typeset a {
-        color: $secondary-lightest;
-        text-decoration: none;
-        border-bottom: none;
-
-        // Text link on focus/hover
-        &:focus,
-        &:hover {
-            color: $secondary-light;
-        }
-    }
+[data-md-color-primary="ms-blue"] {
+    --md-primary-fg-color: #4c54c9;
+    --md-primary-fg-color--light: #5e65ce;
+    --md-primary-fg-color--dark: #444cb5;
+    --md-primary-bg-color: #b7bbe9;
+    --md-primary-bg-color--light: #c9ccef;
 }

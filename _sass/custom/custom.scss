@@ -1,7 +1,5 @@
-@import "colours/dark";
-
 body {
-    color: $dark-grey;
+    color: #1b212f;
     font-family: "Obliqua", sans-serif;
 }
 
@@ -13,7 +11,7 @@ body {
 
             &.active {
                 font-weight: 600;
-                color: darken($accent-color, 20%) !important;
+                color: darken(#5b63ce, 20%) !important;
             }
 
             &:not(.active) {
@@ -31,26 +29,26 @@ body {
                 background: black;
                 left: 0;
                 bottom: 0;
-                background-image: linear-gradient(to right, $accent-color, $secondary-color);
+                background-image: linear-gradient(to right, #5b63ce, #eda0c4);
             }
 
             &:hover,
             &.active {
                 // background: $sidebar-color;
-                color: darken($accent-color, 20%);
+                color: darken(#5b63ce, 20%);
             }
         }
         .nav-list-expander {
             &:hover,
             &.active {
-                background: lighten($meta-color, 5%);
+                background: lighten(#768de4, 5%);
             }
         }
     }
 }
 
 a.nav-list-link {
-    color: darken($accent-color, 10%) !important;
+    color: darken(#5b63ce, 10%) !important;
 }
 
 .site-title:hover {
@@ -58,7 +56,7 @@ a.nav-list-link {
 }
 
 .site-footer {
-    color: $dark-grey;
+    color: #1b212f;
 }
 
 h1,
@@ -67,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: darken($secondary-color, 10%);
+    color: darken(#eda0c4, 10%);
     font-weight: 500;
 }
 
@@ -81,40 +79,40 @@ h6 {
 
 @media (min-width: 50rem) {
     .main-header {
-        border-bottom: 2px solid $secondary-color;
-        background-color: $off-white;
+        border-bottom: 2px solid #eda0c4;
+        background-color: #f8f9ff;
     }
 }
 
 @media (min-width: 50rem) {
     .search {
-        background-color: $off-white;
+        background-color: #f8f9ff;
     }
 }
 
 a:not([class]) {
     background-image: none;
-    border-bottom: 2px solid $accent-color;
+    border-bottom: 2px solid #5b63ce;
     transition: all 0.25s ease-out;
     transform-origin: right;
 }
 
 a:not([class]):hover {
     background-image: none;
-    border-bottom: 2px solid lighten($secondary-dark, 5%);
+    border-bottom: 2px solid lighten(#ff8cbc, 5%);
 }
 
 hr {
-    background-color: lighten($secondary-color, 10%);
+    background-color: lighten(#eda0c4, 10%);
 }
 
 .main-content ul > li::before {
-    color: $secondary-dark;
+    color: #ff8cbc;
 }
 
 ::selection {
-    background: lighten($secondary-color, 15%);
-    color: $dark-grey;
+    background: lighten(#eda0c4, 15%);
+    color: #1b212f;
 }
 
 // tables

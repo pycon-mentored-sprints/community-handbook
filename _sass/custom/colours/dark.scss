@@ -1,6 +1,6 @@
 // Typo
 $mono-font-family: "Inconsolata", Menlo, monospace;
-$body-font-family: "Quicksand", Helvetica, sans-serif;
+$body-font-family: "Obliqua", Helvetica, sans-serif;
 
 // colors
 
@@ -8,8 +8,10 @@ $primary-color: #cbd5f0;
 $grey: #fafafb;
 $dark-grey: #1b212f;
 $secondary-color: #eda0c4;
+$secondary-dark: #ff8cbc;
 $accent-color: #5b63ce;
 $meta-color: #768de4;
+$off-white: #f8f9ff;
 
 $sidebar-color: lighten($meta-color, 20%);
 $feedback-color: darken($sidebar-color, 3%) !default;
@@ -17,9 +19,9 @@ $feedback-color: darken($sidebar-color, 3%) !default;
 $link-color: $accent-color;
 $base-button-color: $secondary-color !default;
 
-$body-background-color: #F8F9FF;
-$search-background-color: #F8F9FF;
-$table-background-color: #F8F9FF;
+$body-background-color: #f8f9ff;
+$search-background-color: #f8f9ff;
+$table-background-color: #f8f9ff;
 
 $border-color: $sidebar-color;
 $border: 2px solid;
