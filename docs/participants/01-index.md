@@ -1,8 +1,5 @@
 ---
-layout: default
-title: Participants
-nav_order: 6
-has_children: false
+title: Contribution sprints 101
 ---
 
 # Handbook for Participants

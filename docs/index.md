@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Welcome
 nav_order: 1
 
@@ -38,7 +37,7 @@ We value the participation of every member of our community. We want to ensure t
   <a href="http://doi.org/10.5281/zenodo.3695300">http://doi.org/10.5281/zenodo.3695300
   </a>
   </figcaption>
-</figure> {: .fs-3}
+</figure> 
 
-Loads of community management inspiration has come from the [Turing Way project](https://the-turing-way.netlify.app/).
-{: .fs-3}
+!!! check "Kudos"
+    Loads of community growth inspiration has come from the [Turing Way project](https://the-turing-way.netlify.app/).

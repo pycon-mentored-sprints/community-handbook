@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Code of Conduct in Detail
 parent: Mentored Sprints Code of Conduct
-nav_order: 3
-permalink: code-conduct/detail/
 ---
 
 # 2 Code of Conduct: Detailed view
@@ -12,7 +9,7 @@ The Mentored Sprints team are dedicated to providing a welcoming and supportive 
 
 Everyone who participates in The Mentored Sprints project activities is required to conform to this Code of Conduct. This Code of Conduct applies to all spaces managed by The Mentored Sprints project including, but not limited to, in-person and online events, and communications online via GitHub, Twitter and Discord. By participating, contributors indicate their acceptance of the procedures by which The Mentored Sprints project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
-### 2.1 Expected Behaviour
+## 2.1 Expected Behaviour
 
 We are confident that our community members will together build a supportive and collaborative atmosphere at our events and during online communications. The following bullet points set out explicitly what we hope you will consider being appropriate community guidelines:
 
@@ -32,7 +29,7 @@ We are confident that our community members will together build a supportive and
 
 - All interactions should be professional regardless of platform: either online or in-person. [See this explanation of the four social rules](https://www.recurse.com/manual#sub-sec-social-rules) - no feigning surprise, no well-actually's, no back-seat driving, no subtle -isms - for further recommendations for inclusive behaviours.
 
-### 2.2 Unacceptable Behaviour
+## 2.2 Unacceptable Behaviour
 
 Examples of unacceptable behaviour by Mentored Sprints community members at any project event or platform include:
 
@@ -62,10 +59,10 @@ Examples of unacceptable behaviour by Mentored Sprints community members at any 
 
 - publication of private communication without consent
 
-### 2.3 Consequences of Unacceptable Behaviour
+## 2.3 Consequences of Unacceptable Behaviour
 
 Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to all Mentored Sprints community events and platforms, either online or in-person. If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund when applicable, and without the oportunity to rejoin at a later time), or impose any other appropriate sanctions (see the enforcement manual for details).
 
-### 2.4 Feedback
+## 2.4 Feedback
 
 This Code of Conduct is not intended as a static set of rules by which everyone must abide. Instead, you are invited to make suggestions for updates or clarifications by making a pull request to this document on GitHub or opening an issue on the project's repository.

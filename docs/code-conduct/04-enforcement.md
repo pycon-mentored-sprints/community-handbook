@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Enforcement manual
 parent: Mentored Sprints Code of Conduct
 nav_order: 5
@@ -12,15 +11,7 @@ This is the enforcement manual followed by the Mentored Sprints core team.
 It's used when we respond to an issue to make sure we're consistent and fair.
 Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
 
-### 4.1 The Code of Conduct Committee
-
-The Code of Conduct Committee is:
-
-* Tania Allard: tania@pyladies.com
-
-As the community grows, we will seek to build a larger committee, including members outside of the core development team.
-
-### 4.2 Urgent Situations: Acting Unilaterally
+### 4.1 Urgent Situations: Acting Unilaterally
 
 If the incident involves physical danger or involves a threat to anyone's safety (e.g. threats of violence), any member of the community may -- and should -- act unilaterally to protect the safety of any community member.
 This can include contacting law enforcement (or other local personnel) and speaking on behalf of the Mentored Sprints team.
@@ -30,7 +21,7 @@ In ongoing situations, any member may at their discretion employ any of the tool
 
 In situations where an individual community member acts unilaterally, they must inform Tania Allard as soon as possible, and report their actions for review within 24 hours.
 
-### 4.3 Less-Urgent Situations
+### 4.2 Less-Urgent Situations
 
 Upon receiving a report of an incident, the CoC committee will review the incident and determine, to the best of their ability:
 
@@ -48,7 +39,7 @@ The "de-anonymising key" will be kept in a separate file and only accessed to li
 The CoC committee will aim to have a resolution agreed upon within one week.
 If a resolution can't be determined in that time, a member of the CoC committee will respond to the reporter(s) with an update and projected timeline for resolution.
 
-### 4.4 Resolutions
+### 4.3 Resolutions
 
 The CoC committee will seek to agree on a resolution by consensus of all members investigating the report in question.
 If the committee cannot reach consensus and deadlocks for over a week, the chair of the Code of Conduct enforcement team will break the tie.

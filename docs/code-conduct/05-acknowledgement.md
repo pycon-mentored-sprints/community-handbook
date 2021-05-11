@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Acknowledgement
 parent: Mentored Sprints Code of Conduct
-nav_order: 6
 permalink: code-conduct/acknowledgement/
 ---
 

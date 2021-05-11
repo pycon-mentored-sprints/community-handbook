@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Mentored Sprints Code of Conduct
 nav_order: 3
 has_children: true

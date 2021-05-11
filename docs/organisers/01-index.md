@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Organisers - running a sprint
 nav_order: 4
 has_children: true
@@ -7,7 +6,7 @@ has_children: true
 
 # Organising a mentored sprint
 
-### What is a sprint?
+## What is a sprint?
 
 >"Code sprint (n) 1. A sprint is a time-boxed period of software development focused on a given list of goals." [Effective Code Sprinting](https://www.slideshare.net/reidab/effective-code-sprinting).
 
@@ -29,7 +28,7 @@ Great, you have decided to run a sprint. Whether you have decided to run this on
 
 Some of these early considerations are:
 
-1. **Wording matters:** we have intentionally removed the word **coding** and just referred to the events as **sprints**, **contribution sprints** or **mentored** **sprints**. Open Source Software thrives on and needs much more than code contributions. When running a sprint, it is essential to focus on contribution types that can often be overseen: documentation and technical writing, community management, design, dogfooding, education, and many more.
+1. **Wording matters:** we have intentionally removed the word **coding** and refer to the events as **sprints**, **contribution sprints** or **mentored** **sprints**. Open Source Software thrives on and needs much more than code contributions. When running a sprint, it is essential to focus on contribution types that can often be overseen: documentation and technical writing, community management, design, dogfooding, education, and many more.
 
 2. **What is the purpose of the sprint?:** Is your primary focus contributing to a given project or projects? Do you want to onboard new community members and mentor beginners? Are you focusing on a specific project with experienced contributors and maintainers?
 
@@ -37,7 +36,7 @@ Some of these early considerations are:
 
 4. **Format and place:** When running in person, you'll need to think of the venue as well as the facilities. When online, you will have to consider timezones as you will be lacking a centralised physical location. Online sprints require a more extensive effort arount tooling and infrastructure than those happening in-person.
 
-5. **Communicate, communicate, communicate:** you will need to communicate regularly with your fellow organisers, mentors, attendees and other staff/volunteers. Make sure to decide on a communication channel and communication strategy early on and stick to it. There is nothing more frustrating than having organisation conversations scattered across a Slack channel, a Discord server, a GitHub repo, emails, Twitter messages and text messages.
+5. **Communicate, communicate, communicate:** you will need to communicate regularly with the other organisers, mentors, attendees and other staff/volunteers. Make sure to decide on a communication channel and communication strategy early on and stick to it. There is nothing more frustrating than having organisation conversations scattered across a Slack channel, a Discord server, a GitHub repo, emails, Twitter messages and text messages.
 
 6. **Outreach:** right this might be obvious, but how are you going to get the word out there? If you are working on a specific project, how can you find folks that care about and use said project or library? If you want to focus on minoritised communities, how are you going to make sure they are made aware of the sprint and present at it?
 

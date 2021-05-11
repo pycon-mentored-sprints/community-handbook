@@ -1,0 +1,55 @@
+site_name: Mentored Sprints Community Handbook
+
+theme:
+  palette:
+    - scheme: ms-light
+      primary: ms-blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: ms-dark
+      primary: ms-blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  
+  
+  name: material
+  logo: assets/community_handbook_white_trans.svg
+  features:
+    - navigation.tracking
+    - navigation.top
+  font:
+    text: Obliqua
+    code: Inconsolata
+  favicon: assets/favicon/favicon.ico
+
+extra_css:
+  - stylesheets/css/custom.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mentoredsprints
+      name: Mentored Sprints Twitter account
+    - icon: fontawesome/brands/github
+      link: https://github.com/pycon-mentored-sprints
+      name: Mentored Sprints GitHub
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:organisers@mentored-sprints.dev
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/H4fYmEe
+      name: Mentored Sprints Discord Server
+
+copyright: Copyright &copy; 2020-2021 Mentored Sprints
+
+
+markdown_extensions:
+  - meta
+  - admonition
+  - pymdownx.highlight: 
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
+# TODO: add custom meta tags - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/
