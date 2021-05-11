@@ -119,6 +119,9 @@ button.button--ui {
   font-weight: bold;
   padding: 0.7em 1.15em; }
 
+a.md-content__button.md-icon {
+  border: none; }
+
 .md-header__topic {
   display: none; }
 
@@ -147,5 +150,16 @@ button.button--ui {
   --md-primary-fg-color--dark: #444cb5;
   --md-primary-bg-color: #b7bbe9;
   --md-primary-bg-color--light: #c9ccef; }
+
+.md-tabs__item {
+  color: var(--md-default-bg-color); }
+
+.md-tabs__link {
+  opacity: 1; }
+  .md-tabs__link:hover, .md-tabs__link:focus {
+    font-weight: bold; }
+
+.md-tabs__link--active {
+  font-weight: bold; }
 
 /*# sourceMappingURL=custom.css.map */

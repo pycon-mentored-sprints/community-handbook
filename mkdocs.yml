@@ -1,6 +1,17 @@
+# Project info
 site_name: Mentored Sprints Community Handbook
 
+# Repo
+repo_name: pycon-mentored-sprints/community-handbook
+edit_uri: edit/main/docs/
+repo_url: https://github.com/pycon-mentored-sprints/community-handbook
+
+# Copyright
+copyright: Copyright &copy; 2020-2021 Mentored Sprints
+
+# Configuration
 theme:
+  name: material
   palette:
     - scheme: ms-light
       primary: ms-blue
@@ -12,21 +23,28 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  
-  
-  name: material
+  icon:
+    repo: fontawesome/brands/github-square
+
   logo: assets/community_handbook_white_trans.svg
+  # Navigation
   features:
     - navigation.tracking
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+
   font:
     text: Obliqua
     code: Inconsolata
   favicon: assets/favicon/favicon.ico
+  language: en
 
 extra_css:
   - stylesheets/css/custom.css
 
+# Social links
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -41,9 +59,7 @@ extra:
       link: https://discord.gg/H4fYmEe
       name: Mentored Sprints Discord Server
 
-copyright: Copyright &copy; 2020-2021 Mentored Sprints
-
-
+# Extensions
 markdown_extensions:
   - meta
   - admonition
@@ -53,3 +69,20 @@ markdown_extensions:
   - pymdownx.inlinehilite
 
 # TODO: add custom meta tags - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/
+
+# Page tree
+nav: 
+  - Home: index.md
+  - Code of conduct:
+    - Introduction: code-of-conduct/01-index.md
+    - CoC in detail: code-of-conduct/02-coc-detail.md
+    - Reporting Guidelines: code-of-conduct/03-reporting.md
+    - Enforcement Manual: code-of-conduct/04-enforcement.md
+  - Organisers: 
+    - Getting Started: organisers/01-index.md
+    - Roles and People: organisers/02-people.md
+    - Tools and Apps: organisers/03-tools.md
+  - Participants:
+    - Contribution Sprints 101: participants/01-index.md
+    - Asking Good Questions: participants/02-asking-questions.md
+
