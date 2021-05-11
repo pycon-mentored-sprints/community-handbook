@@ -4,16 +4,18 @@
 // light MS theme
 [data-md-color-scheme="ms-light"] {
     // Default color shades
+    // Foreground
     --md-default-fg-color: hsla(222, 43%, 18%, 0.87);
     --md-default-fg-color--light: hsla(222, 43%, 18%, 0.54);
     --md-default-fg-color--lighter: hsla(222, 43%, 18%, 0.32);
     --md-default-fg-color--lightest: hsla(222, 43%, 18%, 0.07);
-    // --md-default-bg-color: hsla(231, 3%, 100%, 1);
+    // Background
     --md-default-bg-color: #f8f9ff;
     --md-default-bg-color--light: #dfe0e6;
     --md-default-bg-color--lighter: #c6c7cc;
     --md-default-bg-color--lightest: #aeaeb3;
 
+    // --------------------------------------------------------------
     // Typeset
     .md-typeset {
         a {
@@ -65,6 +67,7 @@
     --md-default-bg-color--light: #2d313c;
     --md-default-bg-color--lighter: #454851;
     --md-default-bg-color--lightest: #454851;
+    // Foreground color
     --md-default-fg-color: #f8f9ff;
     --md-default-fg-color--light: #dfe0e6;
     --md-default-fg-color--lighter: #c6c7cc;
@@ -200,6 +203,7 @@ a.md-content__button.md-icon {
     border-bottom: none;
 }
 
+// -----------------------------------------
 // TOC
 
 .md-nav__title {
@@ -221,7 +225,7 @@ a.md-content__button.md-icon {
 }
 
 .md-tabs__item {
-    color: var(--md-default-bg-color);
+    color: #f8f9ff;
 }
 
 .md-tabs__link {

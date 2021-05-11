@@ -152,7 +152,7 @@ a.md-content__button.md-icon {
   --md-primary-bg-color--light: #c9ccef; }
 
 .md-tabs__item {
-  color: var(--md-default-bg-color); }
+  color: #f8f9ff; }
 
 .md-tabs__link {
   opacity: 1; }
