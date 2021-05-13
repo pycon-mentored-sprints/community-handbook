@@ -8,7 +8,8 @@ This page aims to help you out with the things you might get asked to do, but ma
 
 Sit back, relax and maybe bring a brew.
 
-If you're not comfortable using git from the CLI, we advise to use [GitKraken](https://www.gitkraken.com/invite/nQmDPR9D).
+!!! tip
+    If you're not comfortable using git from the CLI, we advise to use [GitKraken](https://www.gitkraken.com/invite/nQmDPR9D). GitKraken is a great GUI for version control and is very useful for beginners and advanced developers alike.
 
 ## I didn't stick to the conventional commit guidelines
 

@@ -45,7 +45,7 @@ Text editors are tools with powerful features designed to optimize writing code.
 - Pycharm. Download at: <https://www.jetbrains.com/pycharm/download/>.
 
 !!! tip
-We suggest trying several editors before settling on one.
+    We suggest trying several editors before settling on one.
 
 ### 5. Pick a project
 

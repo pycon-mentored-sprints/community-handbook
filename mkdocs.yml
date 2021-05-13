@@ -1,5 +1,6 @@
 # Project info
 site_name: Mentored Sprints Community Handbook
+site_description: Field notes to run open source sprints
 
 # Repo
 repo_name: pycon-mentored-sprints/community-handbook
@@ -69,6 +70,13 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - toc:
       permalink: true
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+
 
 # TODO: add custom meta tags - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/
 

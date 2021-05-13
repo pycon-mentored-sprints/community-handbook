@@ -15,12 +15,28 @@
   --nav-font-size: 0.7rem; }
 
 :root > * {
+  --secondary-dark: #af49af;
+  --secondary-colour: #ce89ce;
+  --secondary-light: #daa6da;
+  --periwinkle-colour: #4c54c9;
+  --periwinkle-light: #5b63ce;
+  --periwinkle-lightest: #878ddb;
+  --accent-teal: #39b2bf;
+  --off-black: #1b212f;
+  --dark-bg: #161a26;
+  --darkest-bg: #050709;
+  --dark-fg: #d6d6d8;
+  --off-white: #f8f9ff;
+  --base-font-size: 0.8rem;
+  --nav-font-size: 0.7rem;
   --md-code-bg-color: #efeff0; }
   :root > * code {
     font-size: 1em; }
   :root > * .md-typeset .admonition,
   :root > * .md-typeset details {
     font-size: 0.7rem; }
+  :root > * table:not([class]) {
+    font-size: 0.9em; }
 
 [data-md-color-scheme="ms-light"] {
   --md-default-fg-color: hsla(222, 43%, 18%, 0.87);
@@ -54,8 +70,14 @@
     color: var(--secondary-lightest); }
   [data-md-color-scheme="ms-light"] code {
     background-color: var(--md-code-bg-color); }
+  [data-md-color-scheme="ms-light"] table:not([class]) th {
+    background-color: var(--md-primary-fg-color--light);
+    font-weight: bold; }
+  [data-md-color-scheme="ms-light"] table:not([class]) td {
+    border-top: 0.05rem solid var(--md-default-bg-color--lightest); }
 
 [data-md-color-scheme="ms-dark"] {
+  --md-default-bg-color-dark: #0d1017;
   --md-default-bg-color: #161a26;
   --md-default-bg-color--light: #2d313c;
   --md-default-bg-color--lighter: #454851;
@@ -63,7 +85,30 @@
   --md-default-fg-color: #f8f9ff;
   --md-default-fg-color--light: #dfe0e6;
   --md-default-fg-color--lighter: #c6c7cc;
-  --md-default-fg-color--lightest: #aeaeb3; }
+  --md-default-fg-color--lightest: #aeaeb3;
+  --md-code-fg-color: #f8f8f2;
+  --md-code-bg-color: #272935;
+  --md-code-hl-operator-color: #ff7ac6;
+  --md-code-hl-punctuation-color: #f8f8f2;
+  --md-code-hl-string-color: #f1fa89;
+  --md-code-hl-special-color: #bf95f9;
+  --md-code-hl-number-color: #bf95f9;
+  --md-code-hl-keyword-color: #ff7ac6;
+  --md-code-hl-name-color: #f8f8f2;
+  --md-code-hl-constant-color: #bf95f9;
+  --md-code-hl-function-color: #52fa7c;
+  --md-code-hl-comment-color: #6071a4;
+  --md-code-hl-variable-color: #ffb86b;
+  --md-code-hl-generic-color: #6071a4;
+  --md-code-hl-color: #303550;
+  --md-code-hl-entity-color: #52fa7c;
+  --md-code-hl-tag-color: #ff7ac6;
+  --md-code-hl-namespace-color: #f8f8f2;
+  --md-code-hl-builtin-color: #8be8fd;
+  --md-code-hl-class-color: #8be8fd;
+  --md-code-special-bg-color: #323443;
+  --md-code-alternate-bg-color: #3d3e49;
+  --md-code-link-bg-color: #364653; }
   [data-md-color-scheme="ms-dark"] .md-typeset a {
     color: var(--secondary-lightest);
     border-bottom: 2px solid currentColor; }
@@ -85,6 +130,24 @@
       color: var(--secondary-lightest); }
   [data-md-color-scheme="ms-dark"] .md-nav-item.md-nav__item--nested .md-nav__link:hover, [data-md-color-scheme="ms-dark"] .md-nav-item.md-nav__item--nested .md-nav__link:focus {
     color: var(--secondary-lightest); }
+  [data-md-color-scheme="ms-dark"] .tabbed-set > .tabbed-content {
+    box-shadow: 0 -0.05rem var(--md-default-fg-color--lighter); }
+  [data-md-color-scheme="ms-dark"] table:not([class]) {
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3), 0 0 0.05rem rgba(0, 0, 0, 0.2); }
+    [data-md-color-scheme="ms-dark"] table:not([class]) tr {
+      background-color: var(--md-default-bg-color--light); }
+      [data-md-color-scheme="ms-dark"] table:not([class]) tr:hover {
+        background-color: rgba(0, 0, 0, 0.08); }
+    [data-md-color-scheme="ms-dark"] table:not([class]) th {
+      background-color: var(--md-default-bg-color-dark);
+      border-bottom: 0.05rem solid var(--secondary-colour);
+      color: var(--md-code-fg-color);
+      font-weight: bold; }
+    [data-md-color-scheme="ms-dark"] table:not([class]) td {
+      border-top: 0.05rem solid var(--md-default-bg-color--lightest); }
+
+.md-footer {
+  border-top: 0.05rem solid var(--secondary-colour); }
 
 .md-footer,
 .md-footer-meta {
@@ -156,6 +219,7 @@ a.md-content__button.md-icon {
 
 [data-md-color-primary="ms-blue"] {
   --md-primary-fg-color: #4c54c9;
+  --md-primary-fg-color--lightest: #8287d9;
   --md-primary-fg-color--light: #5e65ce;
   --md-primary-fg-color--dark: #444cb5;
   --md-primary-bg-color: #b7bbe9;
