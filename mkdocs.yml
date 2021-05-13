@@ -102,4 +102,6 @@ nav:
     - Git for contributors: participants/03-git-contributors.md
     - Git etiquette for contributors: participants/04-git-etiquette.md
     - Mentored Sprints PyCon 2021: participants/05-pycon2021.md
+  - Mentors:
+    - Mentored Sprints PyCon 2011: mentors/01-index.md
 
