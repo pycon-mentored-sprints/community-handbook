@@ -1,27 +1,64 @@
 //  Mentored Sprints customs stylesheet for mkdocs
 @import "./variables.scss";
 
+:root > * {
+    // additional colours
+    --secondary-dark: #af49af;
+    --secondary-colour: #ce89ce;
+    --secondary-light: #daa6da;
+    --periwinkle-colour: #4c54c9;
+    --periwinkle-light: #5b63ce;
+    --periwinkle-lightest: #878ddb;
+    --accent-teal: #39b2bf;
+    --off-black: #1b212f;
+    --dark-bg: #161a26;
+    --darkest-bg: #050709;
+    --dark-fg: #d6d6d8;
+    --off-white: #f8f9ff;
+
+    // Fonts
+    --base-font-size: 0.8rem;
+    --nav-font-size: 0.7rem;
+    // Code
+    --md-code-bg-color: #efeff0;
+
+    code {
+        font-size: 1em;
+    }
+    .md-typeset .admonition,
+    .md-typeset details {
+        font-size: 0.7rem;
+    }
+
+    table {
+        &:not([class]) {
+            font-size: 0.9em;
+        }
+    }
+}
+
 // light MS theme
 [data-md-color-scheme="ms-light"] {
     // Default color shades
+    // Foreground
     --md-default-fg-color: hsla(222, 43%, 18%, 0.87);
     --md-default-fg-color--light: hsla(222, 43%, 18%, 0.54);
     --md-default-fg-color--lighter: hsla(222, 43%, 18%, 0.32);
     --md-default-fg-color--lightest: hsla(222, 43%, 18%, 0.07);
-    // --md-default-bg-color: hsla(231, 3%, 100%, 1);
+    // Background
     --md-default-bg-color: #f8f9ff;
     --md-default-bg-color--light: #dfe0e6;
     --md-default-bg-color--lighter: #c6c7cc;
     --md-default-bg-color--lightest: #aeaeb3;
-
+    // --------------------------------------------------------------
     // Typeset
     .md-typeset {
         a {
-            color: var(--secondary-colour);
+            color: var(--md-primary-fg-color);
             border-bottom: 2px solid currentColor;
             &:hover,
             &:focus {
-                color: var(--secondary-light);
+                color: var(--md-primary-fg-color--lightest);
             }
         }
 
@@ -56,19 +93,62 @@
             }
         }
     }
+
+    code {
+        background-color: var(--md-code-bg-color);
+    }
+
+    table {
+        &:not([class]) {
+            th {
+                background-color: var(--md-primary-fg-color--light);
+                font-weight: bold;
+            }
+            td {
+                border-top: 0.05rem solid var(--md-default-bg-color--lightest);
+            }
+        }
+    }
 }
 
 // dark MS theme
 [data-md-color-scheme="ms-dark"] {
     // Default color shades
+    --md-default-bg-color-dark: #0d1017;
     --md-default-bg-color: #161a26;
     --md-default-bg-color--light: #2d313c;
     --md-default-bg-color--lighter: #454851;
     --md-default-bg-color--lightest: #454851;
+    // Foreground color
     --md-default-fg-color: #f8f9ff;
     --md-default-fg-color--light: #dfe0e6;
     --md-default-fg-color--lighter: #c6c7cc;
     --md-default-fg-color--lightest: #aeaeb3;
+
+    // Code - highlight colour
+    --md-code-fg-color: #f8f8f2;
+    --md-code-bg-color: #272935;
+    --md-code-hl-operator-color: #ff7ac6;
+    --md-code-hl-punctuation-color: #f8f8f2;
+    --md-code-hl-string-color: #f1fa89;
+    --md-code-hl-special-color: #bf95f9;
+    --md-code-hl-number-color: #bf95f9;
+    --md-code-hl-keyword-color: #ff7ac6;
+    --md-code-hl-name-color: #f8f8f2;
+    --md-code-hl-constant-color: #bf95f9;
+    --md-code-hl-function-color: #52fa7c;
+    --md-code-hl-comment-color: #6071a4;
+    --md-code-hl-variable-color: #ffb86b;
+    --md-code-hl-generic-color: #6071a4;
+    --md-code-hl-color: #303550;
+    --md-code-hl-entity-color: #52fa7c;
+    --md-code-hl-tag-color: #ff7ac6;
+    --md-code-hl-namespace-color: #f8f8f2;
+    --md-code-hl-builtin-color: #8be8fd;
+    --md-code-hl-class-color: #8be8fd;
+    --md-code-special-bg-color: #323443;
+    --md-code-alternate-bg-color: #3d3e49;
+    --md-code-link-bg-color: #364653;
 
     // Typeset
     .md-typeset {
@@ -111,10 +191,41 @@
             }
         }
     }
+
+    // Tables
+    .tabbed-set {
+        > .tabbed-content {
+            box-shadow: 0 -0.05rem var(--md-default-fg-color--lighter);
+        }
+    }
+    table {
+        &:not([class]) {
+            box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3), 0 0 0.05rem rgba(0, 0, 0, 0.2);
+            tr {
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.08);
+                }
+                background-color: var(--md-default-bg-color--light);
+            }
+            th {
+                background-color: var(--md-default-bg-color-dark);
+                border-bottom: 0.05rem solid var(--secondary-colour);
+                color: var(--md-code-fg-color);
+                font-weight: bold;
+            }
+            td {
+                border-top: 0.05rem solid var(--md-default-bg-color--lightest);
+            }
+        }
+    }
 }
 
 // ------------------------------------------
 // Footer
+
+.md-footer {
+    border-top: 0.05rem solid var(--secondary-colour);
+}
 .md-footer,
 .md-footer-meta {
     background-color: var(--darkest-bg);
@@ -172,6 +283,15 @@ button.button--ui {
     font-weight: bold;
     padding: 0.7em 1.15em;
 }
+.md-typeset .md-button--primary {
+    color: white !important;
+    border-bottom: var(--md-primary-fg-color) !important;
+}
+
+// Edit button
+a.md-content__button.md-icon {
+    border: none;
+}
 
 // ------------------------------------------
 // Nav bar
@@ -195,6 +315,7 @@ button.button--ui {
     border-bottom: none;
 }
 
+// -----------------------------------------
 // TOC
 
 .md-nav__title {
@@ -207,11 +328,31 @@ button.button--ui {
 }
 
 // set MS primary
-
 [data-md-color-primary="ms-blue"] {
     --md-primary-fg-color: #4c54c9;
+    --md-primary-fg-color--lightest: #8287d9;
     --md-primary-fg-color--light: #5e65ce;
     --md-primary-fg-color--dark: #444cb5;
     --md-primary-bg-color: #b7bbe9;
     --md-primary-bg-color--light: #c9ccef;
+}
+
+.md-tabs__item {
+    color: #f8f9ff;
+}
+
+.md-tabs__link {
+    opacity: 1;
+    &:hover,
+    &:focus {
+        font-weight: bold;
+    }
+}
+
+.md-tabs__link--active {
+    font-weight: bold;
+}
+
+.highlighttable .linenos {
+    font-size: 1em;
 }
