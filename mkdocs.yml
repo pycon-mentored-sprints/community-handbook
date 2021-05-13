@@ -67,6 +67,8 @@ markdown_extensions:
       linenums: true
   - pymdownx.superfences
   - pymdownx.inlinehilite
+  - toc:
+      permalink: true
 
 # TODO: add custom meta tags - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/
 
@@ -85,4 +87,5 @@ nav:
   - Participants:
     - Contribution Sprints 101: participants/01-index.md
     - Asking Good Questions: participants/02-asking-questions.md
+    - Git for contributors: participants/03-git-contributors.md
 

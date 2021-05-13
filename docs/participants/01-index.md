@@ -36,10 +36,38 @@ Most open-source projects will use GitHub to host their source code. Registering
 
 Occasionally, the project that you want to work on may have setups other than git and GitHub, check the information provided by the organisers or mentors and follow the instructions that are given.
 
-### 4. Pick a project
+### 4. Install a text editor
+
+Text editors are tools with powerful features designed to optimize writing code. There are several text editors that you can choose from. Here are some we recommend:
+
+- Atom. Download at: <https://atom.io>.
+- VS code. Download at: <https://code.visualstudio.com/>.
+- Pycharm. Download at: <https://www.jetbrains.com/pycharm/download/>.
+
+!!! tip
+We suggest trying several editors before settling on one.
+
+### 5. Pick a project
 
 This one is optional, as some sprints may have the projects briefing at the beginning of the sprint rather than before. You can always make up your mind later. However, if you want to, you can check out the projects that are participating in the sprints. See if you like any of the projects, do they have exciting issues on their repo that you would like to work on.
 
+### 6. Pair programming
+
+When you are new to a project it is often useful to work in pairs.  The goal is that each contributor will be able to resolve one trivial fix and one actual fix.
+
+Good pair programming depends on both people being pretty decent (and patient) communicators, which can take time to develop, and is especially hard when people are in a hurry.
+
+Some useful tips to make the most of pair programming:
+
+- The pair (both people) should be talking to one another constantly
+- It is often best to have one person typing than switching too often
+- For pairs where the two people have different experience levels, the less experienced person should be typing
+- **Use video:** Since people communicate a lot through gestures and facial expressions it is nice to see the shared screen and your pairing partner's video at the same time. Some video conference solutions come with this feature; if yours doesn't, consider opening up an additional call in order to see each other.
+- **Audio experience:** Look for a quiet area and use a good headset, maybe even with a directional microphone. If you can't get away from the noise, "push to speak" functionality can also help. To avoid distractions on your side, noise-cancelling headphones are your friend.
+
+
+Dealing with network lag: It can be exhausting to work on a remote computer for a longer period of time when there is a network lag. So make sure to switch computers regularly, so that each of you has a chance to work on their own machine without lag. A network lag can also be annoying when you scroll through files because it can be hard to follow. It helps to avoid scrolling in long files, try to use keyboard shortcuts to open different parts of the file or use the collapse/uncollapse functionality instead.
 ## Additional resources
 
-This blogpost [Contributing to open source:let's get us started](https://dev.to/azure/contributing-to-open-source-projects-let-s-get-us-all-started-13ff) can be very helpful to set the context for sprints particpation.
+- This blogpost [Contributing to open source:let's get us started](https://dev.to/azure/contributing-to-open-source-projects-let-s-get-us-all-started-13ff) can be very helpful to set the context for sprints particpation.
+- Read more about pair programming in [this guide](https://medium.com/@weblab_tech/pair-programming-guide-a76ca43ff389)

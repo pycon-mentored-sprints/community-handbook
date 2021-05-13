@@ -14,6 +14,14 @@
   --base-font-size: 0.8rem;
   --nav-font-size: 0.7rem; }
 
+:root > * {
+  --md-code-bg-color: #efeff0; }
+  :root > * code {
+    font-size: 1em; }
+  :root > * .md-typeset .admonition,
+  :root > * .md-typeset details {
+    font-size: 0.7rem; }
+
 [data-md-color-scheme="ms-light"] {
   --md-default-fg-color: hsla(222, 43%, 18%, 0.87);
   --md-default-fg-color--light: hsla(222, 43%, 18%, 0.54);
@@ -44,6 +52,8 @@
       color: var(--secondary-lightest); }
   [data-md-color-scheme="ms-light"] .md-nav-item.md-nav__item--nested .md-nav__link:hover, [data-md-color-scheme="ms-light"] .md-nav-item.md-nav__item--nested .md-nav__link:focus {
     color: var(--secondary-lightest); }
+  [data-md-color-scheme="ms-light"] code {
+    background-color: var(--md-code-bg-color); }
 
 [data-md-color-scheme="ms-dark"] {
   --md-default-bg-color: #161a26;
@@ -161,5 +171,8 @@ a.md-content__button.md-icon {
 
 .md-tabs__link--active {
   font-weight: bold; }
+
+.highlighttable .linenos {
+  font-size: 1em; }
 
 /*# sourceMappingURL=custom.css.map */

@@ -1,6 +1,19 @@
 //  Mentored Sprints customs stylesheet for mkdocs
 @import "./variables.scss";
 
+:root > * {
+    // Code
+    --md-code-bg-color: #efeff0;
+
+    code {
+        font-size: 1em;
+    }
+    .md-typeset .admonition,
+    .md-typeset details {
+        font-size: 0.7rem;
+    }
+}
+
 // light MS theme
 [data-md-color-scheme="ms-light"] {
     // Default color shades
@@ -14,7 +27,6 @@
     --md-default-bg-color--light: #dfe0e6;
     --md-default-bg-color--lighter: #c6c7cc;
     --md-default-bg-color--lightest: #aeaeb3;
-
     // --------------------------------------------------------------
     // Typeset
     .md-typeset {
@@ -57,6 +69,10 @@
                 color: var(--secondary-lightest);
             }
         }
+    }
+
+    code {
+        background-color: var(--md-code-bg-color);
     }
 }
 
@@ -238,4 +254,8 @@ a.md-content__button.md-icon {
 
 .md-tabs__link--active {
     font-weight: bold;
+}
+
+.highlighttable .linenos {
+    font-size: 1em;
 }

@@ -4,8 +4,7 @@ title: Asking good questions
 
 # Asking Good Questions
 
-
-This document is intended to provide you with the information you need to get help as quickly and effectively as possible. If you're stuck on a problem or you just don't understand something, you should always feel welcome to ask.
+This document is intended to provide you with the information you need to get help as quickly and effectively as possible. If you're stuck on a problem or you don't understand something, you should always feel welcome to ask for help.
 
 ## Before You Ask
 
@@ -26,7 +25,7 @@ When you're ready to ask a question, there are a few things that will help you f
 
 - A code example that illustrates your problem (you can copy and paste or save it as a gist in GitHub and share the URL)
 - Details on how you attempted to solve the problem on your own
-- Full version information — for example, "Python 3.6.4 with NumPy 1.21"
+- Full version information — for example, `Python 3.6.4 with NumPy 1.21`
 - The full traceback if your code raises an exception
 - Do not curate the traceback as you may inadvertently exclude information crucial to solving your issue
 - A screenshot of the output or rendered output
@@ -102,7 +101,9 @@ SyntaxError: invalid syntax
 
 The reason this may happen is that Python allows for implicit line continuation and will only notice the error when the expression does not continue as expected on the next line. So, it's always a good idea to also check the line before the one mentioned in the traceback!
 
-### More information on exceptions
+### More resources on exceptions
+
+- Real Python has a [great article on tracebacks and errors](https://realpython.com/python-traceback/)
 
 Further information on exceptions can be found in the official Python documentation:
 
