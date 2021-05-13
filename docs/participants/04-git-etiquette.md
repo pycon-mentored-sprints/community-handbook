@@ -12,6 +12,50 @@ PRs are a great way of sharing information and can help us be aware of the chang
 Done well, the commits (and their attached messages) contained within tell a story to people examining the code later. If we are not careful to ensure the quality of these commits, we silently lose this ability.
 **Poor quality code can be refactored. A terrible commit lasts forever.**
 
+### Git Flow for Pull Requests
+
+Each project will have some specific conventions and processes. But in general the base Git flow for Pull Requests is:
+
+1. Ensure you are currently in `main`.
+2. → If working in a **fork**, fetch:
+
+      ```sh
+      git checkout main
+      git fetch --all --prune
+      git merge --ff-only upstream/main
+      git push origin main
+      ```
+      → If working in a **branch**, pull:
+      ```sh
+      git checkout main
+      git pull origin main
+      ```
+
+3. Create a new branch for your feature or bug fix
+
+    ```sh
+    git checkout -b branchName
+    ```
+
+4. Make changes with as many commits as necessary. The final commit should build and pass tests.
+5. Make sure your branch sits on top of `main` (as opposed to branch off a branch). This ensures the reviewer will need only minimal effort to integrate your work by fast-forwarding `main`
+
+    ```sh
+    git rebase upstream/main.
+    ```
+
+6. If you have previously pushed your code to a remote branch, you will need to force push. If not, omit the `-f` tag.
+
+    ```sh
+    git push origin branchName -f
+    ```
+
+7. Open a pull request in GitHub from this forked branch. Once this has been merged to main, remember to clear out your branch locally
+
+    ```sh
+    git branch -D branchName
+    ```
+
 ### What constitutes a good PR?
 
 A good quality PR will have the following characteristics:
@@ -65,6 +109,11 @@ Where external information references are available - such as Issue/Story IDs, P
 
 Remember that your commit message must survive the ravages of time. Try to link to something that will be preserved equally well -- another commit, for example, rather than linking to main.
 **Each commit message should include the reason why this commit was made. Usually by adding a sentence completing the form 'So that we...' will give a fantastic amount of context to the history that the code change itself cannot**
+
+
+!!!tip
+    A properly formed Git commit subject line should always be able to complete the following sentence:
+    If applied, this commit will `your subject line here`.
 
 ### Keep it small
 

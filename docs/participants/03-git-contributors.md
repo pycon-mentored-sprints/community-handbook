@@ -20,8 +20,8 @@ and forget to follow those conventions.
 
 To reword the last commit, we can use Git's `--amend` switch to add something to our latest commit (code, changes, rewording). Use the following commands to rephrase the last commit and get that change merged!
 
-"`sh
-$ Git commit --amend -m "feat: better-worded feature"`
+```sh
+$ Git commit --amend -m "feat: better-worded feature```
 $ git push --force
 ```
 
@@ -29,7 +29,7 @@ $ git push --force
 
 Suppose all of your commits need to go to `main` because it makes sense to treat these as atomic units. In that case, you can use Git's interactive rebase functionality to reword any commit between `main` and your `HEAD`. To start an interactive rebase, type:
 
-"`sh
+```sh
 git rebase -i main.
 ```
 
@@ -59,13 +59,13 @@ Follow these steps:
 
 2. Update the remote repository (now called `upstream`):
 
-    "`sh
+    ```sh
     git fetch upstream
     ```
 
 2. Rebase the branch onto `upstream/main`:
 
-    "`sh
+    ```sh
     # go to the feature branch
     git checkout my-feature
     # make a backup in case you mess up
@@ -76,7 +76,7 @@ Follow these steps:
 
 3. Push your changes and remove the backup branch:
 
-      "`sh
+      ```sh
       git push --force
       # delete back up
       git branch -D tmp
@@ -89,20 +89,20 @@ straightforward to recover from such mistakes.
 
 If you mess up during a rebase, you need to type the following command:
 
-"`sh
+```sh
 git rebase --abort
 ```
 
 If you only noticed the mistake **after** the rebase
 
-"`sh
+```sh
 # reset branch back to the last saved point
 git reset --hard tmp
 ```
 
 If you forgot to make a backup branch during the rebase:
 
-"`sh
+```sh
 # look at the reflog of the branch
 git reflog show my-feature
 
@@ -121,7 +121,7 @@ If you didn't mess up, but there are merge conflicts, you need to resolve those.
 
 Maybe your branch has been merged into `main`, and you no longer need it. To delete a branch, you need to:
 
-"`sh
+```sh
 git checkout `main`
 # delete branch locally
 git branch -D my-unwanted-branch
@@ -137,3 +137,4 @@ You might also want to check this StackOverflow answer on how to [delete local a
 - [learn. github](https://help.github.com/) has an excellent series of tutorials
 - The [pro git book](https://git-scm.com/book/) is a good in-depth book on Git.
 - [git ready](http://www.gitready.com/) - a nice series of tutorials
+- [GitFlow etiquette](https://betterprogramming.pub/git-workflow-etiquette-f22d96b8b0b8) if you want to dive more into GitFlow and how to collaborate with others
