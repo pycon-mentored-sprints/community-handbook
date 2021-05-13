@@ -4,7 +4,7 @@ title: Asking good questions
 
 # Asking Good Questions
 
-This document is intended to provide you with the information you need to get help as quickly and effectively as possible. If you're stuck on a problem or you don't understand something, you should always feel welcome to ask for help.
+This document is intended to provide you with the information you need to get help as quickly and effectively as possible. If you're stuck on a problem or don't understand something, you should always feel welcome to ask for help.
 
 ## Before You Ask
 
@@ -17,7 +17,7 @@ Before you ask your question, there are a few things you can do to find an answe
 !!! info
     Essentially, doing your research is the first step towards a solution to any problem.
 
-If none of the above steps help you or you're not sure how to do some of the above steps, feel free to ask any of the mentors for help.
+If none of the above steps helps you, or you're not sure how to do some of the above steps, feel free to ask any of the mentors for help.
 
 ## A Good Question
 
@@ -25,13 +25,13 @@ When you're ready to ask a question, there are a few things that will help you f
 
 - A code example that illustrates your problem (you can copy and paste or save it as a gist in GitHub and share the URL)
 - Details on how you attempted to solve the problem on your own
-- Full version information — for example, `Python 3.6.4 with NumPy 1.21`
+- Full version information — for example, `Python 3.6.4 with NumPy 1.21.`
 - The full traceback if your code raises an exception
 - Do not curate the traceback as you may inadvertently exclude information crucial to solving your issue
 - A screenshot of the output or rendered output
 
 !!! tip
-    Your question should be informative, but to the point. More importantly, how you phrase your question and how you address those that may help you is crucial. Courtesy never hurts.
+    Your question should be informative but to the point. More importantly, how you phrase your question and how you address those that may help you is crucial. Courtesy never hurts.
 
 ## What Not To Ask
 
@@ -39,21 +39,21 @@ When you're ready to ask a question, there are a few things that will help you f
 
 Yes. Always yes. Just ask it.
 
-> Is anyone here good at Flask / VSCode ?
+> Is anyone here good at Flask / VSCode?
 
 There are two problems with this question:
 
-This kind of question does not manage to pique anyone's interest, so you're less likely to get an answer overall. On the other hand, a question like "Is it possible to get VSCode to automatically compile SCSS into CSS files" is much more likely to be interesting to someone. Sometimes, the best answers come from someone who does not already know the answer, but who finds the question interesting enough to go search for the answer on your behalf.
-When you qualify your question by first asking if someone is good at something, you are filtering out potential answerers. Not only are people bad at judging their own skill at something, but the truth is that even someone who has zero experience with the framework you're having trouble with might still be of excellent help to you.
+This kind of question does not manage to pique anyone's interest, so you're less likely to get an answer overall. On the other hand, a question like "Is it possible to get VSCode to compile SCSS into CSS files automatically" is much more likely to be interesting to someone. Sometimes, the best answers come from someone who does not already know the answer but finds the question interesting enough to search for the answer on your behalf.
+When you qualify your question by first asking if someone is good at something, you are filtering out potential answerers. Not only are people bad at judging their skill at something, but the truth is that even someone who has zero experience with the framework you're having trouble with might still be of excellent help to you.
 So instead of asking if someone is good at something, ask your question right away.
 
 > My code doesn't work
 
-This isn't a question, and it provides absolutely no context or information. Depending on the moods of the people that are around, you may even find yourself ignored. Don't be offended by this - try again with a better question.
+This isn't a question, and it provides no context or information. Depending on the moods of the people that are around, you may even find yourself ignored. Don't be offended by this - try again with a better question.
 
 ## Examining Tracebacks
 
-Usually, the first sign of trouble is that when you run your code, it raises an exception. For beginning programmers, the traceback that's generated for the exception may feel overwhelming and discouraging at first. However, in time, most developers start to appreciate the extensive information contained in the traceback as it helps them track down the error in their code. So, don't panic and take a moment to carefully review the information provided to you.
+Usually, the first sign of trouble is that it raises an exception when you run your code. For beginning programmers, the traceback generated for the exception may feel overwhelming and discouraging at first. However, in time, most developers start to appreciate the extensive information in the traceback as it helps them track down the error in their code. So, don't panic and take a moment to review the information provided to you carefully.
 
 ### Reading the traceback
 
@@ -66,7 +66,7 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 ```
 
-In general, the best strategy is to read the traceback from bottom to top. As you can see in the example above, the last line of the traceback contains the actual exception that was raised by your code. In this case, `ZeroDivisionError: division by zero`, indicates the problem: We're trying to divide by zero somewhere in our code and that can't be right. However, while we now know which exception was raised, we still need to trace the exception back to the error in our code.
+In general, the best strategy is to read the traceback from bottom to top. As you can see in the example above, the last line of the traceback contains the actual exception raised by your code. In this case, `ZeroDivisionError: division by zero` indicates the problem: We're trying to divide by zero somewhere in our code, which can't be right. However, while we now know which exception was raised, we still need to trace the exception to the error in our code.
 
 To do so, we turn to the lines above the exception. Reading from bottom to top again, we first encounter the line where the exception was raised: `answer = a / b`. Directly above it, we can see that this line of code was `line 2 `of the file `my_python_file.py` and that it's in the scope of the function division. At this point, it's a good idea to inspect the code referenced here to see if we can spot a mistake:
 
@@ -83,8 +83,8 @@ spam = division(a=10, b=0)
 print(spam)
 ```
 
-We have now traced back the exception to a line of code calling the division function with a divisor of 0.
-This is a simplified example, but the exact same steps apply to more complex situations as well.
+We have now traced the exception to a line of code calling the division function with a divisor of 0.
+This is a simplified example, but the same steps apply to more complex situations as well.
 
 ### The error is sometimes in the line **before** the line in the traceback
 
@@ -99,7 +99,7 @@ File "my_python_file.py", line 2
 SyntaxError: invalid syntax
 ```
 
-The reason this may happen is that Python allows for implicit line continuation and will only notice the error when the expression does not continue as expected on the next line. So, it's always a good idea to also check the line before the one mentioned in the traceback!
+This may happen because Python allows for implicit line continuation and will only notice the error when the expression does not continue as expected on the following line. So, it's always a good idea to check the line before the one mentioned in the traceback!
 
 ### More resources on exceptions
 
@@ -107,8 +107,8 @@ The reason this may happen is that Python allows for implicit line continuation 
 
 Further information on exceptions can be found in the official Python documentation:
 
-- [The built-in exceptions page](https://docs.python.org/3/library/exceptions.html) lists all the built-in exceptions along with a short description of the exception. If you're unsure of the meaning of an exception in your traceback, this is a good place to start.
-- [The errors and exceptions chapter in the official tutorial](https://docs.python.org/3/tutorial/errors.html) gives an overview of errors and exceptions in Python. Besides explaining what exceptions are, it also explains how to handle expected exceptions graciously to keep your application from crashing when an expected exception is raised and how to define custom exceptions specific to your application.
+- [The built-in exceptions page](https://docs.python.org/3/library/exceptions.html) lists all the built-in exceptions along with a short description of the exception. If you're unsure of the meaning of an exception in your traceback, this is an excellent place to start.
+- [The errors and exceptions chapter in the official tutorial](https://docs.python.org/3/tutorial/errors.html) gives an overview of errors and exceptions in Python. Besides explaining what exceptions are, it also describes how to handle expected exceptions graciously to keep your application from crashing when an expected exception is raised and how to define custom exceptions specific to your application.
 
 !!! tip
-    If you encounter an exception specific to an external module or package, it's usually a good idea to check the documentation of that package to see if the exception is documented. Another option is to paste a part of the traceback, usually the last line, into your favorite search engine to see if anyone else has encountered a similar problem. More often than not, you will be able to find a solution to your problem this way.
+    If you encounter an exception specific to an external module or package, it's usually a good idea to check the documentation of that package to see if the exception is documented. Another option is to paste a part of the traceback, usually the last line, into your favourite search engine to see if anyone else has encountered a similar problem. More often than not, you will be able to find a solution to your problem this way.

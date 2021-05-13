@@ -14,7 +14,7 @@ For your convenience, we have created two separate docs:
 ## :mega: Discord server - setup
 
 !!! tip
-    We highly recommend you download the Discord desktop app.
+    We highly recommend you [download the Discord desktop app](https://discord.com/download).
 
 1. Join our Discord Server <br><br>
 [Join Discord :fontawesome-brands-discord:](https://discord.gg/H4fYmEe){ .md-button .md-button--primary }<br><br>
