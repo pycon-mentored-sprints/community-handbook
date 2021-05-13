@@ -54,11 +54,11 @@
     // Typeset
     .md-typeset {
         a {
-            color: var(--secondary-colour);
+            color: var(--md-primary-fg-color);
             border-bottom: 2px solid currentColor;
             &:hover,
             &:focus {
-                color: var(--secondary-light);
+                color: var(--md-primary-fg-color--lightest);
             }
         }
 
@@ -282,6 +282,10 @@ button.button--ui {
     text-align: center;
     font-weight: bold;
     padding: 0.7em 1.15em;
+}
+.md-typeset .md-button--primary {
+    color: white !important;
+    border-bottom: var(--md-primary-fg-color) !important;
 }
 
 // Edit button

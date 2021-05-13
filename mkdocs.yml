@@ -70,6 +70,10 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - toc:
       permalink: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - search
@@ -96,4 +100,6 @@ nav:
     - Contribution Sprints 101: participants/01-index.md
     - Asking Good Questions: participants/02-asking-questions.md
     - Git for contributors: participants/03-git-contributors.md
+    - Git etiquette for contributors: participants/04-git-etiquette.md
+    - Mentored Sprints PyCon 2021: participants/05-pycon2021.md
 

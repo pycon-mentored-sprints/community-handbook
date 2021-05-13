@@ -66,21 +66,21 @@ Follow these steps:
 2. Rebase the branch onto `upstream/main`:
 
     ```sh
-   # go to the feature branch
-   git checkout my-feature
-   # make a backup in case you mess up
-   git branch tmp my-feature
-   # rebase on upstream main branch
-   git rebase upstream/main
+    # go to the feature branch
+    git checkout my-feature
+    # make a backup in case you mess up
+    git branch tmp my-feature
+    # rebase on upstream main branch
+    git rebase upstream/main
     ```
 
 3. Push your changes and remove the backup branch:
 
-   ```sh
-   git push --force
-   # delete back up
-   git branch -D tmp
-   ```
+      ```sh
+      git push --force
+      # delete back up
+      git branch -D tmp
+      ```
 
 ## I have messed something up
 

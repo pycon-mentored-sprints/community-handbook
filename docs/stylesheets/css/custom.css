@@ -48,10 +48,10 @@
   --md-default-bg-color--lighter: #c6c7cc;
   --md-default-bg-color--lightest: #aeaeb3; }
   [data-md-color-scheme="ms-light"] .md-typeset a {
-    color: var(--secondary-colour);
+    color: var(--md-primary-fg-color);
     border-bottom: 2px solid currentColor; }
     [data-md-color-scheme="ms-light"] .md-typeset a:hover, [data-md-color-scheme="ms-light"] .md-typeset a:focus {
-      color: var(--secondary-light); }
+      color: var(--md-primary-fg-color--lightest); }
   [data-md-color-scheme="ms-light"] .md-typeset h1,
   [data-md-color-scheme="ms-light"] .md-typeset h2,
   [data-md-color-scheme="ms-light"] .md-typeset h3,
@@ -191,6 +191,10 @@ button.button--ui {
   text-align: center;
   font-weight: bold;
   padding: 0.7em 1.15em; }
+
+.md-typeset .md-button--primary {
+  color: white !important;
+  border-bottom: var(--md-primary-fg-color) !important; }
 
 a.md-content__button.md-icon {
   border: none; }
