@@ -190,12 +190,14 @@ Do you want to see a pull request merged, a much-needed feature implemented, and
 
 ## Some exciting links
 
+- Step-by-step guide to [making your first PR](https://slides.com/cheukting_ho/1st_pr)
 - Amazing article on h[how to effectively use the commit history as an incredible documentation source
 ](http://mislav.uniqpath.com/2014/02/hidden-documentation/)
 - [Github's recommendations for PRs](https://github.com/blog/1943-how-to-write-the-perfect-pull-request), which has some useful tips on notifying teams and colleagues via the GitHub @-syntax.
 - [The GOV.UK git styleguide](https://github.com/alphagov/styleguides/blob/main/git.md)
 - [An example of a perfect commit message](https://github.com/gds-operations/vcloud-edge_gateway/pull/111)
-
+- [A fantastic template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733) on how to write great commits.
+  
 ---
 
 Thanks to @mikepea and [their great PR etiquette resource](https://gist.github.com/mikepea/863f63d6e37281e329f8) which inspired loads of this section 🙏

@@ -33,6 +33,9 @@ Command | Behaviour | Notes
 `!coc-report` | Starts a private coc report | This can be invoked by anyone in the `#coc-report` channel
 `!bang {username}` | Celebrate someone's accomplishment | We highly encourage you to use this whenever someone achieves something in your team. Please use `#celebrate-wins`
 
+!!!important
+    Check [Our server](../mentors/03-discord.md) for details on how the server works and rules regarding rooms.
+
 ## :video_camera: Sharing your screen and video
 
 ### Discord

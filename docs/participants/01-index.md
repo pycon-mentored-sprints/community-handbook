@@ -71,5 +71,6 @@ Some valuable tips to make the most of pair programming:
 
 ## Additional resources
 
+- This blogpost on [What to expect of sprints by Trey Hunner](https://treyhunner.com/2019/04/making-the-most-of-the-pycon-sprints/) is a great introduction to sprints
 - This blogpost [Contributing to open source: let's get us started](https://dev.to/azure/contributing-to-open-source-projects-let-s-get-us-all-started-13ff) can be very helpful to set the context for sprints participation.
 - Read more about pair programming in [this guide](https://medium.com/@weblab_tech/pair-programming-guide-a76ca43ff389)
