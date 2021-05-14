@@ -25,7 +25,7 @@ $ Git commit --amend -m "feat: better-worded feature```
 $ git push --force
 ```
 
-### I added more than commit
+### I added more than one commit
 
 Suppose all of your commits need to go to `main` because it makes sense to treat these as atomic units. In that case, you can use Git's interactive rebase functionality to reword any commit between `main` and your `HEAD`. To start an interactive rebase, type:
 
@@ -122,7 +122,7 @@ If you didn't mess up, but there are merge conflicts, you need to resolve those.
 Maybe your branch has been merged into `main`, and you no longer need it. To delete a branch, you need to:
 
 ```sh
-git checkout `main`
+git checkout main
 # delete branch locally
 git branch -D my-unwanted-branch
 # delete branch on GitHub

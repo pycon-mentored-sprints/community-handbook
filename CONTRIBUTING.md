@@ -20,7 +20,7 @@
 
 :rainbow: Welcome to the Mentored Sprints Community Handbook repository :rainbow:.
 
-We are so excited that you want to contribute to {{cookiecutter.project_name} :sparkles:. And we are **committed to ensuring that every user and contributor feels welcome and included in this community**.
+We are so excited that you want to contribute to The Community handbook :sparkles:. And we are **committed to ensuring that every user and contributor feels welcome and included in this community**.
 
 All kind of contributions are welcome and are accepted through GitHub issues and pull requests (PR). Please read these guidelines to make sure we can integrate your contributions easily into the project.
 
@@ -47,6 +47,8 @@ The current list of labels can be found [here][labels]. You will notice that the
 #### Per availability
 
 * ![Good First Issue](https://img.shields.io/badge/-good%20first%20issue-7C038C.svg) These issues contain a task that anyone with any level of experience can help. These issues are particularly appropriate if it is your first contribution to the project or to GitHub overall.
+
+* ![mentored sprints](https://img.shields.io/badge/-mentored%20sprints-aa2ee6.svg) These are actionable issues that can be completed in a contribution sprints.
 
 <br>
 

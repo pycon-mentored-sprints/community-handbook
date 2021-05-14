@@ -16,7 +16,7 @@
 - [:sparkles: Contributors](#sparkles-contributors)
 - [:book: License](#book-license)
 
-The Mentored Sprints Community Handbook is a collaborative handbook for organisers, mentors and participants of open-source coding sprints.  You're currently viewing the project GitHub repository where all of the bits that make up the guide live, and where the process of writing/building the handbook happens.
+The Mentored Sprints Community Handbook is a collaborative handbook for organisers, mentors and participants of open-source Contribution sprints.  You're currently viewing the project GitHub repository where all of the bits that make up the guide live, and where the process of writing/building the handbook happens.
 
 ## :computer: Development setup
 
@@ -27,13 +27,14 @@ To set your development environment you'll need:
 - Python > 3.6
 - git
 
-Let's get started:
+Once you have forked and cloned the repository you can go ahead an set your development environment. Follow these steps:
 
 1. Create a virtual environment:
 
 ```sh
   # first need to make sure we have everything installed
   python3 -m pip install --user virtualenv
+  # this will create a .env directory at the root of your project
   python3 -m venv .env
 ```
 
@@ -46,13 +47,13 @@ source .env/bin activate
 3. Install dependencies:
 
 ```sh
-  python3 -m pip install -r requirements.txt
+$  python3 -m pip install -r requirements.txt
 ```
 
 Once your dependencies are installed and within your activated environment you should be able to liveserve the site using:
 
 ```sh
-mkdocs serve
+$ mkdocs serve
 ```
 
 and head to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to see the changes reflected as you work on the handbook.
@@ -60,7 +61,7 @@ and head to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to 
 Once done you can stop the server by typing <kbd>Ctrl</kbd> + <kbd>c</kbd> in your terminal and deactivate your environment with:
 
 ```sh
-  deactivate
+$ deactivate
 ```
 
 ## :pencil: Contributing
