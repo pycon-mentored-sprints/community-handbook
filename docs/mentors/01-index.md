@@ -6,10 +6,11 @@ title: Mentored Sprints  - PyCon 2021
 
 Welcome Mentored Sprints mentors! We are so grateful to have you all onboard :pray:. We have put together a set of docs to guide and help you prepare for the Mentored Sprints.
 
-For your convenience, we have created two separate docs:
+!!! info "Getting you ready for mentoring"
+    For your convenience, we have created two separate docs:
 
-1. The technical setup (this doc)
-2. Mentoring and preparing yourself and your project for the sprint: [preparing as a mentor](./02-prepare.md)
+    1. The technical setup (this doc): goes over the technical details of the infrastructure
+    2. Mentoring and preparing yourself and your project for the sprint: [preparing as a mentor](./02-prepare.md) practicak advise on how to prepare and what to do to support your mentees
 
 ## :mega: Discord server - setup
 
@@ -34,7 +35,7 @@ Command | Behaviour | Notes
 `!bang {username}` | Celebrate someone's accomplishment | We highly encourage you to use this whenever someone achieves something in your team. Please use `#celebrate-wins`
 
 !!!important
-    Check [Our server](../mentors/03-discord.md) for details on how the server works and rules regarding rooms.
+    Check [The Mentored Sprints Discord Server Guide](../mentors/03-discord.md) for details on how the server works and rules regarding rooms.
 
 ## :video_camera: Sharing your screen and video
 
@@ -85,8 +86,10 @@ When you join our team, you will see a left-sidebar similar to the Discord panel
 
 !!!tip
     Suppose you want to invite a mentee/contributor to a Duckly channel. In that case, you can use the command `!duckly {project}` from Discord.
-    For example for `SciPy` you'd use `!duckly scipy`. So there is no need for you to share the invite link manually.
+    For example for `Bokeh` you'd use `!duckly bokeh`. So there is no need for you to share the invite link manually.
     Note you need to write the name exactly as it appears on the Discord channel (i.e. all lowercase and with `-` instead of spaces). This should work on any text channel in Discord.
+
+![Duckly - discord bot screenshot](../images/../assets/images/duckly-bokeh.png)
 
 !!!info
       Since Duckly does not have persistent text chats, we use both Discord and Duckly - let's keep Discord for text and Duckly for code walkthroughs and debugging.
