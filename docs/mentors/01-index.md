@@ -64,7 +64,9 @@ You can also invoke any of the following commands for the management of your tem
 We know pair programming and remote debugging can be challenging. This year we are using Duckly.
 Duckly is a video chat and real-time collaboration tool built for teams. It enables distributed teams to talk and work together in a better and more efficient way. With Duckly you can share a web page, your code directly from your IDE, share your terminal, screen and collaborate as if you were side-by-side.
 
-**You should have received an invite link to join the Duckly team space**.
+!!!warning "Important"
+    You should have received an invite link to join the Duckly team space. Otherwise, [head to this message in the Discord server](https://discord.com/channels/710131475244384358/710131475973931070/842771189814657084)
+
 To get started, follow these steps:
 
 1. Create a Duckly account and select your username: <https://duckly.com/onboarding>
