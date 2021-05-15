@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a346e877-a9e6-4cb8-a56b-22b791a3c734/deploy-status)](https://app.netlify.com/sites/mentored-sprints/deploys)
@@ -79,13 +79,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://cheuk.dev"><img src="https://avatars1.githubusercontent.com/u/28761465?v=4" width="100px;" alt=""/><br /><sub><b>Cheuk Ting Ho</b></sub></a><br /><a href="https://github.com/pycon-mentored-sprints/community-handbook/commits?author=Cheukting" title="Documentation">📖</a> <a href="#ideas-Cheukting" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/vfdev-5"><img src="https://avatars0.githubusercontent.com/u/2459423?v=4" width="100px;" alt=""/><br /><sub><b>vfdev</b></sub></a><br /><a href="https://github.com/pycon-mentored-sprints/community-handbook/issues?q=author%3Avfdev-5" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://cheuk.dev"><img src="https://avatars1.githubusercontent.com/u/28761465?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cheuk Ting Ho</b></sub></a><br /><a href="https://github.com/pycon-mentored-sprints/community-handbook/commits?author=Cheukting" title="Documentation">📖</a> <a href="#ideas-Cheukting" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/vfdev-5"><img src="https://avatars0.githubusercontent.com/u/2459423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vfdev</b></sub></a><br /><a href="https://github.com/pycon-mentored-sprints/community-handbook/issues?q=author%3Avfdev-5" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/yashasvi-misra-094511165/"><img src="https://avatars.githubusercontent.com/u/54177363?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yashasvi Misra</b></sub></a><br /><a href="#projectManagement-yashasvimisra2798" title="Project Management">📆</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
