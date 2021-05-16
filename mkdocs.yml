@@ -14,16 +14,19 @@ copyright: Copyright &copy; 2020-2021 Mentored Sprints
 theme:
   name: material
   palette:
-    - scheme: ms-light
-      primary: ms-blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: ms-dark
-      primary: ms-blue
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+    scheme: preference
+    media: "(preference-color-scheme: light)"
+    scheme: ms-light
+    primary: ms-blue
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+    media: "(preference-color-scheme: dark)"
+    scheme: ms-dark
+    primary: ms-blue
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
   icon:
     repo: fontawesome/brands/github-square
 
@@ -64,7 +67,7 @@ extra:
 markdown_extensions:
   - meta
   - admonition
-  - pymdownx.highlight: 
+  - pymdownx.highlight:
       linenums: true
   - pymdownx.superfences
   - pymdownx.inlinehilite
@@ -85,14 +88,14 @@ plugins:
 # TODO: add custom meta tags - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/
 
 # Page tree
-nav: 
+nav:
   - Home: index.md
   - Code of conduct:
     - Introduction: code-of-conduct/01-index.md
     - CoC in detail: code-of-conduct/02-coc-detail.md
     - Reporting Guidelines: code-of-conduct/03-reporting.md
     - Enforcement Manual: code-of-conduct/04-enforcement.md
-  - Organisers: 
+  - Organisers:
     - Getting Started: organisers/01-index.md
     - Roles and People: organisers/02-people.md
     - Tools and Apps: organisers/03-tools.md
@@ -106,4 +109,3 @@ nav:
     - Mentored Sprints PyCon 2021: mentors/01-index.md
     - Preparation for the sprints: mentors/02-prepare.md
     - Our Discord server: mentors/03-discord.md
-
