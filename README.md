@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a346e877-a9e6-4cb8-a56b-22b791a3c734/deploy-status)](https://app.netlify.com/sites/mentored-sprints/deploys)
@@ -83,6 +83,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/vfdev-5"><img src="https://avatars0.githubusercontent.com/u/2459423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vfdev</b></sub></a><br /><a href="https://github.com/pycon-mentored-sprints/community-handbook/issues?q=author%3Avfdev-5" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/yashasvi-misra-094511165/"><img src="https://avatars.githubusercontent.com/u/54177363?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yashasvi Misra</b></sub></a><br /><a href="#projectManagement-yashasvimisra2798" title="Project Management">📆</a></td>
     <td align="center"><a href="https://mukulikapahari.medium.com"><img src="https://avatars.githubusercontent.com/u/60316606?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mukulika</b></sub></a><br /><a href="#maintenance-Mukulikaa" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/MeekaElla"><img src="https://avatars.githubusercontent.com/u/80059832?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Meeka</b></sub></a><br /><a href="#maintenance-MeekaElla" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 

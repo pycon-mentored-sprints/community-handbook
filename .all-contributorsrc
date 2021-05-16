@@ -41,6 +41,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "MeekaElla",
+      "name": "Meeka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80059832?v=4",
+      "profile": "https://github.com/MeekaElla",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
