@@ -214,7 +214,13 @@ a.md-content__button.md-icon {
 .md-footer__link.md-footer__link--next {
   border-bottom: none; }
 
+.md-nav__title[for="__drawer"] {
+  background-color: var(--md-primary-fg-color) !important;
+  color: var(--md-primary-bg-color) !important; }
+
 .md-nav__title {
+  background-color: unset !important;
+  color: unset !important;
   padding: 1.2rem; }
 
 .md-nav {
