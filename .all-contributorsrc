@@ -50,6 +50,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "trangology",
+      "name": "trangology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37827647?v=4",
+      "profile": "http://trangology.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
