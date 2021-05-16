@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Mentored Sprints
+    url: https://www.mentored-sprints.dev/
+    about: Making open source contribution sprints friendlier and more accessible to all.
+  - name: Mentored Sprints Discord Server
+    url: https://discord.com/invite/H4fYmEe 
+    about: Chat with the Mentored Sprint community on Discord
+  - name: Mentored Sprints Community Handbook
+    url: https://mentored-sprints.netlify.app/
+    about: This handbook is collaboratively written and open from the start.
