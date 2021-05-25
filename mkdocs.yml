@@ -20,7 +20,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-- media: "(preference-color-scheme: dark)"
+    - media: "(preference-color-scheme: dark)"
       scheme: ms-dark
       primary: ms-blue
       toggle:
@@ -89,11 +89,13 @@ plugins:
 # Page tree
 nav:
   - Home: index.md
+  - About: about.md
   - Code of conduct:
     - Introduction: code-of-conduct/01-index.md
     - CoC in detail: code-of-conduct/02-coc-detail.md
     - Reporting Guidelines: code-of-conduct/03-reporting.md
     - Enforcement Manual: code-of-conduct/04-enforcement.md
+    - Acknowledgment: code-of-conduct/05-acknowledgement.md
   - Organisers:
     - Getting Started: organisers/01-index.md
     - Roles and People: organisers/02-people.md
