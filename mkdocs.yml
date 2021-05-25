@@ -14,7 +14,6 @@ copyright: Copyright &copy; 2020-2021 Mentored Sprints
 theme:
   name: material
   palette:
-    scheme: preference
     media: "(preference-color-scheme: light)"
     scheme: ms-light
     primary: ms-blue
