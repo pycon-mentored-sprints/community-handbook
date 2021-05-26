@@ -64,6 +64,16 @@ Once done you can stop the server by typing <kbd>Ctrl</kbd> + <kbd>c</kbd> in yo
 $ deactivate
 ```
 
+### :pencil: To work on the stylesheets/theme:
+
+:warning: You will need to install [sass](https://sass-lang.com/) locally first.
+
+The stylesheets are located in [.docs/stylesheets](.docs/stylesheets). As you work on them you can compile it by typing in the terminal:
+
+```sh
+sass docs/stylesheets/custom.scss:docs/stylesheets/css/custom.css --watch      
+```
+
 ## :pencil: Contributing
 
 :construction: This repository is always a work in progress, and everyone is encouraged to help us build something that is useful to the many. :construction:
