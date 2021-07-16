@@ -10,7 +10,7 @@ Welcome Mentored Sprints mentors! We are so grateful to have you all onboard :pr
     For your convenience, we have created two separate docs:
 
     1. The technical setup (this doc): goes over the technical details of the infrastructure
-    2. Mentoring and preparing yourself and your project for the sprint: [preparing as a mentor](./02-prepare.md) practicak advise on how to prepare and what to do to support your mentees
+    2. Mentoring and preparing yourself and your project for the sprint: [preparing as a mentor](./02-prepare.md) practical advice on how to prepare and what to do to support your mentees
 
 ## :mega: Discord server - setup
 
@@ -83,8 +83,15 @@ When you join our team, you will see a left-sidebar similar to the Discord panel
 
 ![Duckly panel](https://cdn.discordapp.com/attachments/840161206739664926/840221434839564330/Dashboard_-_Video_chat_with_real-time_collaboration_-_Duckly.png)
 
-- **To join a room:** click on the room name. You can then choose your mic, camera, share your terminal and IDE.
-- **To leave a room:**Click on the **leave** button on the top-right corner
+- **To join a room:** hover over a room name and click on the **Go live** button. 
+  
+  ![Duckly go live](../assets/images/duckly-live.png)
+
+- Once you have joined a live channel you can choose your mic, camera, share your terminal and IDE. Head to the bottom left corner of the window and select your tools.
+
+    ![Duckly tools](../assets/images/duckly-tools.png)
+
+- **To leave a room:**Click on the **disconnect** button on the tools panel (red hand icon above).
 
 !!!tip
     Suppose you want to invite a mentee/contributor to a Duckly channel. In that case, you can use the command `!duckly {project}` from Discord.
@@ -92,6 +99,3 @@ When you join our team, you will see a left-sidebar similar to the Discord panel
     Note you need to write the name exactly as it appears on the Discord channel (i.e. all lowercase and with `-` instead of spaces). This should work on any text channel in Discord.
 
 ![Duckly - discord bot screenshot](../images/../assets/images/duckly-bokeh.png)
-
-!!!info
-      Since Duckly does not have persistent text chats, we use both Discord and Duckly - let's keep Discord for text and Duckly for code walkthroughs and debugging.

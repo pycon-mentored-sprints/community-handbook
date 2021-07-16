@@ -22,12 +22,9 @@ Make sure your sprint is successful with careful planning ahead of time. As part
 
 If you want to go the extra mile, choose one or more of the following strategies:
 
-- Tagging issues with your `mentored-sprints` in your project's repo makes them easier to find.
+- Tagging issues with your `mentored-sprints` or `SciPy-2021` in your project's repo makes them easier to find.
 - Tagging issues for newcomers - they should be actionable, self-contained items folks can work on.
 - Reserving easier, newcomer-appropriate issues for sprint newcomers ahead of time.
-
-!!!done "Action needed"
-    If you curate special issues or use the `mentored-sprints` label, please add them to this document: <https://hackmd.io/@trallard/Bk2eFDYd_>
 
 !!!tip
     Make sure to find diverse issues: documentation, code, design, checking tutorials, working on social media packs or policies.
