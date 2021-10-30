@@ -4,14 +4,19 @@
 </div>
 <br>
 
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+## :link: Useful links
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a346e877-a9e6-4cb8-a56b-22b791a3c734/deploy-status)](https://app.netlify.com/sites/mentored-sprints/deploys)
+Information | Link |
+---------|----------|
+Project | [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Community Handbook](https://img.shields.io/badge/📖%20Read-the%20community%20handbook-gray.svg?colorA=2D2A56&colorB=5936D9&style=flat.svg)](https://mentored-sprints.netlify.app/) [![I want to contribute](https://img.shields.io/badge/⚡️-I%20want%20to%20contribute-gray.svg?colorA=2D2A56&colorB=5936D9&style=flat.svg)](https://github.com/pycon-mentored-sprints/community-handbook/blob/main/CONTRIBUTING.md) [![I want to organise a sprint](https://img.shields.io/badge/💻-I%20want%20to%20run%20a%20sprint-gray.svg?colorA=2D2A56&colorB=F24484&style=flat.svg)](https://www.mentored-sprints.dev/getstarted/) |
+News | [![Twitter Follow](https://img.shields.io/twitter/follow/mentoredsprints?style=social)](https://twitter.com/mentoredsprints) |
+Chat | [![I want to contribute](https://img.shields.io/badge/💬%20Chat-on%20Discord-gray.svg?colorA=2D2A56&colorB=0396A6&style=flat.svg)](https://mentored-sprints.netlify.app/) |
+Build | [![Netlify Status](https://api.netlify.com/api/v1/badges/a346e877-a9e6-4cb8-a56b-22b791a3c734/deploy-status)](https://app.netlify.com/sites/mentored-sprints/deploys) |
 
+
+- [:link: Useful links](#link-useful-links)
 - [:computer: Development setup](#computer-development-setup)
+  - [:pencil: To work on the stylesheets/theme:](#pencil-to-work-on-the-stylesheetstheme)
 - [:pencil: Contributing](#pencil-contributing)
 - [:sparkles: Contributors](#sparkles-contributors)
 - [:book: License](#book-license)
