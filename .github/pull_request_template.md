@@ -3,6 +3,7 @@
 <!-- Provide a general summary of your changes in the Title above -->
 
 ## Description
+
 <!-- Describe your changes in detail -->
 
 ## Related issue
@@ -11,9 +12,20 @@ Fixes #<issue_no>
 
 ## List of changes
 <!-- Make a list of changes proposed in your PR -->
+<!-- We suggest using bullets (indicated by * or -) and filled checkboxes [x] here -->
+
+* *Lorem ipsum dolor sit amet, consectetur adipiscing.*
+* *Lorem ipsum dolor sit amet, consectetur adipiscing.*
 
 ## Feedback request
 <!-- Describe what the reviewer should concentrate their feedback on -->
 
 <!-- Make sure to add all the relevant tags according to the CONTRIBUTING.md after submitting your PR -->
 <!-- Thank you for your contribution! -->
+
+### Acknowledging contributors
+
+<!-- Please select the correct box -->
+
+- [ ] All contributors to this pull request are already named in the [table of contributors](https://github.com/pycon-mentored-sprints/community-handbook#readme) in the README file.
+- [ ] The following people should be added to the [table of contributors](https://github.com/pycon-mentored-sprints/community-handbook#readme) in the README file: <!-- replace this text with the GitHub IDs of any new contributors -->
