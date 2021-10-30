@@ -1,0 +1,27 @@
+name: 📝 New content proposal
+description: Do you have a new idea for content?
+labels: ["type: new content 📝 "]
+body:
+
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: |
+      Please provide a description of the content you are writing or proposing. Thing about the following:
+      - What is the purpose of the new content?
+      - Why are you proposing it?
+      - Have you started any PRs for this? If so link to it
+  validations:
+    required: true
+
+- type: textarea
+  id: resources
+  attributes:
+    label: :book: Resources
+    description: |
+      List and describe any external resouces that might be helpful to write the content. We suggest using bullets (indicated by * or -) and filled checkboxes [x] here
+  validations:
+    required: false
+
