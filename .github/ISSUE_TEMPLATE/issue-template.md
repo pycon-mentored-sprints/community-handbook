@@ -1,29 +1,30 @@
 ---
-name: issue template
-about: Describe this issue template's purpose here.
-title: Additional information
+name: General issue
+about: Open
+title: A template for many kind of issues
 labels: ''
 assignees: ''
 
 ---
+<!--
+Please complete the following sections when you open an issue. You are encouraged to keep this top level comment box updated as you develop and respond to reviews. If you have write access to the repository please also assign the appropriate label (or labels) to your issue. Note that text within html comment tags will not be rendered.
+-->
 
 ## Issue Summary
-<!-- Provide a concise description of what the issue is all about.-->
 
-### Discussion 
-<!-- Use this section to highlight the outcomes of any discussions you have had with regard to the development. [THIS IS OPTIONAL] -->
+<!-- Please provide a detailed description of the change or addition you are proposing, or the question you're asking. Please provide as much context as possible and link to related issues and/or pull requests.
+-->
 
-### Resources
-<!-- List and describe any external resources that may be helpful to the contributor. We suggest writing those in bullet points -->
+### What needs to be done?
 
-### Updates
+<!-- We suggest using bullets (indicated by * or -) and filled checkboxes [x] here -->
 
-<!-- To avoid that others have to read through the full thread of comments, update the initial issue with important updates (for example, actions or decisions taken) regularly so that all the important information is available at one glance. You may use the checklist here to get started, feel free to modify this list.-->
+- [ ] *Lorem ipsum dolor sit amet, consectetur adipiscing.*
+- [ ] *Lorem ipsum dolor sit amet, consectetur adipiscing.*
 
-- [ ] Write issue outline
-- [ ] Add material to the issue
-- [ ] Combine materials into a readable issue
-- [ ] Proofread
-- [ ] Request reviews
-- [ ] Address reviews
-- [ ] Merge to master branch.
+### Who can help?
+
+<!-- We suggest using bullets (indicated by * or -) and filled checkboxes [x] here -->
+
+* *Lorem ipsum dolor sit amet, consectetur adipiscing.*
+* *Lorem ipsum dolor sit amet, consectetur adipiscing.*
