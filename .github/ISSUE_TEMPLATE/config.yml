@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: :rocket: Mentored Sprints main website
+  - name: 🚀 Mentored Sprints main website
     url: https://www.mentored-sprints.dev/
     about: Making open source contribution sprints friendlier and more accessible to all
-  - name: :speech_balloon: Mentored Sprints Discord Server
+  - name: 💬 Mentored Sprints Discord Server
     url: https://discord.com/invite/H4fYmEe 
     about: Chat with the Mentored Sprint community on Discord
-  - name: :book: Mentored Sprints Community Handbook
+  - name: 📖 Mentored Sprints Community Handbook
     url: https://mentored-sprints.netlify.app/
     about: Our approach and open practices for attendees and organisers
