@@ -19,9 +19,18 @@ body:
 - type: textarea
   id: resources
   attributes:
-    label: :book: Resources
+    label: Resources
     description: |
       List and describe any external resouces that might be helpful to write the content. We suggest using bullets (indicated by * or -) and filled checkboxes [x] here
   validations:
     required: false
 
+- type: textarea
+  id: updates
+  attributes:
+    label: Updates
+    description: |
+      To avoid that others have to read through the full thread of comments, please update the initial issue with important updates (e.g. decisions taken) regularly. You can update any of the sections above directly (this is encouraged!) or add new information below in this new section.
+      _If you can't think of anything then just leave this blank and we can fill it in later! This can be filled in as we understand more about the content._
+  validations:
+    required: false
