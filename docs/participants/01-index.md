@@ -8,7 +8,7 @@ It is fascinating to participate in a sprint. Here is a guide to help you prepar
 
 ## What is a mentored sprint?
 
-A sprint, in general term, is an event or meeting that people gather to get specific goals in a project done. The sprint that you are going to join will be focusing on contributing to open-source projects. There a lot's of different types of contribution that you may be making. From bugs fixing to checking typos in the documentation or user testings.
+A sprint, in general term, is an event or meeting that people gather to get specific goals in a project done. The sprint that you are going to join will be focusing on contributing to open-source projects. There are lots of different types of contribution that you may be making. From bugs fixing to checking typos in the documentation or user testings.
 
 A mentored sprint is a sprint that there will be mentors. Usually, they are maintainers of the projects you will work on or senior contributors in those projects. They will guide new contributors, including setting up the developing environment or tools needed and telling them where to find relevant issues to work on.
 
@@ -20,16 +20,16 @@ You will be expecting to work with people who are welcoming and happy to help yo
 
 As a participant, the most important thing is to make sure you will enjoy the sprint.  It can be an exciting learning journey followed by a great sense of achievement. Here are a few things that would give you a head start.
 
-### 1. Read and make sure you understand the code of conduct
+### 1. Read and make sure you understand the Code of Conduct
 
 To make sure everyone works together in a safe and welcoming environment:
-Make sure you have read and understood the code of conduct.
+Make sure you have read and understood the Code of Conduct.
 Check how you can report a violation.
 Ask the organisers if there are any questions.
 
-### 2. Prepare the conferencing and chatting tools
+<!-- ### 2. Prepare the conferencing and chatting tools
 
-Since we will carry out the sprint online before you can join, make sure you have installed the conferencing and chatting tools used during the sprint. Usually, using the tools with their corresponding desktop app can ensure connection and function stability over the browser version. Therefore we highly recommend you have those installed. If you have to register a free account for login, go ahead and do so.
+Since we will carry out the sprint online before you can join, make sure you have installed the conferencing and chatting tools used during the sprint. Usually, using the tools with their corresponding desktop app can ensure connection and function stability over the browser version. Therefore we highly recommend you have those installed. If you have to register a free account for login, go ahead and do so. -->
 
 ### 3. Prepare git and GitHub
 
@@ -65,9 +65,9 @@ Some valuable tips to make the most of pair programming:
 - The pair (both people) should be talking to one another constantly
 - It is often best to have one person typing than switching too often
 - For pairs where the two people have different experience levels, the less experienced person should be typing
-- **Use video:** Since people communicate a lot through gestures and facial expressions, it is nice to see the shared screen and your pairing partner's video simultaneously. Some video conference solutions come with this feature; if yours doesn't, consider opening up an additional call to see each other.
-- **Audio experience:** Look for a quiet area and use a good headset, maybe even with a directional microphone. If you can't get away from the noise, "push to speak" functionality can also help. To avoid distractions on your side, noise-cancelling headphones are your friend.
--**Dealing with network lag**: It can be exhausting to work on a remote computer for a more extended period when there is a network lag. So make sure to switch computers regularly, so that each of you has a chance to work on your machine without lag. A network lag can also be annoying when you scroll through files because it can be hard to follow. It helps avoid scrolling in long files, using keyboard shortcuts to open different parts of the file, or using the collapse/un-collapse functionality instead.
+- **Online - Use video:** Since people communicate a lot through gestures and facial expressions, it is nice to see the shared screen and your pairing partner's video simultaneously. Some video conference solutions come with this feature; if yours doesn't, consider opening up an additional call to see each other.
+- **Onlin - Audio experience:** Look for a quiet area and use a good headset, maybe even with a directional microphone. If you can't get away from the noise, "push to speak" functionality can also help. To avoid distractions on your side, noise-cancelling headphones are your friend.
+-**Online -Dealing with network lag**: It can be exhausting to work on a remote computer for a more extended period when there is a network lag. So make sure to switch computers regularly, so that each of you has a chance to work on your machine without lag. A network lag can also be annoying when you scroll through files because it can be hard to follow. It helps avoid scrolling in long files, using keyboard shortcuts to open different parts of the file, or using the collapse/un-collapse functionality instead.
 
 ## Additional resources
 
