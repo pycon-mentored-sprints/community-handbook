@@ -14,7 +14,7 @@ Let's consider the types of folks involved in the sprints and their essential re
  Contributors/mentees                        | Contribute to the projects involved in the sprints.
  General mentors                             | - Welcome, orient and help contributors <br><br> We usually ensure we have a mix of: <br>- Newcomers' mentors: general questions, help with the tools used for the sprint <br>- Git helpdesk
  Mentors (project)  / Project leads          | - Onboard new members to a specific project  <br>- Help with project-specific questions and pull request reviews <br>- Ensure there are a diverse set of tasks to work on the day (i.e. beginner-friendly, code and non-code issues, translations) <br>- Celebrate wins of their mentees and report on progress <br> - Points of contact for their initiative or project
- Organising teams / Sprint leads             | - The main point of contact for the event <br>- Delegates tasks and ensures these are on track<br> - Liaise with conference or summit organisers (if embedded in a larger event) <br> - Ensure there is a coc enforment person at all times <br> - Send out comms <br> - Organise tech checks
+ Organising teams / Sprint leads             | - The main point of contact for the event <br>- Delegates tasks and ensures these are on track<br> - Liaise with conference or summit organisers (if embedded in a larger event) <br> - Ensure there is a CoC enforcement person at all times <br> - Send out comms <br> - Organise tech checks
 
 Since this chapter is focused on the organisation of the teams, we will dive into the main organisers' responsibilities.
 
@@ -24,8 +24,8 @@ The first step is to identify how many hands you're going to need to be able to 
 
 - Include folks with experience running sprints or community events. (Not everyone has to have prior experience but make sure to at least have a mixture of experienced and new organisers.)
 - Have a diverse set of organisers or advisers.
-- If you are running an event online make sure to have organisers at the timezones/regions you are targeting. They will be the best allies to get the word out to the local communities and perhaps you do not want to run a 24hrs sprint on your own.
-- Keep track of the meetings, record meetings if possible (especially when working across timezones, trust me it is tough to set meeting times when you have folks in JST, BST, CST and PDT timezones).
+- If you are running an event online make sure to have organisers at the time zones/regions you are targeting. They will be the best allies to get the word out to the local communities, and perhaps you do not want to run a 24hrs sprint on your own.
+- Keep track of the meetings, record meetings if possible (especially when working across timezones, trust me it is tough to set meeting times when you have folks in JST, BST, CST and PDT time zones).
 
 !!! tip
     Be clear with your volunteer and organising teams about the roles and their responsibilities. Be mindful and explicit about time expectations, especially if you are all volunteers.

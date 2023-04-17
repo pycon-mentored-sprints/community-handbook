@@ -1,10 +1,9 @@
-
 <div align="center">
- <img alt="Logo" src="./assets/logos/community_handbook_lilac.png" width="300" />
+ <img alt="Community handbook logo" src="./assets/logos/community_handbook_lilac.png" width="300" />
 </div>
 <br>
 
-## :link: Useful links
+## Useful links 🔗
 
 Information | Link |
 ---------|----------|
@@ -13,10 +12,9 @@ News | [![Twitter Follow](https://img.shields.io/twitter/follow/mentoredsprints?
 Chat | [![I want to contribute](https://img.shields.io/badge/💬%20Chat-on%20Discord-gray.svg?colorA=2D2A56&colorB=0396A6&style=flat.svg)](https://mentored-sprints.netlify.app/) |
 Build | [![Netlify Status](https://api.netlify.com/api/v1/badges/a346e877-a9e6-4cb8-a56b-22b791a3c734/deploy-status)](https://app.netlify.com/sites/mentored-sprints/deploys) |
 
-
-- [:link: Useful links](#link-useful-links)
+- [Useful links 🔗](#useful-links-)
 - [Development setup 💻](#development-setup-)
-- [To work on the stylesheets/theme 🎨](#to-work-on-the-stylesheetstheme-)
+- [Working on the stylesheets/theme 🎨](#working-on-the-stylesheetstheme-)
 - [Contributing 🤝](#contributing-)
 - [Contributors ✨](#contributors-)
 - [License 📄](#license-)
@@ -68,7 +66,7 @@ Once you have forked and cloned the repository you can go ahead and set your dev
    deactivate
    ```
 
-## To work on the stylesheets/theme 🎨
+## Working on the stylesheets/theme 🎨
 
 :warning: You will need to install [sass](https://sass-lang.com/) locally first.
 

@@ -15,7 +15,7 @@ Make sure your sprint is successful with careful planning ahead of time. As part
 
 If you want to go the extra mile, choose one or more of the following strategies:
 
-- Tagging issues with your `mentored-sprints` or `PyCon-2022` in your project's repo makes them easier to find.
+- Tagging issues with your `mentored-sprints` or `PyCon-2023` in your project's repo makes them easier to find.
 - Tagging issues for newcomers - they should be actionable, self-contained items folks can work on.
 - Reserving easier, newcomer-appropriate issues for sprint newcomers ahead of time.
 
@@ -30,13 +30,14 @@ As the day progresses, keep track of the issue numbers you’re working on. Trac
 ### :package: Project mentors
 
 1. Aim to be in the room 10 minutes before the start time - this will help up avoid distractions.
-1. Introduce yourself
+2. Introduce yourself and your project (if applicable).
+3. Share the issues you triaged with the contributors.
+4. There is a scheduled break - make sure to take it!
+
 !!!done "Action needed"
     Please come prepared to give a 1-2 mins intro to the project you will be mentoring on.
-    **You do not need slides** but we want to give you time and space to make sure you introduce yourself and the project.
-1. Share the issues you triaged with the contributors.
-1. There is a scheduled break - make sure to take it!
-
+    **You do not need slides**, but we want to give you time and space to make sure you introduce yourself and the project.
+    
 ### :teacher: General and Git mentors
 
 1. Introduce yourself - you do not need a pitch but be prepared to say hello (this is useful for folks to know who to ask help for)

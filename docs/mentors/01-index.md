@@ -2,9 +2,10 @@
 title: Mentored Sprints Mentors Welcome!
 ---
 
-# Mentors Handbook
+# Mentors' Handbook
 
-Welcome Mentored Sprints mentors! We are so grateful to have you all onboard :pray:. We have put together a set of docs to guide and help you prepare for the Mentored Sprints.
+Welcome Mentored Sprints mentors! We are so grateful to have you all onboard :pray:, we would not be able to run Mentored Sprints without your help. 
+We have put together a set of docs to guide and help you prepare for the Mentored Sprints.
 
 !!!info "Getting you ready for mentoring"
     For your convenience, we have created documentation for both, in-person and online sprints:

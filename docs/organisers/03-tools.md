@@ -7,11 +7,11 @@ parent: Organisers - running a sprint
 Some tools we have used to communicate with and work as a team are:
 
 - [Discord](https://discord.com/): this is great for online events. It has worked great for setting a text and voice channel per project. In general, we advise folks to use the Desktop app as this has much better performance than the web based one.
-- [Slack](https://slack.com/intl/en-gb/) great for async communications with your organising team.
+- [Slack](https://slack.com/intl/en-gb/) great for asynchronous communications with your organising team.
 - [Notion](https://www.notion.so/) (to keep a record of the minutes, last-mile planning, and roles). We have created a template for those willing to run sprints. This template includes a checklist with the tasks and deadlines as well as necessary information to be able to run a sprint.
 - GitHub issue tracker and boards (to keep track of tasks, assign tasks and start asynchronous discussions).
 - Zoom, Meet, Teams or Whereby for regular calls
-- [Clickup](https://clickup.com/) (you can sync to GitHub, your calendar and create tasks from emails making it a one-stop for to do's)
+- [Clickup](https://clickup.com/) (you can sync to GitHub, your calendar and create tasks from emails making it a one-stop for to-do's)
 
 To support virtual collaboration or events, you will need an online space. Slack has become popular because it's easier to use than IRC. However, it is very easy to reach the limitation of the "free" levels. This means the back scroll is not accessible or searchable. The costs for making Slack teams available are expensive, and charges increase as you grow. Making them unsuitable for open source projects run by volunteers (and with a limited budget).
 

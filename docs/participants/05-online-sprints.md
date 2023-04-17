@@ -2,7 +2,7 @@
 title: Mentored Sprints  - Online
 ---
 
-We are so glad you could join us here! We have put together this docs to get you all set and ready for the Mentored Sprints.
+We are so glad you could join us here! We have put together these docs to get you all set and ready for the Mentored Sprints.
 
 !!! Example "TL;DR"
 
@@ -21,7 +21,7 @@ We are so glad you could join us here! We have put together this docs to get you
 2. Once you join the server, you will be redirected to `#community-readme` and asked to accept the Code of Conduct
 3. Introduce yourself in `#introductions`
 4. Select your pronouns in `#pronouns` and choose roles in `#roles`
-5. **Make sure to  use your real name or your GitHub handle**
+5. **Make sure to use your real name or your GitHub handle**
 
 !!!important
     Check [The Mentored Sprints Discord Server Guide](../mentors/03-discord.md) for details on how the server works and rules regarding rooms.
@@ -50,7 +50,7 @@ We know pair programming and remote debugging can be challenging. This year we a
 Duckly is a video chat and real-time collaboration tool built for teams. It enables distributed teams to talk and work together in a better and more efficient way. With Duckly, you can share a web page, your code directly from your IDE, share your terminal, screen and collaborate as if you were side-by-side.
 
 !!!warning "Important"
-    You should have received an invite link to join the Duckly team space. Otherwise, [head to this message in the Discord server](https://discord.com/channels/710131475244384358/710131475973931070/842771189814657084)
+    You should have received an invitation link to join the Duckly team space. Otherwise, [head to this message in the Discord server](https://discord.com/channels/710131475244384358/710131475973931070/842771189814657084)
     
 To get started, follow these steps:
 
@@ -60,9 +60,9 @@ To get started, follow these steps:
 
 3. Install the relevant plugins based on which IDE you use: <https://duckly.com/faq> or <https://duckly.com/tools>
 
-You can check the getting started with Duckly video here:  <https://youtu.be/YzCPCRTIEPs>
+You can check the getting started with Duckly video here: <https://youtu.be/YzCPCRTIEPs>
 
-#### Using the Duckly rooms
+### Using the Duckly rooms
 
 When you join our team, you will see a left-sidebar similar to the Discord panel. We have created a room per project and additional help tables: **Curie, Lovelace, Hopper, Turing, Ride, Barres and Johnson**.
 
@@ -78,7 +78,7 @@ When you join our team, you will see a left-sidebar similar to the Discord panel
 
 Suppose you and your co-worker need to jump into a Duckly room while working. To get the link and invite folks we recommend using the Discord commands to invoke the coworking tables:
 
-```
+```text
 # Use either of these
 
 !duckly Curie-table
@@ -89,6 +89,7 @@ Suppose you and your co-worker need to jump into a Duckly room while working. To
 !duckly Barres-table
 !duckly Johnson-table
 ```
+
 This will display the Duckly room link and should work in all Discord channels:
 
 ![Duckly - discord bot screenshot](../images/../assets/images/duckly-discord.png)

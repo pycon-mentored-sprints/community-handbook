@@ -8,7 +8,7 @@ edit_uri: edit/main/docs/
 repo_url: https://github.com/pycon-mentored-sprints/community-handbook
 
 # Copyright
-copyright: Copyright &copy; 2020-2021 Mentored Sprints
+copyright: Copyright &copy; 2018-2023 Mentored Sprints
 
 # Configuration
 theme:
@@ -84,7 +84,6 @@ plugins:
   - minify:
       minify_html: true
 
-
 # TODO: add custom meta tags - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/
 
 # Page tree
@@ -92,24 +91,24 @@ nav:
   - Home: index.md
   - About: about.md
   - Code of conduct:
-    - Introduction: code-of-conduct/01-index.md
-    - CoC in detail: code-of-conduct/02-coc-detail.md
-    - Reporting Guidelines: code-of-conduct/03-reporting.md
-    - Enforcement Manual: code-of-conduct/04-enforcement.md
-    - Acknowledgment: code-of-conduct/05-acknowledgement.md
+      - Introduction: code-of-conduct/01-index.md
+      - CoC in detail: code-of-conduct/02-coc-detail.md
+      - Reporting Guidelines: code-of-conduct/03-reporting.md
+      - Enforcement Manual: code-of-conduct/04-enforcement.md
+      - Acknowledgment: code-of-conduct/05-acknowledgement.md
   - Organisers:
-    - Getting Started: organisers/01-index.md
-    - Roles and People: organisers/02-people.md
-    - Tools and Apps: organisers/03-tools.md
+      - Getting Started: organisers/01-index.md
+      - Roles and People: organisers/02-people.md
+      - Tools and Apps: organisers/03-tools.md
   - Participants:
-    - Contribution Sprints 101: participants/01-index.md
-    - Asking Good Questions: participants/02-asking-questions.md
-    - Git for contributors: participants/03-git-contributors.md
-    - Git etiquette for contributors: participants/04-git-etiquette.md
-    - Online - Mentored Sprints : participants/05-pycon2021.md
+      - Contribution Sprints 101: participants/01-index.md
+      - Asking Good Questions: participants/02-asking-questions.md
+      - Git for contributors: participants/03-git-contributors.md
+      - Git etiquette for contributors: participants/04-git-etiquette.md
+      - Online - Mentored Sprints: participants/05-online-sprints.md
   - Mentors:
-    - Mentored Sprints: mentors/01-index.md
-    - In-person - preparation: mentors/02-prepare.md
-    - Online - preparation: mentors/02-prepare-online.md
-    - Online - technical setup: mentors/03-online-setup.md
-    - Our Discord server: mentors/03-discord.md
+      - Mentored Sprints: mentors/01-index.md
+      - In-person - preparation: mentors/02-prepare.md
+      - Online - preparation: mentors/02-prepare-online.md
+      - Online - technical setup: mentors/03-online-setup.md
+      - Our Discord server: mentors/03-discord.md

@@ -66,11 +66,11 @@ Some valuable tips to make the most of pair programming:
 - It is often best to have one person typing than switching too often
 - For pairs where the two people have different experience levels, the less experienced person should be typing
 - **Online - Use video:** Since people communicate a lot through gestures and facial expressions, it is nice to see the shared screen and your pairing partner's video simultaneously. Some video conference solutions come with this feature; if yours doesn't, consider opening up an additional call to see each other.
-- **Onlin - Audio experience:** Look for a quiet area and use a good headset, maybe even with a directional microphone. If you can't get away from the noise, "push to speak" functionality can also help. To avoid distractions on your side, noise-cancelling headphones are your friend.
+- **Online - Audio experience:** Look for a quiet area and use a good headset, maybe even with a directional microphone. If you can't get away from the noise, "push to speak" functionality can also help. To avoid distractions on your side, noise-cancelling headphones are your friend.
 -**Online -Dealing with network lag**: It can be exhausting to work on a remote computer for a more extended period when there is a network lag. So make sure to switch computers regularly, so that each of you has a chance to work on your machine without lag. A network lag can also be annoying when you scroll through files because it can be hard to follow. It helps avoid scrolling in long files, using keyboard shortcuts to open different parts of the file, or using the collapse/un-collapse functionality instead.
 
 ## Additional resources
 
-- This blogpost on [What to expect of sprints by Trey Hunner](https://treyhunner.com/2019/04/making-the-most-of-the-pycon-sprints/) is a great introduction to sprints
-- This blogpost [Contributing to open source: let's get us started](https://dev.to/azure/contributing-to-open-source-projects-let-s-get-us-all-started-13ff) can be very helpful to set the context for sprints participation.
+- This blog post on [What to expect of sprints by Trey Hunner](https://treyhunner.com/2019/04/making-the-most-of-the-pycon-sprints/) is a great introduction to sprints
+- This blog post [Contributing to open source: let's get us started](https://dev.to/azure/contributing-to-open-source-projects-let-s-get-us-all-started-13ff) can be very helpful to set the context for sprints participation.
 - Read more about pair programming in [this guide](https://medium.com/@weblab_tech/pair-programming-guide-a76ca43ff389)

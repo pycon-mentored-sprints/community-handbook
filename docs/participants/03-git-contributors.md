@@ -20,7 +20,7 @@ and forget to follow those conventions.
 
 To reword the last commit, we can use Git's `--amend` switch to add something to our latest commit (code, changes, rewording). Use the following commands to rephrase the last commit and get that change merged!
 
-```sh
+```console
 $ Git commit --amend -m "feat: better-worded feature```
 $ git push --force
 ```
@@ -63,7 +63,7 @@ Follow these steps:
     git fetch upstream
     ```
 
-2. Rebase the branch onto `upstream/main`:
+3. Rebase the branch onto `upstream/main`:
 
     ```sh
     # go to the feature branch
@@ -74,7 +74,7 @@ Follow these steps:
     git rebase upstream/main
     ```
 
-3. Push your changes and remove the backup branch:
+4. Push your changes and remove the backup branch:
 
       ```sh
       git push --force
@@ -133,8 +133,8 @@ You might also want to check this StackOverflow answer on how to [delete local a
 
 ## Additional Git resources
 
-- [github help](https://help.github.com/) has an excellent series of how-to guides.
-- [learn. github](https://help.github.com/) has an excellent series of tutorials
+- [GitHub help](https://help.github.com/) has an excellent series of how-to guides.
+- [learn GitHub](https://help.github.com/) has an excellent series of tutorials
 - The [pro git book](https://git-scm.com/book/) is a good in-depth book on Git.
-- [git ready](http://www.gitready.com/) - a nice series of tutorials
+- [Git ready](http://www.gitready.com/) - a nice series of tutorials
 - [GitFlow etiquette](https://betterprogramming.pub/git-workflow-etiquette-f22d96b8b0b8) if you want to dive more into GitFlow and how to collaborate with others

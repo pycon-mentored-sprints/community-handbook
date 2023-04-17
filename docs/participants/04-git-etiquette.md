@@ -25,7 +25,9 @@ Each project will have some specific conventions and processes. But in general t
       git merge --ff-only upstream/main
       git push origin main
       ```
+
       → If working in a **branch**, pull:
+
       ```sh
       git checkout main
       git pull origin main
@@ -34,7 +36,7 @@ Each project will have some specific conventions and processes. But in general t
 3. Create a new branch for your feature or bug fix
 
     ```sh
-    git checkout -b branchName
+    git checkout -b <branchName>
     ```
 
 4. Make changes with as many commits as necessary. The final commit should build and pass tests.
@@ -47,13 +49,13 @@ Each project will have some specific conventions and processes. But in general t
 6. If you have previously pushed your code to a remote branch, you will need to force push. If not, omit the `-f` tag.
 
     ```sh
-    git push origin branchName -f
+    git push origin <branchName> -f
     ```
 
 7. Open a pull request in GitHub from this forked branch. Once this has been merged to main, remember to clear out your branch locally
 
     ```sh
-    git branch -D branchName
+    git branch -D <branchName>
     ```
 
 ### What constitutes a good PR?
@@ -68,13 +70,13 @@ A good quality PR will have the following characteristics:
 
 A PR does not end at submission, though. A code change is not made until it is merged and used in production.
 
-A good PR should be able to flow through a peer review system easily and quickly.
+A good PR should be able to flow through a peer review system smoothly and quickly.
 
 ## Submitting Pull Requests
 
 ### Ensure there is a solid title and summary
 
-PRs are a Github workflow tool, so it's essential to understand that the PR title, summary and eventual discussion are not as trackable as the commit history. If we ever move away from Github, we'll likely lose this information.
+PRs are a GitHub workflow tool, so it's essential to understand that the PR title, summary and eventual discussion are not as trackable as the commit history. If we ever move away from GitHub, we'll likely lose this information.
 
 That said, however, they are a handy aid in ensuring that PRs are handled quickly and effectively.
 
@@ -125,7 +127,7 @@ If you can rebase up a large PR into multiple smaller PRs, then do so.
 
 ## Reviewing Pull Requests
 
-It's a reviewers responsibility to ensure:
+It's a reviewers' responsibility to ensure:
 
 * Commit history is excellent
 * Good changes are propagated quickly
@@ -134,9 +136,9 @@ It's a reviewers responsibility to ensure:
 
 ### Reviewers are the guardians of the commit history
 
-The importance of ensuring a quality commit history cannot be stressed enough. It is the historical context of all of the work that we do and is vital for understanding why changes were made in the past. What is apparent now will not be evident 2-3 years in the future.
+The importance of ensuring a quality commit history cannot be stressed enough. It is the historical context of all the work that we do and is vital for understanding why changes were made in the past. What is apparent now will not be evident 2-3 years in the future.
 
-Without a decent commit history, we may as well be storing all our code in files ending yyyy-mm-dd. The commit history of a codebase allows people to understand **why** a change was made - the when what, and where are automatically evident.
+Without a decent commit history, we may as well be storing all our code in files ending yyyy-mm-dd. The commit history of a codebase allows people to understand **why** a change was made - when what, and where are automatically evident.
 
 When looking at a commit message, ask yourself the question - from the perspective of someone looking at this change without any knowledge of the codebase - 'do I understand *why* this change was made?'
 
@@ -150,7 +152,7 @@ Pull Requests are the fundamental unit of how we progress change. If PRs are get
 
 As PRs clog up in the system, merges become more complex as other features and fixes are applied to the same codebase. This, in turn, slows them down further and often completely blocks progress on a given codebase.
 
-There is a balance between flow and ensuring the quality of our PRs. As a reviewer, you should decide whether a code quality issue is sufficient enough to block the PR whilst the code is improved. Possibly it is more prudent to flag that the code needs rework and raise an issue.
+There is a balance between flow and ensuring the quality of our PRs. As a reviewer, you should decide whether a code quality issue is sufficient to block the PR whilst the code is improved. Possibly it is more prudent to flag that the code needs rework and raise an issue.
 
 Any quality issue that will result in a bug should be fixed.
 
@@ -191,13 +193,13 @@ Do you want to see a pull request merged, a much-needed feature implemented, and
 ## Some exciting links
 
 - Step-by-step guide to [making your first PR](https://slides.com/cheukting_ho/1st_pr)
-- Amazing article on h[how to effectively use the commit history as an incredible documentation source
+- Amazing article on [how to effectively use the commit history as an incredible documentation source
 ](http://mislav.uniqpath.com/2014/02/hidden-documentation/)
-- [Github's recommendations for PRs](https://github.com/blog/1943-how-to-write-the-perfect-pull-request), which has some useful tips on notifying teams and colleagues via the GitHub @-syntax.
-- [The GOV.UK git styleguide](https://github.com/alphagov/styleguides/blob/main/git.md)
+- [GitHub's recommendations for PRs](https://github.com/blog/1943-how-to-write-the-perfect-pull-request), which has some useful tips on notifying teams and colleagues via the GitHub @-syntax.
+- [The GOV.UK git style guide](https://github.com/alphagov/styleguides/blob/main/git.md)
 - [An example of a perfect commit message](https://github.com/gds-operations/vcloud-edge_gateway/pull/111)
 - [A fantastic template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733) on how to write great commits.
-  
+
 ---
 
 Thanks to @mikepea and [their great PR etiquette resource](https://gist.github.com/mikepea/863f63d6e37281e329f8) which inspired loads of this section 🙏
