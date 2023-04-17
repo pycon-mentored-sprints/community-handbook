@@ -3,17 +3,17 @@
 ## :bookmark: Table of contents
 
 - [Contribution guidelines](#contribution-guidelines)
-  - [:bookmark: Table of contents](#-table-of-contents)
-  - [:raised_hands: Contributing through GitHub](#-contributing-through-github)
-  - [:pencil: Share your thoughts, bugs, requests and the such](#-share-your-thoughts-bugs-requests-and-the-such)
-    - [:bookmark: Issue labels](#-issue-labels)
+  - [:bookmark: Table of contents](#bookmark-table-of-contents)
+  - [:raised_hands: Contributing through GitHub](#raised_hands-contributing-through-github)
+  - [:pencil: Share your thoughts, bugs, requests and the such](#pencil-share-your-thoughts-bugs-requests-and-the-such)
+    - [:bookmark: Issue labels](#bookmark-issue-labels)
       - [Per availability](#per-availability)
       - [Issue type](#issue-type)
       - [Issue or PR status](#issue-or-pr-status)
       - [PR workflow status](#pr-workflow-status)
-  - [:clapper: Make a change through a pull request (PR)](#-make-a-change-through-a-pull-request-pr)
+  - [:clapper: Make a change through a pull request (PR)](#clapper-make-a-change-through-a-pull-request-pr)
     - [1. Comment on an existing issue or open a new issue referencing your addition to the project](#1-comment-on-an-existing-issue-or-open-a-new-issue-referencing-your-addition-to-the-project)
-    - [2. Fork to your profile](#2-fork-the-projects-repository-to-your-profile)
+    - [2. Fork the project's repository to your profile](#2-fork-the-projects-repository-to-your-profile)
     - [3. Make the changes you've discussed](#3-make-the-changes-youve-discussed)
     - [4. Submit a pull request](#4-submit-a-pull-request)
   - [Thank you!](#thank-you)
@@ -28,7 +28,7 @@ All kind of contributions are welcome and are accepted through GitHub issues and
 
 To get started, you will need a [GitHub account](https://github.com/) and sign-in. Here are [some instructions](https://help.github.com/articles/signing-up-for-a-new-github-account/) to get you all set up.
 
-You'll use [Markdown](https://daringfireball.net/projects/markdown) to chat in issues and pull requests on GitHub. You can think of Markdown as a few little symbols around your text that will allow GitHub to render the text with formatting. For example, you could write words as bold (**bold**), or in italics (_italics_), or as a link ([link](https://https://youtu.be/dQw4w9WgXcQ)) to another webpage.
+You'll use [Markdown](https://daringfireball.net/projects/markdown) to chat in issues and pull requests on GitHub. You can think of Markdown as a few little symbols around your text that will allow GitHub to render the text with formatting. For example, you could write words as bold (**bold**), or in italics (_italics_), or as a link ([link](https://youtu.be/dQw4w9WgXcQ)) to another webpage.
 
 GitHub has a helpful page on [getting started with writing and formatting Markdown on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github).
 
