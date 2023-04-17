@@ -9,7 +9,8 @@ This page aims to help you out with the things you might get asked to do but may
 Sit back, relax and maybe bring a brew.
 
 !!! tip
-If you're not comfortable using Git from the CLI, we advise using [GitKraken](https://www.gitkraken.com/invite/nQmDPR9D). GitKraken is a great GUI for version control and is very useful for beginners and advanced developers alike.
+If you're not comfortable using Git from the CLI, we advise using [GitKraken](https://www.gitkraken.com/invite/nQmDPR9D).
+GitKraken is a great GUI for version control and is very useful for beginners and advanced developers alike.
 
 ## I didn't stick to the conventional commit guidelines
 
@@ -38,7 +39,8 @@ This will open your `$EDITOR`, and you can mark the commits you want to reword w
 Once done, use `git push --force` to bring the changes to the pull request.
 
 !!! tip "For VSCode users."
-The latest version of VSCode has a built-in GUI to help you select `reword` or any other action on a commit. Select the right ones and press **Start Rebase** to continue.
+The latest version of VSCode has a built-in GUI to help you select `reword` or any other action on a commit.
+Select the right ones and press **Start Rebase** to continue.
 
 ## My branch is out of date with the remote
 

@@ -1,40 +1,139 @@
 //  Mentored Sprints customs stylesheet for mkdocs
 @import "./variables.scss";
+@import "./_syntax.scss";
 
-:root > * {
-    // additional colours
-    --secondary-dark: #af49af;
-    --secondary-colour: #ce89ce;
-    --secondary-light: #daa6da;
-    --periwinkle-colour: #4c54c9;
-    --periwinkle-light: #5b63ce;
-    --periwinkle-lightest: #878ddb;
-    --accent-teal: #39b2bf;
-    --off-black: #1b212f;
-    --dark-bg: #161a26;
-    --darkest-bg: #050709;
-    --dark-fg: #d6d6d8;
-    --off-white: #f8f9ff;
+// set MS primary
+[data-md-color-primary="ms-blue"] {
+    --md-primary-fg-color: #4c54c9;
+    --md-primary-fg-color--lightest: #8287d9;
+    --md-primary-fg-color--light: #5e65ce;
+    --md-primary-fg-color--dark: #444cb5;
+    --md-primary-bg-color: #b7bbe9;
+    --md-primary-bg-color--light: #c9ccef;
+}
 
-    // Fonts
-    --base-font-size: 0.8rem;
-    --nav-font-size: 0.7rem;
-    // Code
-    --md-code-bg-color: #efeff0;
-
-    code {
-        font-size: 1em;
+// --------------------------------------------------------------
+// Headers
+.md-typeset {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: var(--primary-dark);
+        font-weight: bold;
     }
-    .md-typeset .admonition,
-    .md-typeset details {
-        font-size: 0.7rem;
-    }
+}
 
-    table {
-        &:not([class]) {
-            font-size: 0.9em;
+// Side nav bar
+.md-nav__link {
+    border-bottom: none;
+    &:hover,
+    &:focus {
+        color: var(--secondary-lightest);
+        border-left: 0.2rem solid var(--secondary-lightest);
+    }
+}
+
+.md-nav--primary .md-nav__item--active > .md-nav__link {
+    color: var(--primary-colour);
+    border-left: 0.2rem solid currentColor;
+    font-weight: bold;
+}
+
+.md-nav-item.md-nav__item--nested {
+    .md-nav__link {
+        &:hover,
+        &:focus {
+            color: var(--secondary-light);
+            border-left: 0.2rem solid currentColor;
         }
     }
+}
+
+// TOC
+.md-nav__item .md-nav__link--active {
+    color: var(--primary-colour);
+    border-left: 0.1rem solid currentColor;
+    padding-left: 0.5rem;
+}
+
+.md-nav__link:hover,
+.md-nav__link:focus {
+    border-left: 0.1rem solid currentColor;
+    padding-left: 0.5rem;
+}
+
+.md-nav__title[for="__drawer"] {
+    background-color: var(--md-primary-fg-color) !important;
+    color: var(--md-primary-bg-color) !important;
+}
+
+.md-nav__title {
+    background-color: unset !important;
+    color: unset !important;
+    padding: 1.2rem;
+}
+
+.md-tabs__item {
+    color: #f8f9ff;
+}
+
+.md-tabs__link {
+    opacity: 1;
+    &:hover,
+    &:focus {
+        font-weight: bold;
+    }
+}
+
+.md-tabs__link--active {
+    font-weight: bold;
+}
+
+.highlighttable .linenos {
+    font-size: 1em;
+}
+
+// Code
+.md-typeset code {
+    font-size: 0.85rem;
+}
+
+// Links
+.md-typeset a {
+    color: var(--md-primary-fg-color);
+    border-bottom: 1px solid currentColor;
+    &:hover,
+    &:focus {
+        color: var(--md-primary-fg-color);
+        border-bottom: 2px solid currentColor;
+    }
+}
+
+// Tables
+
+.md-typeset table:not([class]) {
+    font-size: 0.7rem;
+}
+
+table {
+    &:not([class]) {
+        th {
+            background-color: var(--md-primary-fg-color--light);
+            font-weight: bold;
+        }
+        td {
+            border-top: 0.05rem solid var(--md-default-bg-color--lightest);
+        }
+    }
+}
+
+// Admonitions
+// Admonitions
+.md-typeset .admonition,
+.md-typeset details {
+    font-size: 0.7rem;
 }
 
 // light MS theme
@@ -50,65 +149,9 @@
     --md-default-bg-color--light: #dfe0e6;
     --md-default-bg-color--lighter: #c6c7cc;
     --md-default-bg-color--lightest: #aeaeb3;
-    // --------------------------------------------------------------
-    // Typeset
-    .md-typeset {
-        a {
-            color: var(--md-primary-fg-color);
-            border-bottom: 2px solid currentColor;
-            &:hover,
-            &:focus {
-                color: var(--md-primary-fg-color--lightest);
-            }
-        }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-            color: var(--primary-dark);
-            font-weight: bold;
-        }
-    }
-
-    .md-nav__link--active {
-        color: var(--primary-colour);
-        font-weight: bold;
-    }
-
-    .md-nav__link {
-        border-bottom: none;
-        &:hover,
-        &:focus {
-            color: var(--secondary-lightest);
-        }
-    }
-
-    .md-nav-item.md-nav__item--nested {
-        .md-nav__link {
-            &:hover,
-            &:focus {
-                color: var(--secondary-lightest);
-            }
-        }
-    }
-
-    code {
-        background-color: var(--md-code-bg-color);
-    }
-
-    table {
-        &:not([class]) {
-            th {
-                background-color: var(--md-primary-fg-color--light);
-                font-weight: bold;
-            }
-            td {
-                border-top: 0.05rem solid var(--md-default-bg-color--lightest);
-            }
-        }
-    }
+    // Code
+    --md-code-bg-color: #efeff0;
 }
 
 // dark MS theme
@@ -124,40 +167,19 @@
     --md-default-fg-color--light: #dfe0e6;
     --md-default-fg-color--lighter: #c6c7cc;
     --md-default-fg-color--lightest: #aeaeb3;
+    --md-typeset-color: #f8f9ff;
 
-    // Code - highlight colour
-    --md-code-fg-color: #f8f8f2;
-    --md-code-bg-color: #272935;
-    --md-code-hl-operator-color: #ff7ac6;
-    --md-code-hl-punctuation-color: #f8f8f2;
-    --md-code-hl-string-color: #f1fa89;
-    --md-code-hl-special-color: #bf95f9;
-    --md-code-hl-number-color: #bf95f9;
-    --md-code-hl-keyword-color: #ff7ac6;
-    --md-code-hl-name-color: #f8f8f2;
-    --md-code-hl-constant-color: #bf95f9;
-    --md-code-hl-function-color: #52fa7c;
-    --md-code-hl-comment-color: #6071a4;
-    --md-code-hl-variable-color: #ffb86b;
-    --md-code-hl-generic-color: #6071a4;
-    --md-code-hl-color: #303550;
-    --md-code-hl-entity-color: #52fa7c;
-    --md-code-hl-tag-color: #ff7ac6;
-    --md-code-hl-namespace-color: #f8f8f2;
-    --md-code-hl-builtin-color: #8be8fd;
-    --md-code-hl-class-color: #8be8fd;
-    --md-code-special-bg-color: #323443;
-    --md-code-alternate-bg-color: #3d3e49;
-    --md-code-link-bg-color: #364653;
+    // Admonition
+    --md-admonition-bg-color: var(--md-default-bg-color);
+    --md-admonition-fg-color: var(--md-default-fg-color);
 
     // Typeset
     .md-typeset {
         a {
             color: var(--secondary-lightest);
-            border-bottom: 2px solid currentColor;
             &:hover,
             &:focus {
-                color: var(--secondary-light);
+                color: var(--secondary-lightest);
             }
         }
 
@@ -167,28 +189,6 @@
         h4,
         h5 {
             color: var(--primary-colour);
-            font-weight: bold;
-        }
-    }
-    .md-nav__link--active {
-        color: var(--primary-light);
-        font-weight: bold;
-    }
-
-    .md-nav__link {
-        border-bottom: none;
-        &:hover,
-        &:focus {
-            color: var(--secondary-lightest);
-        }
-    }
-
-    .md-nav-item.md-nav__item--nested {
-        .md-nav__link {
-            &:hover,
-            &:focus {
-                color: var(--secondary-lightest);
-            }
         }
     }
 
@@ -313,54 +313,4 @@ a.md-content__button.md-icon {
 .md-header__button.md-logo,
 .md-footer__link.md-footer__link--next {
     border-bottom: none;
-}
-
-// -----------------------------------------
-// TOC
-
-
-.md-nav__title[for="__drawer"] {
-    background-color: var(--md-primary-fg-color) !important;
-    color: var(--md-primary-bg-color) !important;
-}
-
-.md-nav__title {
-    background-color: unset !important;
-    color: unset !important;
-    padding: 1.2rem;
-}
-
-.md-nav {
-    font-size: 0.75rem;
-    line-height: 1.3;
-}
-
-// set MS primary
-[data-md-color-primary="ms-blue"] {
-    --md-primary-fg-color: #4c54c9;
-    --md-primary-fg-color--lightest: #8287d9;
-    --md-primary-fg-color--light: #5e65ce;
-    --md-primary-fg-color--dark: #444cb5;
-    --md-primary-bg-color: #b7bbe9;
-    --md-primary-bg-color--light: #c9ccef;
-}
-
-.md-tabs__item {
-    color: #f8f9ff;
-}
-
-.md-tabs__link {
-    opacity: 1;
-    &:hover,
-    &:focus {
-        font-weight: bold;
-    }
-}
-
-.md-tabs__link--active {
-    font-weight: bold;
-}
-
-.highlighttable .linenos {
-    font-size: 1em;
 }

@@ -26,7 +26,7 @@ The first step is to identify how many hands you're going to need to be able to 
 - If you are running an event online make sure to have organisers at the time zones/regions you are targeting. They will be the best allies to get the word out to the local communities, and perhaps you do not want to run a 24hrs sprint on your own.
 - Keep track of the meetings, record meetings if possible (especially when working across timezones, trust me it is tough to set meeting times when you have folks in JST, BST, CST and PDT time zones).
 
-!!! tip
+!!! example "Top tip"
 Be clear with your volunteer and organising teams about the roles and their responsibilities. Be mindful and explicit about time expectations, especially if you are all volunteers.
 
 !!! important

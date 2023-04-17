@@ -17,7 +17,7 @@ Before you ask your question, there are a few things you can do to find an answe
 !!! info
 Essentially, doing your research is the first step towards a solution to any problem.
 
-If none of the above steps helps you, or you're not sure how to do some of the above steps, feel free to ask any of the mentors for help.
+    If none of the above steps helps you, or you're not sure how to do some of the above steps, feel free to ask any of the mentors for help.
 
 ## A Good Question
 
@@ -31,7 +31,8 @@ When you're ready to ask a question, there are a few things that will help you f
 - A screenshot of the output or rendered output
 
 !!! tip
-Your question should be informative but to the point. More importantly, how you phrase your question and how you address those that may help you is crucial. Courtesy never hurts.
+Your question should be informative but to the point. More importantly,
+how you phrase your question and how you address those that may help you is crucial. Courtesy never hurts.
 
 ## What Not To Ask
 

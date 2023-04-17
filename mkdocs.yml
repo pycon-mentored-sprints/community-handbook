@@ -27,7 +27,9 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   icon:
-    repo: fontawesome/brands/github-square
+    repo: octicons/mark-github-16
+    admonition:
+      example: octicons/feed-star-16
 
   logo: assets/community_handbook_white_trans.svg
   # Navigation
@@ -37,6 +39,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.path
+    - navigation.footer
 
   font:
     text: Obliqua
@@ -53,10 +57,10 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/mentoredsprints
       name: Mentored Sprints Twitter account
-    - icon: fontawesome/brands/github
+    - icon: octicons/mark-github-16
       link: https://github.com/pycon-mentored-sprints
       name: Mentored Sprints GitHub
-    - icon: fontawesome/solid/paper-plane
+    - icon: octicons/mail-16
       link: mailto:organisers@mentored-sprints.dev
     - icon: fontawesome/brands/discord
       link: https://discord.gg/H4fYmEe

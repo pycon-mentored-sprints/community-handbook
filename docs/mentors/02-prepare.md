@@ -31,7 +31,7 @@ As the day progresses, keep track of the issue numbers you’re working on. Trac
 3. Share the issues you triaged with the contributors.
 4. There is a scheduled break - make sure to take it!
 
-!!!done "Action needed"
+!!!abstract "Action needed"
 Please come prepared to give a 1-2 mins intro to the project you will be mentoring on.
 **You do not need slides**, but we want to give you time and space to make sure you introduce yourself and the project.
 
@@ -41,7 +41,8 @@ Please come prepared to give a 1-2 mins intro to the project you will be mentori
 1. Most of the help you will be providing on the day will focus on Git questions (merge conflicts, Git flow, rebasing) as well as debugging setup environments.
 
 !!!tip
-If you find that the room is too quiet and very few people are asking for general help, feel free to jump into a project table and support the mentors and attendees there.
+If you find that the room is too quiet and very few people are asking for general help,
+feel free to jump into a project table and support the mentors and attendees there.
 
 ## :sparkles: Three ways to make it easier for newcomers to contribute
 
@@ -53,7 +54,7 @@ Helping new contributors get set up makes a huge impact.
 
 - **Learning-by-doing** - The idea is that you reserve appropriate issues in the time leading up to the event. These types of issues will give contributors experience with whatever workflow you’re using while taking care of tasks that are relatively quick to resolve.
 
-!!!tip
+!!!example "Top tip"
 Helping newcomers commit changes to your project gives them a successful experience in your community and increases the likelihood they will come back for more. Furthermore, ownership and effort increase the perceived value of concepts, things, and projects to us. The feeling of knowing code you’ve checked, written, or influenced is being downloaded (tens or hundreds of) thousands of times a month can be a huge motivator.
 
 ## :unicorn: Everyone has something to contribute
