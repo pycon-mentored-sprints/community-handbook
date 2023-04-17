@@ -23,7 +23,7 @@ body:
     description: |
       Any concrete tasks that should be completed to resolve this issue.
       The more specific the better. If issues have lots of complex tasks associated with them, consider breaking them up into separate issues with cross-links.
-      
+
       _If you can't think of anything then just leave this blank and we can fill it in later! This can be filled in as we understand more about an issue._
     placeholder: |
       - [ ] Discuss and decide on what to do...

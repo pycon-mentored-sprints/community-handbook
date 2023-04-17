@@ -7,7 +7,7 @@ title: The Mentored Sprints Discord Server Guide
 Each project has a voice and a text channel. Voice channels can also be used for video and to share screens. The mentors will be available at the corresponding channel for support. Please be respectful of other contributors and mentors.
 
 !!!info
-    You can identify mentors as they will have either the word `mentor` or the name of their project in their username. They will also be displayed in blue in the memebers area.
+You can identify mentors as they will have either the word `mentor` or the name of their project in their username. They will also be displayed in blue in the memebers area.
 
 You can identify the voice channels as they are marked with a :mega::
 
@@ -50,7 +50,7 @@ To remove a bookmark click on the :negative_squared_cross_mark: reaction on the 
 We have a high level of moderation to keep the server safe for everyone. Organisers are in charge of moderation.
 
 !!!tip "Important"
-    If at any point you need to file a code of conduct incident head to `#coc-report` and use the command `!coc-report` this will trigger a **confidential** report.
-    We always have a coc enforcement trained person on site during sprints.
+If at any point you need to file a code of conduct incident head to `#coc-report` and use the command `!coc-report` this will trigger a **confidential** report.
+We always have a coc enforcement trained person on site during sprints.
 
 For server level help or attention you can ping `@organisers` or `@core-team`

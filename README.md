@@ -5,12 +5,12 @@
 
 ## Useful links 🔗
 
-Information | Link |
----------|----------|
-Project | [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Community Handbook](https://img.shields.io/badge/📖%20Read-the%20community%20handbook-gray.svg?colorA=2D2A56&colorB=5936D9&style=flat.svg)](https://mentored-sprints.netlify.app/) [![I want to contribute](https://img.shields.io/badge/⚡️-I%20want%20to%20contribute-gray.svg?colorA=2D2A56&colorB=5936D9&style=flat.svg)](https://github.com/pycon-mentored-sprints/community-handbook/blob/main/CONTRIBUTING.md) [![I want to organise a sprint](https://img.shields.io/badge/💻-I%20want%20to%20run%20a%20sprint-gray.svg?colorA=2D2A56&colorB=F24484&style=flat.svg)](https://www.mentored-sprints.dev/getstarted/) |
-News | [![Twitter Follow](https://img.shields.io/twitter/follow/mentoredsprints?style=social)](https://twitter.com/mentoredsprints) |
-Chat | [![I want to contribute](https://img.shields.io/badge/💬%20Chat-on%20Discord-gray.svg?colorA=2D2A56&colorB=0396A6&style=flat.svg)](https://mentored-sprints.netlify.app/) |
-Build | [![Netlify Status](https://api.netlify.com/api/v1/badges/a346e877-a9e6-4cb8-a56b-22b791a3c734/deploy-status)](https://app.netlify.com/sites/mentored-sprints/deploys) |
+| Information | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project     | [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Community Handbook](https://img.shields.io/badge/📖%20Read-the%20community%20handbook-gray.svg?colorA=2D2A56&colorB=5936D9&style=flat.svg)](https://mentored-sprints.netlify.app/) [![I want to contribute](https://img.shields.io/badge/⚡️-I%20want%20to%20contribute-gray.svg?colorA=2D2A56&colorB=5936D9&style=flat.svg)](https://github.com/pycon-mentored-sprints/community-handbook/blob/main/CONTRIBUTING.md) [![I want to organise a sprint](https://img.shields.io/badge/💻-I%20want%20to%20run%20a%20sprint-gray.svg?colorA=2D2A56&colorB=F24484&style=flat.svg)](https://www.mentored-sprints.dev/getstarted/) |
+| News        | [![Twitter Follow](https://img.shields.io/twitter/follow/mentoredsprints?style=social)](https://twitter.com/mentoredsprints)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Chat        | [![I want to contribute](https://img.shields.io/badge/💬%20Chat-on%20Discord-gray.svg?colorA=2D2A56&colorB=0396A6&style=flat.svg)](https://mentored-sprints.netlify.app/)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Build       | [![Netlify Status](https://api.netlify.com/api/v1/badges/a346e877-a9e6-4cb8-a56b-22b791a3c734/deploy-status)](https://app.netlify.com/sites/mentored-sprints/deploys)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 - [Useful links 🔗](#useful-links-)
 - [Development setup 💻](#development-setup-)
@@ -19,7 +19,7 @@ Build | [![Netlify Status](https://api.netlify.com/api/v1/badges/a346e877-a9e6-4
 - [Contributors ✨](#contributors-)
 - [License 📄](#license-)
 
-The Mentored Sprints Community Handbook is a collaborative handbook for organisers, mentors, and participants of open-source Contribution sprints.  You're currently viewing the project GitHub repository where all the bits that make up the guide live, and where the process of writing/building the handbook happens.
+The Mentored Sprints Community Handbook is a collaborative handbook for organisers, mentors, and participants of open-source Contribution sprints. You're currently viewing the project GitHub repository where all the bits that make up the guide live, and where the process of writing/building the handbook happens.
 
 ## Development setup 💻
 
@@ -112,8 +112,9 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ## License 📄
 
 The code for this site is Licensed as [BSD-3](https://opensource.org/licenses/BSD-3-Clause) and the content is licensed as
-[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints][MS-website].
+[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints][ms-website].
 
 <!-- Links -->
-[MS-website]: https://mentored-sprints.dev
+
+[ms-website]: https://mentored-sprints.dev
 [community-handbook-repo]: https://github.com/pycon-mentored-sprints/community-handbook

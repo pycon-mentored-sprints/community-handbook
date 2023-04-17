@@ -19,54 +19,54 @@ Each project will have some specific conventions and processes. But in general t
 1. Ensure you are currently in `main`.
 2. → If working in a **fork**, fetch:
 
-      ```sh
-      git checkout main
-      git fetch --all --prune
-      git merge --ff-only upstream/main
-      git push origin main
-      ```
+   ```sh
+   git checkout main
+   git fetch --all --prune
+   git merge --ff-only upstream/main
+   git push origin main
+   ```
 
-      → If working in a **branch**, pull:
+   → If working in a **branch**, pull:
 
-      ```sh
-      git checkout main
-      git pull origin main
-      ```
+   ```sh
+   git checkout main
+   git pull origin main
+   ```
 
 3. Create a new branch for your feature or bug fix
 
-    ```sh
-    git checkout -b <branchName>
-    ```
+   ```sh
+   git checkout -b <branchName>
+   ```
 
 4. Make changes with as many commits as necessary. The final commit should build and pass tests.
 5. Make sure your branch sits on top of `main` (as opposed to branch off a branch). This ensures the reviewer will need only minimal effort to integrate your work by fast-forwarding `main`
 
-    ```sh
-    git rebase upstream/main.
-    ```
+   ```sh
+   git rebase upstream/main.
+   ```
 
 6. If you have previously pushed your code to a remote branch, you will need to force push. If not, omit the `-f` tag.
 
-    ```sh
-    git push origin <branchName> -f
-    ```
+   ```sh
+   git push origin <branchName> -f
+   ```
 
 7. Open a pull request in GitHub from this forked branch. Once this has been merged to main, remember to clear out your branch locally
 
-    ```sh
-    git branch -D <branchName>
-    ```
+   ```sh
+   git branch -D <branchName>
+   ```
 
 ### What constitutes a good PR?
 
 A good quality PR will have the following characteristics:
 
-* It will be a complete piece of work that adds value in some way.
-* It will have a title that reflects the work within and a summary that helps to understand the changing context.
-* There will be well-written commit messages, with well-crafted commits that tell the story of the development of this work.
-* Ideally, it will be small and easy to understand. Single commit PRs are usually easy to submit, review, and merge.
-* The code contained within will meet the best practices set by the team wherever possible.
+- It will be a complete piece of work that adds value in some way.
+- It will have a title that reflects the work within and a summary that helps to understand the changing context.
+- There will be well-written commit messages, with well-crafted commits that tell the story of the development of this work.
+- Ideally, it will be small and easy to understand. Single commit PRs are usually easy to submit, review, and merge.
+- The code contained within will meet the best practices set by the team wherever possible.
 
 A PR does not end at submission, though. A code change is not made until it is merged and used in production.
 
@@ -92,8 +92,8 @@ Use `git rebase -i main # or another reference, eg HEAD~5`
 
 For example:
 
-* Merge `oops, fix typo/bug` into their parent commit. There is no reason to create and solve bugs within a PR **unless there is educational value in highlighting them**.
-* Reword your commit messages for clarity. Once a PR is submitted, any rewording of commits will involve a rebase, which can then mess up the conversation in the PR.
+- Merge `oops, fix typo/bug` into their parent commit. There is no reason to create and solve bugs within a PR **unless there is educational value in highlighting them**.
+- Reword your commit messages for clarity. Once a PR is submitted, any rewording of commits will involve a rebase, which can then mess up the conversation in the PR.
 
 ### Aim for one succinct commit
 
@@ -112,10 +112,9 @@ Where external information references are available - such as Issue/Story IDs, P
 Remember that your commit message must survive the ravages of time. Try to link to something that will be preserved equally well -- another commit, for example, rather than linking to main.
 **Each commit message should include the reason why this commit was made. Usually by adding a sentence completing the form 'So that we...' will give a fantastic amount of context to the history that the code change itself cannot**
 
-
 !!!tip
-    A properly formed Git commit subject line should always be able to complete the following sentence:
-    If applied, this commit will `your subject line here`.
+A properly formed Git commit subject line should always be able to complete the following sentence:
+If applied, this commit will `your subject line here`.
 
 ### Keep it small
 
@@ -129,10 +128,10 @@ If you can rebase up a large PR into multiple smaller PRs, then do so.
 
 It's a reviewers' responsibility to ensure:
 
-* Commit history is excellent
-* Good changes are propagated quickly
-* Code review is performed
-* They understand what is being changed from the perspective of someone examining the code in the future.
+- Commit history is excellent
+- Good changes are propagated quickly
+- Code review is performed
+- They understand what is being changed from the perspective of someone examining the code in the future.
 
 ### Reviewers are the guardians of the commit history
 
@@ -140,7 +139,7 @@ The importance of ensuring a quality commit history cannot be stressed enough. I
 
 Without a decent commit history, we may as well be storing all our code in files ending yyyy-mm-dd. The commit history of a codebase allows people to understand **why** a change was made - when what, and where are automatically evident.
 
-When looking at a commit message, ask yourself the question - from the perspective of someone looking at this change without any knowledge of the codebase - 'do I understand *why* this change was made?'
+When looking at a commit message, ask yourself the question - from the perspective of someone looking at this change without any knowledge of the codebase - 'do I understand _why_ this change was made?'
 
 **If any commit within the PR does not meet this standard, the PR should be rebased until it does. We cannot fix a commit history once it is in place, unlike our ability to refactor bad quality code or fix bugs.**
 
@@ -194,7 +193,7 @@ Do you want to see a pull request merged, a much-needed feature implemented, and
 
 - Step-by-step guide to [making your first PR](https://slides.com/cheukting_ho/1st_pr)
 - Amazing article on [how to effectively use the commit history as an incredible documentation source
-](http://mislav.uniqpath.com/2014/02/hidden-documentation/)
+  ](http://mislav.uniqpath.com/2014/02/hidden-documentation/)
 - [GitHub's recommendations for PRs](https://github.com/blog/1943-how-to-write-the-perfect-pull-request), which has some useful tips on notifying teams and colleagues via the GitHub @-syntax.
 - [The GOV.UK git style guide](https://github.com/alphagov/styleguides/blob/main/git.md)
 - [An example of a perfect commit message](https://github.com/gds-operations/vcloud-edge_gateway/pull/111)

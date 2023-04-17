@@ -1,7 +1,6 @@
 ---
 title: Welcome
 nav_order: 1
-
 ---
 
 # Welcome
@@ -40,4 +39,4 @@ We value the participation of every member of our community. Furthermore, we wan
 </figure>
 
 !!! check "Kudos"
-    Loads of community growth inspiration have come from the [Turing Way project](https://the-turing-way.netlify.app/).
+Loads of community growth inspiration have come from the [Turing Way project](https://the-turing-way.netlify.app/).

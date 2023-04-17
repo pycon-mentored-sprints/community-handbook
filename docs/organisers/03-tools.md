@@ -2,6 +2,7 @@
 title: Tools and applications
 parent: Organisers - running a sprint
 ---
+
 # Tools for organisers
 
 Some tools we have used to communicate with and work as a team are:
@@ -20,4 +21,4 @@ Some open-source alternatives are [Mattermost or Riot](https://medium.com/ignati
 We also have a handy bot that help us run the sprint, assign roles, and check-in and welcome folks and projects.
 
 !!! info
-    If you are running your first sprint or want to collaborate with the Mentored Sprints team and/or use our Discord server drop us a line at [organisers@mentored-sprints.dev](emailto:organisers@mentored-sprints.dev)
+If you are running your first sprint or want to collaborate with the Mentored Sprints team and/or use our Discord server drop us a line at [organisers@mentored-sprints.dev](emailto:organisers@mentored-sprints.dev)

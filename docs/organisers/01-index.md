@@ -8,7 +8,7 @@ has_children: true
 
 ## What is a sprint?
 
->"Code sprint (n) 1. A sprint is a time-boxed period of software development focused on a given list of goals." [Effective Code Sprinting](https://www.slideshare.net/reidab/effective-code-sprinting).
+> "Code sprint (n) 1. A sprint is a time-boxed period of software development focused on a given list of goals." [Effective Code Sprinting](https://www.slideshare.net/reidab/effective-code-sprinting).
 
 Due to the nature of Open Source and the current contributing structure, most folks maintain or work on open-source projects in a remote (or online) way. Contributing sprints are an excellent way to work together free of distractions, squash bugs, and clean out a backlog of issues.
 Traditionally, many sprints are attached to large events (i.e. developers' conferences) as these draw several community members and project maintainers.
@@ -28,7 +28,7 @@ Great, you have decided to run a sprint. Whether you have decided to run this on
 
 Some of these early considerations are:
 
-1. **Wording matters:** we have intentionally removed the word **coding** and referred to the events as **sprints**, **contribution sprints**, or **mentored** **sprints****. Open Source Software thrives on and needs much more than code contributions. When running a sprint, it is essential to focus on contribution types that can often be overseen: documentation and technical writing, community management, design, dogfooding, education, and many more.
+1. **Wording matters:** we have intentionally removed the word **coding** and referred to the events as **sprints**, **contribution sprints**, or **mentored** **sprints\*\***. Open Source Software thrives on and needs much more than code contributions. When running a sprint, it is essential to focus on contribution types that can often be overseen: documentation and technical writing, community management, design, dogfooding, education, and many more.
 
 2. **What is the purpose of the sprint?:** Is your primary focus contributing to a given project or projects? Do you want to onboard new community members and mentor beginners? Are you focusing on a specific project with experienced contributors and maintainers?
 

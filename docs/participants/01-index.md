@@ -18,7 +18,7 @@ You will be expecting to work with people who are welcoming and happy to help yo
 
 ## What do I need to prepare before joining the sprint?
 
-As a participant, the most important thing is to make sure you will enjoy the sprint.  It can be an exciting learning journey followed by a great sense of achievement. Here are a few things that would give you a head start.
+As a participant, the most important thing is to make sure you will enjoy the sprint. It can be an exciting learning journey followed by a great sense of achievement. Here are a few things that would give you a head start.
 
 ### 1. Read and make sure you understand the Code of Conduct
 
@@ -48,7 +48,7 @@ Text editors are tools with powerful features designed to optimise writing code.
 - Pycharm. Download at: <https://www.jetbrains.com/pycharm/download/>.
 
 !!! tip
-    We suggest trying several editors before settling on one.
+We suggest trying several editors before settling on one.
 
 ### 5. Pick a project
 
@@ -56,7 +56,7 @@ This one is optional, as some sprints may have the projects briefing at the begi
 
 ### 6. Pair programming
 
-When you are new to a project, it is often helpful to work in pairs.  The goal is that each contributor will be able to resolve one issue.
+When you are new to a project, it is often helpful to work in pairs. The goal is that each contributor will be able to resolve one issue.
 
 Good pair programming depends on both people being pretty decent (and patient) communicators, which can take time to develop and is especially hard when people are in a hurry.
 
@@ -66,8 +66,7 @@ Some valuable tips to make the most of pair programming:
 - It is often best to have one person typing than switching too often
 - For pairs where the two people have different experience levels, the less experienced person should be typing
 - **Online - Use video:** Since people communicate a lot through gestures and facial expressions, it is nice to see the shared screen and your pairing partner's video simultaneously. Some video conference solutions come with this feature; if yours doesn't, consider opening up an additional call to see each other.
-- **Online - Audio experience:** Look for a quiet area and use a good headset, maybe even with a directional microphone. If you can't get away from the noise, "push to speak" functionality can also help. To avoid distractions on your side, noise-cancelling headphones are your friend.
--**Online -Dealing with network lag**: It can be exhausting to work on a remote computer for a more extended period when there is a network lag. So make sure to switch computers regularly, so that each of you has a chance to work on your machine without lag. A network lag can also be annoying when you scroll through files because it can be hard to follow. It helps avoid scrolling in long files, using keyboard shortcuts to open different parts of the file, or using the collapse/un-collapse functionality instead.
+- **Online - Audio experience:** Look for a quiet area and use a good headset, maybe even with a directional microphone. If you can't get away from the noise, "push to speak" functionality can also help. To avoid distractions on your side, noise-cancelling headphones are your friend. -**Online -Dealing with network lag**: It can be exhausting to work on a remote computer for a more extended period when there is a network lag. So make sure to switch computers regularly, so that each of you has a chance to work on your machine without lag. A network lag can also be annoying when you scroll through files because it can be hard to follow. It helps avoid scrolling in long files, using keyboard shortcuts to open different parts of the file, or using the collapse/un-collapse functionality instead.
 
 ## Additional resources
 

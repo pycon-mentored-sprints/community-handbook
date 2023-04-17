@@ -2,23 +2,19 @@
 title: Preparation
 ---
 
-!!! Example "TL;DR"
-    1. [Join the Discord server](./01-index.md)
-    2. Prepare a quick pitch for your project (not needed for Git/general mentors)
-    3. Prepare your issues for the sprint
-    4. Be prepared for an intense yet rewarding 4 hours - bring coffee/tea, and your best mentor/cheerleader/support attitude
+!!! Example "TL;DR" 1. [Join the Discord server](./01-index.md) 2. Prepare a quick pitch for your project (not needed for Git/general mentors) 3. Prepare your issues for the sprint 4. Be prepared for an intense yet rewarding 4 hours - bring coffee/tea, and your best mentor/cheerleader/support attitude
 
 ## :wave: Introduce yourself and your project
 
 !!!done "Action needed"
-    Please come prepared to give a 1-2 mins intro to the project you will be mentoring on. **You do not need slides** but we want to make sure we introduce you to the folks.
+Please come prepared to give a 1-2 mins intro to the project you will be mentoring on. **You do not need slides** but we want to make sure we introduce you to the folks.
 
 ## :label: Selecting issues
 
 Make sure your sprint is successful with careful planning ahead of time. As part of preparations, project leads/mentors will need to **triage** and prepare issue queues and identify what they want to work on in the sprint.
 
 !!!info
-    We have already pinned your repo's issues and beginner-friendly issues in Discord for discoverability.
+We have already pinned your repo's issues and beginner-friendly issues in Discord for discoverability.
 
 If you want to go the extra mile, choose one or more of the following strategies:
 
@@ -27,7 +23,7 @@ If you want to go the extra mile, choose one or more of the following strategies
 - Reserving easier, newcomer-appropriate issues for sprint newcomers ahead of time.
 
 !!!tip
-    Make sure to find diverse issues: documentation, code, design, checking tutorials, working on social media packs or policies.
+Make sure to find diverse issues: documentation, code, design, checking tutorials, working on social media packs or policies.
 
 As the day progresses, keep track of the issue numbers you’re working on. Track if they are assigned, who is working on them, and if they are done. Your issue queue might manage this, but you could also use the hackmd linked above.
 
@@ -38,22 +34,23 @@ Most of the help you will be providing on the day will focus on Git questions (m
 We have both project and open rooms in Duckly. To get the link and invite folks we recommend using the Discord commands:
 
 ```
-# Use either of these  
+# Use either of these
 
 !duckly Curie-table
 !duckly Hopper-table
 !duckly Lovelace-table
-!duckly Turing-table 
-!duckly Ride-table 
-!duckly Barres-table 
-!duckly Johnson-table 
+!duckly Turing-table
+!duckly Ride-table
+!duckly Barres-table
+!duckly Johnson-table
 ```
+
 This will display the Duckly room link and should work in all Discord channels:
 
 ![Duckly - discord bot screenshot](../images/../assets/images/duckly-discord.png)
 
 !!tip  
-  If you find that the `helpdesk` and `ask-the-community` tables are too quiet feel free to jump into a project table and support the mentors and attendees there.
+ If you find that the `helpdesk` and `ask-the-community` tables are too quiet feel free to jump into a project table and support the mentors and attendees there.
 
 ## :sparkles: Three ways to make it easier for newcomers to contribute
 
@@ -66,19 +63,20 @@ Helping new contributors get set up makes a huge impact.
 - **Learning-by-doing** - The idea is that you reserve appropriate issues in the time leading up to the event. These types of issues will give contributors experience with whatever workflow you’re using while taking care of tasks that are relatively quick to resolve.
 
 !!!tip
-    Helping newcomers commit changes to your project gives them a successful experience in your community and increases the likelihood they will come back for more. Furthermore, ownership and effort increase the perceived value of concepts, things,   and projects to us. The feeling of knowing code you’ve checked, written, or influenced is being downloaded (tens or hundreds of) thousands of times a month can be a huge motivator.
+Helping newcomers commit changes to your project gives them a successful experience in your community and increases the likelihood they will come back for more. Furthermore, ownership and effort increase the perceived value of concepts, things, and projects to us. The feeling of knowing code you’ve checked, written, or influenced is being downloaded (tens or hundreds of) thousands of times a month can be a huge motivator.
 
 ## :unicorn: Everyone has something to contribute
 
 Be insistent that contribution sprints are for EVERYONE and make EVERYONE welcome, coder or not, independent of their background, skills, and experience. EVERYONE can contribute.
 Always communicate in advance that there are tasks for non-programmers (documentation, UX, manual testing, etc.).
 Everyone can help each other - when possible, encourage folks to work in teams of 2 or 3!
+
 ## :pray: Motivate, support, say thank you!
 
 Make sure to acknowledge and thank contributions - no matter how big, small or unexpected!
 
 !!!tip
-    Use the `!bang {username}` command in the `#celebrate-wins` this also helps us to keep track of the progress and to work on an impact report.
+Use the `!bang {username}` command in the `#celebrate-wins` this also helps us to keep track of the progress and to work on an impact report.
 
 Make sure there is noise on social media. People are proud to be part of the action, both the team and the listeners out in the community, but there’s often no time or thought of it during the event itself; a post-sprint shoutout is always great. When doing so, use our official hashtag: `#MentoredSprints`
 
@@ -92,4 +90,4 @@ Virtual sprints are so different from in-person events. We have tried and tested
   - You can install the tools/plugins if you like and want to share code with folks, but we have asked them to do this so they can share code with you
 
 !!!info
-    The Mentored Sprints team takes care of inviting folks to the server in advance.
+The Mentored Sprints team takes care of inviting folks to the server in advance.

@@ -9,7 +9,7 @@ This page aims to help you out with the things you might get asked to do but may
 Sit back, relax and maybe bring a brew.
 
 !!! tip
-    If you're not comfortable using Git from the CLI, we advise using [GitKraken](https://www.gitkraken.com/invite/nQmDPR9D). GitKraken is a great GUI for version control and is very useful for beginners and advanced developers alike.
+If you're not comfortable using Git from the CLI, we advise using [GitKraken](https://www.gitkraken.com/invite/nQmDPR9D). GitKraken is a great GUI for version control and is very useful for beginners and advanced developers alike.
 
 ## I didn't stick to the conventional commit guidelines
 
@@ -20,10 +20,10 @@ and forget to follow those conventions.
 
 To reword the last commit, we can use Git's `--amend` switch to add something to our latest commit (code, changes, rewording). Use the following commands to rephrase the last commit and get that change merged!
 
-```console
+````console
 $ Git commit --amend -m "feat: better-worded feature```
 $ git push --force
-```
+````
 
 ### I added more than one commit
 
@@ -38,7 +38,7 @@ This will open your `$EDITOR`, and you can mark the commits you want to reword w
 Once done, use `git push --force` to bring the changes to the pull request.
 
 !!! tip "For VSCode users."
-    The latest version of VSCode has a built-in GUI to help you select `reword` or any other action on a commit. Select the right ones and press **Start Rebase** to continue.
+The latest version of VSCode has a built-in GUI to help you select `reword` or any other action on a commit. Select the right ones and press **Start Rebase** to continue.
 
 ## My branch is out of date with the remote
 
@@ -50,37 +50,37 @@ Follow these steps:
 
 1. Add the remote to your local git repository
 
-    ```sh
-    git remote add upstream git@github.com:<org>/project.git
-    ```
+   ```sh
+   git remote add upstream git@github.com:<org>/project.git
+   ```
 
-    !!! important
-        Make sure to replace the organisation or user and repo accordingly.
+   !!! important
+   Make sure to replace the organisation or user and repo accordingly.
 
 2. Update the remote repository (now called `upstream`):
 
-    ```sh
-    git fetch upstream
-    ```
+   ```sh
+   git fetch upstream
+   ```
 
 3. Rebase the branch onto `upstream/main`:
 
-    ```sh
-    # go to the feature branch
-    git checkout my-feature
-    # make a backup in case you mess up
-    git branch tmp my-feature
-    # rebase on the upstream main branch
-    git rebase upstream/main
-    ```
+   ```sh
+   # go to the feature branch
+   git checkout my-feature
+   # make a backup in case you mess up
+   git branch tmp my-feature
+   # rebase on the upstream main branch
+   git rebase upstream/main
+   ```
 
 4. Push your changes and remove the backup branch:
 
-      ```sh
-      git push --force
-      # delete back up
-      git branch -D tmp
-      ```
+   ```sh
+   git push --force
+   # delete back up
+   git branch -D tmp
+   ```
 
 ## I have messed something up
 

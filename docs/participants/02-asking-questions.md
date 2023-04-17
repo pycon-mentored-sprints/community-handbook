@@ -15,7 +15,7 @@ Before you ask your question, there are a few things you can do to find an answe
 - Do some research online - for example, on Stack Overflow
 
 !!! info
-    Essentially, doing your research is the first step towards a solution to any problem.
+Essentially, doing your research is the first step towards a solution to any problem.
 
 If none of the above steps helps you, or you're not sure how to do some of the above steps, feel free to ask any of the mentors for help.
 
@@ -31,7 +31,7 @@ When you're ready to ask a question, there are a few things that will help you f
 - A screenshot of the output or rendered output
 
 !!! tip
-    Your question should be informative but to the point. More importantly, how you phrase your question and how you address those that may help you is crucial. Courtesy never hurts.
+Your question should be informative but to the point. More importantly, how you phrase your question and how you address those that may help you is crucial. Courtesy never hurts.
 
 ## What Not To Ask
 
@@ -111,4 +111,4 @@ Further information on exceptions can be found in the official Python documentat
 - [The errors and exceptions chapter in the official tutorial](https://docs.python.org/3/tutorial/errors.html) gives an overview of errors and exceptions in Python. Besides explaining what exceptions are, it also describes how to handle expected exceptions graciously to keep your application from crashing when an expected exception is raised and how to define custom exceptions specific to your application.
 
 !!! tip
-    If you encounter an exception specific to an external module or package, it's usually a good idea to check the documentation of that package to see if the exception is documented. Another option is to paste a part of the trace back, usually the last line, into your favourite search engine to see if anyone else has encountered a similar problem. More often than not, you will be able to find a solution to your problem this way.
+If you encounter an exception specific to an external module or package, it's usually a good idea to check the documentation of that package to see if the exception is documented. Another option is to paste a part of the trace back, usually the last line, into your favourite search engine to see if anyone else has encountered a similar problem. More often than not, you will be able to find a solution to your problem this way.

@@ -14,4 +14,4 @@ This handbook is structured in such a way that it covers important aspects to be
 If you are an **organiser** you will want to read all the sections and use or send the relevant sections as a reference to your mentors and attendees.
 
 !!! important
-    We have noticed, in our experience, that running online sprints have particular quirks and issues that are usually not faced at in-person events. This handbook aims to support all folks involved regardless of their level of experience or previous engagement with coding sprints.
+We have noticed, in our experience, that running online sprints have particular quirks and issues that are usually not faced at in-person events. This handbook aims to support all folks involved regardless of their level of experience or previous engagement with coding sprints.

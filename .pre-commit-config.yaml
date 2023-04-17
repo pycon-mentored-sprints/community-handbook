@@ -1,0 +1,41 @@
+# pre-commit is a tool to perform a predefined set of tasks manually and/or
+# automatically before git commits are made.
+#
+# Config reference: https://pre-commit.com/#pre-commit-configyaml---top-level
+#
+# Common tasks
+#
+# - Register git hooks: pre-commit install --install-hooks
+# - Run on all files:   pre-commit run --all-files
+#
+repos:
+  # Autoformat: markdown, yaml to ensure that it doesn't need to be updated in other repos
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0-alpha.6
+    hooks:
+      - id: prettier
+        types_or: [sass, css, markdown]
+
+  # Autoformat: Python code - sort imports
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        name: isort
+        args: ["--profile", "black"]
+
+  # Autoformat: Python code
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black
+
+  # Misc...
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    # ref: https://github.com/pre-commit/pre-commit-hooks#hooks-available
+    hooks:
+      - id: end-of-file-fixer
+      - id: requirements-txt-fixer
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
