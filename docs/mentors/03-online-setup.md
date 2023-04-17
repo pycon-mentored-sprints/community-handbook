@@ -35,7 +35,7 @@ As a mentor you have the ability to invoke a number of commands in Discord. We h
 | `!bang {username}` | Celebrate someone's accomplishment            | We highly encourage you to use this whenever someone achieves something in your team. Please use `#celebrate-wins` |
 
 !!!important
-Check [The Mentored Sprints Discord Server Guide](../mentors/03-discord.md) for details on how the server works and rules regarding rooms.
+Check [The Mentored Sprints Discord Server Guide](../mentors/04-discord.md) for details on how the server works and rules regarding rooms.
 
 ## :video_camera: Sharing your screen and video
 

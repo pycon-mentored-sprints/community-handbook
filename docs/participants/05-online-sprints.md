@@ -24,7 +24,7 @@ We highly recommend you [download the Discord desktop app](https://discord.com/d
 5. **Make sure to use your real name or your GitHub handle**
 
 !!!important
-Check [The Mentored Sprints Discord Server Guide](../mentors/03-discord.md) for details on how the server works and rules regarding rooms.
+Check [The Mentored Sprints Discord Server Guide](../mentors/04-discord.md) for details on how the server works and rules regarding rooms.
 
 ## Getting ready for the sprint
 
