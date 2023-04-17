@@ -58,7 +58,7 @@ Once you have forked and cloned the repository you can go ahead and set your dev
    $ mkdocs serve
    ```
 
-   Then head to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to see the changes reflected as you work on the handbook.
+   Then head to `http://127.0.0.1:8000/` in your browser to see the changes reflected as you work on the handbook.
 
    Once done you can stop the server by typing <kbd>Ctrl</kbd> + <kbd>c</kbd> in your terminal and deactivate your environment with:
 
@@ -70,7 +70,7 @@ Once you have forked and cloned the repository you can go ahead and set your dev
 
 :warning: You will need to install [sass](https://sass-lang.com/) locally first.
 
-The stylesheets are located in [.docs/stylesheets](.docs/stylesheets). As you work on them, you can compile them by typing in the terminal:
+The stylesheets are located in [.docs/stylesheets](./docs/stylesheets). As you work on them, you can compile them by typing in the terminal:
 
 ```sh
 # adding the --watch will detect any chages and recompile the css
@@ -81,7 +81,7 @@ sass docs/stylesheets/custom.scss:docs/stylesheets/css/custom.css --watch
 
 :construction: This repository is always a work in progress, and everyone is encouraged to help us build something useful to the many. :construction:
 
-Everyone is asked to follow our [Code of Conduct](https://mentored-sprints.dev/code-conduct/code-conduct/) and to check out our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
+Everyone is asked to follow our [Code of Conduct](https://mentored-sprints.netlify.app/code-of-conduct/01-index/) and to check out our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
 
 ## Contributors ✨
 

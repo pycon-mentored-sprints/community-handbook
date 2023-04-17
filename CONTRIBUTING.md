@@ -15,7 +15,7 @@
     - [1. Comment on an existing issue or open a new issue referencing your addition to the project](#1-comment-on-an-existing-issue-or-open-a-new-issue-referencing-your-addition-to-the-project)
     - [2. Fork the project's repository to your profile](#2-fork-the-projects-repository-to-your-profile)
     - [3. Make the changes you've discussed](#3-make-the-changes-youve-discussed)
-    - [4. Submit a pull request](#4-submit-a-pull-request)
+    - [4. Submit a Pull Request](#4-submit-a-pull-request)
   - [Thank you!](#thank-you)
 
 :rainbow: Welcome to the Mentored Sprints Community Handbook repository :rainbow:.
@@ -141,7 +141,7 @@ You can now do whatever you want with this copy of the project. You won't mess u
 
 Try to keep the changes focused. If you submit a large amount of work all in one go, it will be much more work for whoever is reviewing your pull request.
 
-### 4. Submit a [pull request][link_pullrequest]
+### 4. Submit a Pull Request
 
 We encourage you to open a pull request as early in your contributing process as possible. This allows everyone to see what is currently being worked on. It also provides you, the contributor, feedback in real-time from both the community and the continuous integration as you make commits (which will help prevent stuff from breaking). Make sure to add the relevant labels if you need someone to have a look at your PR.
 
@@ -166,7 +166,6 @@ And if you've found typos in this (or any other) page, you could consider submit
 [link_pushpullblog]: https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/
 [link_fork]: https://help.github.com/articles/fork-a-repo/
 [link_branches]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
-[link_pullrequest]: https://help.github.com/articles/proposing-changes-to-a-project-with-pull-requests/
 
 <!-- Repo specific links -->
 

@@ -47,7 +47,7 @@ We have both project and open rooms in Duckly. To get the link and invite folks 
 
 This will display the Duckly room link and should work in all Discord channels:
 
-![Duckly - discord bot screenshot](../images/../assets/images/duckly-discord.png)
+![Duckly - discord bot screenshot](../assets/images/duckly-discord.png)
 
 !!tip  
  If you find that the `helpdesk` and `ask-the-community` tables are too quiet feel free to jump into a project table and support the mentors and attendees there.
@@ -56,7 +56,7 @@ This will display the Duckly room link and should work in all Discord channels:
 
 Helping new contributors get set up makes a huge impact.
 
-- Researchers have found that the most significant barrier to open source code contribution is **getting a local environment set up. ** Newcomers who spend a long time getting set up find it frustrating and demotivating. [Gitpod](https://gitpod.io) is a great tool to help streamline the process. (:wink: it can also make an excellent contribution for intermediate contributors)
+- Researchers have found that the most significant barrier to open source code contribution is **getting a local environment set up**. Newcomers who spend a long time getting set up find it frustrating and demotivating. [Gitpod](https://gitpod.io) is a great tool to help streamline the process. (:wink: it can also make an excellent contribution for intermediate contributors)
 
 - **Show them where they can help** - When preparing for your sprint, project leads should collect issues that need addressing for each project. To make it easier for people to find places they can share their expertise and enthusiasm, one recommendation is to group the issues by type of work, or expertise needed. Mozilla’s advice for newcomers on participation basics recommends that new people should "find a project they are interested in." We take care of this by inviting projects and encouraging attendees to check projects in advance.
 
