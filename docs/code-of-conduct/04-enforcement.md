@@ -47,19 +47,19 @@ If the chair is unable to take part in the discussion due to a conflict of inter
 
 Possible responses may include:
 
-* A mediated conversation or agreement between the impacted community members.
-* A request for a verbal or written apology, public or private, from a community member.
-* A public announcement clarifying community responsibilities under the Code of Conduct.
-* Nothing, if the issue reported is not a violation or outside of the scope of this Code of Conduct.
-* A private in-person conversation between a member of the research team and the individual(s) involved.
+- A mediated conversation or agreement between the impacted community members.
+- A request for a verbal or written apology, public or private, from a community member.
+- A public announcement clarifying community responsibilities under the Code of Conduct.
+- Nothing, if the issue reported is not a violation or outside of the scope of this Code of Conduct.
+- A private in-person conversation between a member of the research team and the individual(s) involved.
   In this case, the person who has the conversation will provide a written summary for record-keeping.
-* A private written reprimand from a member of the research team to the individual(s) involved.
+- A private written reprimand from a member of the research team to the individual(s) involved.
   In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing Tania Allard for record-keeping.
-* A public announcement of an incident, ideally in the same venue that the violation occurred (i.e. on the listserv for a listserv violation; GitHub for a GitHub violation, etc.).
+- A public announcement of an incident, ideally in the same venue that the violation occurred (i.e. on the listserv for a listserv violation; GitHub for a GitHub violation, etc.).
   The committee may choose to publish this message elsewhere for posterity.
-* An imposed "time out" from online spaces.
+- An imposed "time out" from online spaces.
   Tania Allard will communicate this "time out" to the individual(s) involved.
-* A permanent or temporary ban from some or all Mentored Sprints project spaces (GitHub, in-person and online events etc.).
+- A permanent or temporary ban from some or all Mentored Sprints project spaces (GitHub, in-person and online events etc.).
   The core team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained.
   If a member of the community is removed from an event, they will not be reimbursed for any part of the event that they miss (in case of paid events).
 

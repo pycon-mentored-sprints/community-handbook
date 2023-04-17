@@ -7,17 +7,21 @@
 <!-- Describe your changes in detail -->
 
 ## Related issue
+
 <!-- If there is a related issue please mention -->
+
 Fixes #<issue_no>
 
 ## List of changes
+
 <!-- Make a list of changes proposed in your PR -->
 <!-- We suggest using bullets (indicated by * or -) and filled checkboxes [x] here -->
 
-* *Lorem ipsum dolor sit amet, consectetur adipiscing.*
-* *Lorem ipsum dolor sit amet, consectetur adipiscing.*
+- _Lorem ipsum dolor sit amet, consectetur adipiscing._
+- _Lorem ipsum dolor sit amet, consectetur adipiscing._
 
 ## Feedback request
+
 <!-- Describe what the reviewer should concentrate their feedback on -->
 
 <!-- Make sure to add all the relevant tags according to the CONTRIBUTING.md after submitting your PR -->

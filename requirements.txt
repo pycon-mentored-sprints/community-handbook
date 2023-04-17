@@ -1,3 +1,5 @@
+cairosvg
+mkdocs-git-revision-date-localized-plugin
 mkdocs-material>="7.1"
 mkdocs-minify-plugin
-mkdocs-git-revision-date-localized-plugin
+pillow

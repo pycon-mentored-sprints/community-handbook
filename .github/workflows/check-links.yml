@@ -1,0 +1,15 @@
+name: Check Links
+
+on:
+    push:
+        branches: ["main"]
+    pull_request:
+
+jobs:
+    check-links:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+            - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
+            - uses: jupyterlab/maintainer-tools/.github/actions/check-links@v1

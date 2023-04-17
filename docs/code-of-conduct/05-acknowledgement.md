@@ -6,7 +6,7 @@ permalink: code-conduct/acknowledgement/
 
 # 5 Acknowledgement
 
-This code is adapted from the [Turing Way project Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html) and the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)  with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
+This code is adapted from the [Turing Way project Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html) and the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html) with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
 All of which are used under the creative commons attribution license.
 
 The Carpentries Code of Conduct was adapted from guidelines written by the [Django Project](https://www.djangoproject.com/conduct/enforcement-manual/), which was itself based on the [Ada Initiative template](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports) and the [PyCon 2013 Procedure for Handling Harassment Incidents](https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents/).
